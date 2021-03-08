@@ -1,0 +1,7 @@
+Started by user [8mha:////4DlcN72O8zGIXTUpohyV5sigefzA8u2X+JIgUR+gWq0jAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mPanda
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/testparameterChoice
+[testparameterChoice] $ /bin/sh -xe /tmp/jenkins5921358966328055420.sh
++ echo You have chosen cat
+You have chosen cat
+Finished: SUCCESS

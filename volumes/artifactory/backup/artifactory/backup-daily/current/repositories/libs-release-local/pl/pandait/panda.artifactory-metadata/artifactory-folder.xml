@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<artifactory-folder>
+  <repoPath>
+    <repoKey>libs-release-local</repoKey>
+    <path>pl/pandait/panda</path>
+    <folder>true</folder>
+  </repoPath>
+  <name>panda</name>
+  <created>1614021909146</created>
+  <lastModified>1614021909146</lastModified>
+  <additionalInfo>
+    <createdBy>admin</createdBy>
+    <modifiedBy>admin</modifiedBy>
+    <lastUpdated>1614021909146</lastUpdated>
+  </additionalInfo>
+</artifactory-folder>

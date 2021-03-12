@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Wed Mar 10 20:35:15 GMT 2021:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0178-1dd9-bfe7-000017434470 
-on database directory /var/opt/jfrog/artifactory/data/artifactory/derby with class loader java.net.URLClassLoader@6325a3ee 
+Fri Mar 12 17:39:55 GMT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0178-2785-f0e1-00001c2b86b8 
+on database directory /var/opt/jfrog/artifactory/data/artifactory/derby with class loader java.net.URLClassLoader@1d16f93d 
 Loaded from file:/opt/jfrog/artifactory/app/artifactory/tomcat/lib/derby-10.14.2.0.jar
 java.vendor=AdoptOpenJDK
 java.runtime.version=11.0.10+9
@@ -12,8 +12,8 @@ os.version=4.15.0-128-generic
 derby.system.home=null
 derby.stream.error.file=/opt/jfrog/artifactory/var/log/derby.log
 Database Class Loader started - derby.database.classpath=''
-Wed Mar 10 20:35:34 GMT 2021 Thread[localhost-startStop-1,5,main] (XID = 37086), (SESSIONID = 7), (DATABASE = /opt/jfrog/artifactory/var/data/artifactory/derby), (DRDAID = null), Cleanup action starting
-Wed Mar 10 20:35:34 GMT 2021 Thread[localhost-startStop-1,5,main] (XID = 37086), (SESSIONID = 7), (DATABASE = /opt/jfrog/artifactory/var/data/artifactory/derby), (DRDAID = null), Failed Statement is: INSERT INTO access_configs (config_name, modified, data) VALUES (?, ?, ?) with 3 parameters begin parameter #1: shared.security.joinKey :end parameter begin parameter #2: 1615408534180 :end parameter begin parameter #3: BLOB:Length=93 :end parameter 
+Fri Mar 12 17:40:39 GMT 2021 Thread[localhost-startStop-1,5,main] (XID = 43833), (SESSIONID = 7), (DATABASE = /opt/jfrog/artifactory/var/data/artifactory/derby), (DRDAID = null), Cleanup action starting
+Fri Mar 12 17:40:39 GMT 2021 Thread[localhost-startStop-1,5,main] (XID = 43833), (SESSIONID = 7), (DATABASE = /opt/jfrog/artifactory/var/data/artifactory/derby), (DRDAID = null), Failed Statement is: INSERT INTO access_configs (config_name, modified, data) VALUES (?, ?, ?) with 3 parameters begin parameter #1: shared.security.joinKey :end parameter begin parameter #2: 1615570839427 :end parameter begin parameter #3: BLOB:Length=93 :end parameter 
 ERROR 23505: The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'ACCESS_CONFIGS_PK' defined on 'ACCESS_CONFIGS'.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -45,7 +45,7 @@ ERROR 23505: The statement was aborted because it would have caused a duplicate 
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
-	at org.jfrog.access.server.db.dao.AccessConfigsDao$$EnhancerBySpringCGLIB$$7d24f477.createConfig(<generated>)
+	at org.jfrog.access.server.db.dao.AccessConfigsDao$$EnhancerBySpringCGLIB$$4eef2e87.createConfig(<generated>)
 	at org.jfrog.access.server.startup.JoinKeyAccess.saveJoinKeyToDb(JoinKeyAccess.java:186)
 	at org.jfrog.access.server.startup.JoinKeyAccess.saveJoinKey(JoinKeyAccess.java:87)
 	at org.jfrog.access.server.startup.JoinKeyAccess.resolveJoinKey(JoinKeyAccess.java:81)

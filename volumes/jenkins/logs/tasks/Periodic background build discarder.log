@@ -1,18 +1,14 @@
-Started at Wed Mar 10 16:07:10 UTC 2021
-Finished at Wed Mar 10 16:07:10 UTC 2021. 1ms
-Started at Wed Mar 10 17:07:10 UTC 2021
-Processing Job1
-Offering Job1 to Project Build Discarder
-Finished at Wed Mar 10 17:07:10 UTC 2021. 13ms
-Started at Wed Mar 10 18:07:10 UTC 2021
+Started at Fri Mar 12 18:19:33 UTC 2021
 Processing first_pipeline
 Offering first_pipeline to Project Build Discarder
 Processing Job1
 Offering Job1 to Project Build Discarder
-Finished at Wed Mar 10 18:07:10 UTC 2021. 16ms
-Started at Wed Mar 10 19:07:10 UTC 2021
+Finished at Fri Mar 12 18:19:33 UTC 2021. 8ms
+Started at Fri Mar 12 19:19:33 UTC 2021
 Processing first_pipeline
 Offering first_pipeline to Project Build Discarder
+Processing first_pipeline2
+Offering first_pipeline2 to Project Build Discarder
 Processing Job1
 Offering Job1 to Project Build Discarder
-Finished at Wed Mar 10 19:07:10 UTC 2021. 22ms
+Finished at Fri Mar 12 19:19:33 UTC 2021. 14ms

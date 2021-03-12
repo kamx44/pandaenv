@@ -1,0 +1,501 @@
+Started by user [8mha:////4GXCk/clg+3wVdcniIZGWkbFV0/Q6xs8fDMm3slAE8KyAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBm790uLUIv3ElNzMPADsxOCnwAAAAA==[0mK
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4BovwassSybSUp6x1qODlVSUaisAQIoEiVyy9lffwQrzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4GeRhf8l85GvAe6CAFoUORGuRyArJelRN8gEWKnKMAA3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Pci1HVl4rhVxrx4ODOPEJYR+njCow3eYxeTop31FTV2AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgYB/eT83ILSktQi/eCcxLJUfQCng2qgxQAAAA==[0mSlave in /home/workspace/first_pipeline@2
+[8mha:////4OP5QpSpabxLM9ekInaUSf/pN/SUchTQdW2DH8rZZKo1AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4AEAIFIfz5biwD2kRmsThpfZsEIKFhIi0IJF2z0ZH2VqAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] readMavenPom
+[8mha:////4JanpnB/EICF7GwFweMWQ5O9YHHPKNXEHhubg01w371hAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGBtjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED+qfHravAAAAA==[0m[Pipeline] readMavenPom
+[8mha:////4AguYL325nabdfyJtNA3xEeonAN6FOJLH1a8T+y+CBoPAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QWJATKxRFk4QkhDSRv+3SUo7cSKuxh0IVGLCkiXbkvWeL6hThCNFx1uLncekPe/D6EriE8XuGmjiLV24JkwULJd2kmTsaamSsoVFrIKVgLVFHSh5dBk2olV31QSFrjnnWLaDgMqbAR7ARCFnFfO3zBG2t9Ekwh/nLwDmPgPbFe8/v/oNP1aWNcAAAAA=[0m[Pipeline] withEnv
+[8mha:////4CWH17nzVHhdszUIFd3VW733BN9Ry7ETx3oACMdROB4GAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4EGicGIXK0YcOMmrrF4Zr3He8Lsn9SVUflZQNIxsS/pEAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] stage
+[8mha:////4AxipjcY0UadMCvbHZEH3Em9lGWeJH38z6jzCxUCLUVgAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4PnAmi4tS+TpUTbun0tULAps0o0SNwn27MRtKgq1y2zuAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] tool
+[8mha:////4OAmRUj5/r9OejI7Vbwwksr/jd+2p/rRPvgtxTNqiTjSAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQod9tP7cMbEQkck74AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4JTPiTAq+ZDhbalOGt/7uf9tK2QE7jD9CO7CcdXOTfH7AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fF9V+kL4AAAA=[0m[Pipeline] }
+[8mha:////4I4Ca2pzZWELdfaKi7CqF2+fzLMMZky/WVgZV/IfGwPyAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREg1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/APjxdFm9AAAA[0m[Pipeline] // stage
+[8mha:////4Ic40kp98CBagaX+2Aw72/d0ELvsdUXw8e3T898rOvDwAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCiQkREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgdQ7HZfo7lG8Ln/QvBAAAA[0m[Pipeline] withEnv
+[8mha:////4Ei+CQaodCSpbnowLkEcBsCMUa5DWFd3RTefsZ4XjGBTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] {
+[8mha:////4ML0vbuucEiiiDp7UraDe5hITSjgmtkz6W7Akq3sRW5oAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] stage
+[8mha:////4Mg+orJ5snwkKB/0q5gChVOymW0dusgEIc7VPHtx/k2nAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Cleaning app)
+[8mha:////4G3uu5wJGKZvfDglnUth5cxhuMQQKzCtZ/Kgqys97GFcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] tool
+[8mha:////4JlwzLCQuWioinxcQbeL37j1rcPAfVWl0MV+Gi8vHcipAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4CWlWxLYhvu9+LVLRGr6y4t3UZUA7C2q8FiM6/chiELCAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQHZWptXwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4G74gSQ3MU6P/wHhwcRfieDbjxbQWtTjgxidrNno+kSVAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4JGNLu+E1scB6c3f10TmgnnTPM/BxA0nqbNtuO/zc37kAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ docker rm -f pandaapp
+Error: No such container: pandaapp
+[8mha:////4IM3JQWuN6vGDlBCdFN15v2QvM9ZjVRk7iRx46GqvAsjAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4DdYH4wzDf9b4w1h4X1Vah9bEcmHEQJlQElIrWK8cQrJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // withEnv
+[8mha:////4L/jgux7CXCUiwSxfBKpzVJGlMJJxEdcSa0e41+Fa9zPAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAC9aA/74AAAA=[0m[Pipeline] }
+[8mha:////4MhvJHRl/n1D5w3bv+WVkxTZ0lSyWKgTz8MdcwFlAc/dAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaFIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QE/GGOkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4O3fbA6iFeRqdpbMyJQPoSz2xtYtv8f5aE44lX9i/XnuAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMCAk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm8XIOIiwgAAAA==[0m[Pipeline] stage
+[8mha:////4EE/sah3m3C7cgA8lejwFjVydHCNM6Z4awk8hPHUjLcuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (Get code)
+[8mha:////4IanbUnCvqJf8Y5+jTZcMtmTHa3js9tZLzVZc92BUutbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] tool
+[8mha:////4HJsNvUIHo+cyEpJuah88Nhkmd+Rc1lMlzQznXpE0j4RAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGMzKKgvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4Em4bwFgVojrc2FQM8nCL1zD0JoEg2ZRSST4oz2fsmYFAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKhNCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQHzLmjBwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4MUVG2eUfMXlmTaAe2nlXmhGwhKDa6OJruo5Dr5I/OFXAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] {
+[8mha:////4Itkw9PJ32Ywvca3fRpTLzVBgH7XX+pS8M+fonPpWqI3AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] git
+The recommended git tool is: git
+using credential github
+Fetching changes from the remote Git repository
+Checking out Revision 4864bbff633d8467c7bc83f09808204fca6524c7 (refs/remotes/origin/pipeline_jenkins)
+Commit message: "changed dockerfile"
+ > git rev-parse --is-inside-work-tree # timeout=10
+ > git config remote.origin.url https://github.com/kamx44/panda_app.git # timeout=10
+Fetching upstream changes from https://github.com/kamx44/panda_app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/kamx44/panda_app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/pipeline_jenkins^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4864bbff633d8467c7bc83f09808204fca6524c7 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D pipeline_jenkins # timeout=10
+ > git checkout -b pipeline_jenkins 4864bbff633d8467c7bc83f09808204fca6524c7 # timeout=10
+ > git rev-list --no-walk 4864bbff633d8467c7bc83f09808204fca6524c7 # timeout=10
+[8mha:////4MAkGmodMx1VQFmp/1mUAsX0zLGQUbhWjq/zP0PG08pNAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfGxSHer4AAAA=[0m[Pipeline] }
+[8mha:////4LujOvSmUSE4kcr3YsWmC29w2ougZhQNI4n7vZu6fPi7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4EmVF7vY19TOrdDvD3fSpQAbxOJMG7u66v2LIRwdIeNSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAT22Bzr4AAAA=[0m[Pipeline] }
+[8mha:////4IwZFl1FmPbHpJpL0MBSBVFDAKD3k8R2FApovHja6J2xAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQRMJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w8M79BIvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DiEpwJz5w4nglDcN/OTofh+3j2EKVtjvoWl2vkeWi/BAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSRBBEunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKUm1227f7zrN4G+MlPwgAAAA==[0m[Pipeline] stage
+[8mha:////4P73kZ1UeFZfsnmJk9XmG1Ztq1NRZwnkct3Uhy578YoPAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] { (Build application && JUnit)
+[8mha:////4J5gpYa2Nt6MKK1cPV7vriCIn8ysVb82gxu0CMVxj0zcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBl2WGva+AAAA[0m[Pipeline] tool
+[8mha:////4BwOLJmehzUaWCJouyfJWsJs+gsxdafggCYM4slx5l8SAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBp7FN92+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4Ipnh+nvKVRV55UGEa32eaJl0eT7c8KCJlzifnvUfvGgAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCTbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAb1Y41vCAAAA[0m[Pipeline] withEnv
+[8mha:////4C5iv1L7ecN4i/QdNJ1BQPNi6bGLaQ23TwPlNBs+GmorAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] {
+[8mha:////4MR6yxdMu8XgIg3rCW3r5yly1DDX/7PDJ9hXO1KVnWsYAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] sh
++ mvn package -Pdocker -Dmaven.test.skip=true
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< pl.pandait:panda >--------------------------
+[INFO] Building panda 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default) @ panda ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ panda ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ panda ---
+[INFO] Building jar: /home/workspace/first_pipeline@2/target/panda-0.0.1.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ panda ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- dockerfile-maven-plugin:1.4.13:build (default) @ panda ---
+[INFO] dockerfile: null
+[INFO] contextDirectory: /home/workspace/first_pipeline@2
+[INFO] Building Docker context /home/workspace/first_pipeline@2
+[INFO] Path(dockerfile): null
+[INFO] Path(contextDirectory): /home/workspace/first_pipeline@2
+[INFO] 
+[INFO] Image will be built as panda:0.0.1
+[INFO] 
+[INFO] Step 1/4 : FROM openjdk:11.0
+[INFO] 
+[INFO] Pulling from library/openjdk
+[INFO] Digest: sha256:befb422217c155269ee512244a4e256ec795d123b9c313b2607216594a47a62e
+[INFO] Status: Image is up to date for openjdk:11.0
+[INFO]  ---> 4239fd9aac4f
+[INFO] Step 2/4 : ARG JAR_FILE=target/*.jar
+[INFO] 
+[INFO]  ---> Using cache
+[INFO]  ---> 71137316154d
+[INFO] Step 3/4 : COPY ${JAR_FILE} app.jar
+[INFO] 
+[INFO]  ---> c3a3d07d41f4
+[INFO] Step 4/4 : ENTRYPOINT ["java","-jar","/app.jar"]
+[INFO] 
+[INFO]  ---> Running in 33de4e5771f4
+[INFO] Removing intermediate container 33de4e5771f4
+[INFO]  ---> 5f8b53c2f79f
+[INFO] Successfully built 5f8b53c2f79f
+[INFO] Successfully tagged panda:0.0.1
+[INFO] 
+[INFO] Detected build of image with id 5f8b53c2f79f
+[INFO] Building jar: /home/workspace/first_pipeline@2/target/panda-0.0.1-docker-info.jar
+[INFO] Successfully built panda:0.0.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.228 s
+[INFO] Finished at: 2021-03-12T19:22:43Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Epp0Jn+lLdBJN5jrFDVGN3UIIvlaZx+kQEvShPPmUtOAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfX1uR6L4AAAA=[0m[Pipeline] }
+[8mha:////4PKoOyYCtq9GcFq9sb195dB3n5Xd0lQw6HRIHvoSVKAKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFZHam9vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Pooopa+MDSfIkj4jibK2cAdyUqArpx6+BifKfAG+p81AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQYGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgE2/vbVvgAAAA==[0m[Pipeline] }
+[8mha:////4ItA64u5o1D5pDMBIhloLauEWVYPq85POeikZUVE632DAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQBMhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QHwAzcovgAAAA==[0m[Pipeline] // stage
+[8mha:////4FRM4EhsIugIBDwfOc371mPSnmXvC8zomyBDh08EuwF1AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBlhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH0nBYLwgAAAA==[0m[Pipeline] stage
+[8mha:////4IuUe31JJ45jmQfch4ktfgedRhQrW+qQBIRefh5Ru5afAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] { (Start application)
+[8mha:////4AKpHUmnURcC/sQkoMaUT8hBj2y1FOi1mkSxlzw6k05yAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN4OkKLa+AAAA[0m[Pipeline] tool
+[8mha:////4AWc5EjKlK+sR1aKiJKcstv5pQ7mURonJKriu8FvkC/PAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN8KVM6++AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4GXcijh8TtqlSA/cgLAvFxQYURbg0BgiVvAPRhwzskQXAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDx7wurrCAAAA[0m[Pipeline] withEnv
+[8mha:////4JLKQLVGGrau83pftE3bm5yRymSVdIQMvEdK5R9QEE8aAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] {
+[8mha:////4LAtRf2Qyw3ssPhddXiOmg0soX9qSk+oIgS7jbIL0gNSAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxcaxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NlEULJr4AAAA=[0m[Pipeline] sh
++ docker run -d --name pandaapp -p 0.0.0.0:8080:8080 -t panda:0.0.1
+87143422ba806dc105d79ac3961bbed36adfec274ca40427213eb5620a648e0a
+[8mha:////4I2XQcPMq3f0+6th42fYzkC40T8l0JDVylnRwsi1YgJpAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZSwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfmYKm674AAAA=[0m[Pipeline] }
+[8mha:////4KgUYAbtzqTGA1sJ5zoQQvze2RR3UYcqs0MqeyXPcQIiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHaAPdtvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4MQfPJTgmuiKOAirEqSgfy19n262j++n/WhuiPuQ97WnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHwJ8HWvgAAAA==[0m[Pipeline] }
+[8mha:////4P1xTfM0DivgzE7BJJuyeFQx7TpFvcL6P+cMYBZwA5dVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKSBhpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPzNcIbe+AAAA[0m[Pipeline] // stage
+[8mha:////4Es51fQWJompWD+xgT0u+UoxCCAe7C1QcEnmqfrY7TTxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUXbogJtaoCycIaQhJo//bJKWdOBFX4w4EKjHhwbItWe/5gjIGOFIw3GnsLUZl+eAnkxOfKfRXTzN3dOGKMJLXvNVzS50+rbWlpGFVwWAjYKtReYoWTYKdcPIuKy/RVOcU8nYQwGw3wgMKkclJhvQtS4D9beoi4Y/zFwDLkIDVTbam/jzLN8xVovHCAAAA[0m[Pipeline] stage
+[8mha:////4K+BgBrwmw7NEA6O7Yn3r0mZqtN+wFdkWp+rTM74HTd4AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] { (Selenium test)
+[8mha:////4Ef7XWIUSXbdK2xB/MLdNMzqbzHbZkoYvjyiejBxqrJSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAHlNhISvgAAAA==[0m[Pipeline] tool
+[8mha:////4HhNIHwFFdlIQC/ZiS7rs+lTgLL+qlmBizYCrvjWqltsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAEioFNdvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4LuxKsUfBtJ30gYv588Ia+g4y2p8Np5CNNnLOKIIIxWtAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADXjXKuwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4JVoOckZMb+SIbNgB5SKEJqo1C5cgONNLI9CikNLmtiZAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0ogtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+urdAcIAAAA=[0m[Pipeline] {
+[8mha:////4KHJbUxL/cYYrYDv9rSFVHFXTUlLIwRzioIbP6n0Dl3GAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxcKxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4N8tcxgr4AAAA=[0m[Pipeline] sh
++ mvn test -Pselenium
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< pl.pandait:panda >--------------------------
+[INFO] Building panda 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default) @ panda ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/workspace/first_pipeline@2/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/workspace/first_pipeline@2/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ panda ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.pom
+Progress (1): 2.7/7.0 kBProgress (1): 5.5/7.0 kBProgress (1): 7.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.pom (7.0 kB at 5.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.2/surefire-providers-2.22.2.pom
+Progress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.2/surefire-providers-2.22.2.pom (2.5 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.pom
+Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.pom (2.2 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom
+Progress (1): 1.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom (1.2 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.pom
+Progress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.pom (2.4 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.pom (2.0 kB at 17 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom
+Progress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom (1.7 kB at 9.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.jar
+Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar (2.2 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+Progress (1): 2.7/66 kBProgress (1): 5.5/66 kBProgress (1): 8.2/66 kBProgress (1): 11/66 kB Progress (2): 11/66 kB | 2.7/135 kBProgress (2): 11/66 kB | 5.5/135 kBProgress (2): 11/66 kB | 8.2/135 kBProgress (2): 14/66 kB | 8.2/135 kBProgress (2): 16/66 kB | 8.2/135 kBProgress (2): 19/66 kB | 8.2/135 kBProgress (2): 19/66 kB | 11/135 kB Progress (2): 19/66 kB | 14/135 kBProgress (2): 19/66 kB | 16/135 kBProgress (2): 19/66 kB | 19/135 kBProgress (2): 22/66 kB | 19/135 kBProgress (2): 25/66 kB | 19/135 kBProgress (2): 27/66 kB | 19/135 kBProgress (2): 30/66 kB | 19/135 kBProgress (3): 30/66 kB | 19/135 kB | 2.7/7.1 kBProgress (3): 30/66 kB | 19/135 kB | 5.5/7.1 kBProgress (3): 33/66 kB | 19/135 kB | 5.5/7.1 kBProgress (3): 36/66 kB | 19/135 kB | 5.5/7.1 kBProgress (3): 36/66 kB | 19/135 kB | 7.1 kB    Progress (4): 36/66 kB | 19/135 kB | 7.1 kB | 2.7/78 kBProgress (4): 38/66 kB | 19/135 kB | 7.1 kB | 2.7/78 kBProgress (4): 38/66 kB | 19/135 kB | 7.1 kB | 5.5/78 kBProgress (4): 38/66 kB | 22/135 kB | 7.1 kB | 5.5/78 kBProgress (4): 38/66 kB | 25/135 kB | 7.1 kB | 5.5/78 kBProgress (4): 38/66 kB | 25/135 kB | 7.1 kB | 8.2/78 kBProgress (4): 41/66 kB | 25/135 kB | 7.1 kB | 8.2/78 kBProgress (4): 44/66 kB | 25/135 kB | 7.1 kB | 8.2/78 kBProgress (4): 47/66 kB | 25/135 kB | 7.1 kB | 8.2/78 kBProgress (4): 47/66 kB | 25/135 kB | 7.1 kB | 11/78 kB Progress (4): 47/66 kB | 27/135 kB | 7.1 kB | 11/78 kBProgress (4): 47/66 kB | 27/135 kB | 7.1 kB | 14/78 kBProgress (4): 47/66 kB | 27/135 kB | 7.1 kB | 16/78 kBProgress (4): 47/66 kB | 27/135 kB | 7.1 kB | 19/78 kBProgress (4): 47/66 kB | 27/135 kB | 7.1 kB | 22/78 kBProgress (4): 49/66 kB | 27/135 kB | 7.1 kB | 22/78 kBProgress (5): 49/66 kB | 27/135 kB | 7.1 kB | 22/78 kB | 2.7/95 kBProgress (5): 52/66 kB | 27/135 kB | 7.1 kB | 22/78 kB | 2.7/95 kBProgress (5): 52/66 kB | 30/135 kB | 7.1 kB | 22/78 kB | 2.7/95 kBProgress (5): 52/66 kB | 30/135 kB | 7.1 kB | 25/78 kB | 2.7/95 kBProgress (5): 52/66 kB | 30/135 kB | 7.1 kB | 25/78 kB | 5.5/95 kBProgress (5): 55/66 kB | 30/135 kB | 7.1 kB | 25/78 kB | 5.5/95 kBProgress (5): 55/66 kB | 33/135 kB | 7.1 kB | 25/78 kB | 5.5/95 kBProgress (5): 55/66 kB | 33/135 kB | 7.1 kB | 25/78 kB | 8.2/95 kBProgress (5): 55/66 kB | 33/135 kB | 7.1 kB | 25/78 kB | 11/95 kB Progress (5): 55/66 kB | 33/135 kB | 7.1 kB | 25/78 kB | 14/95 kBProgress (5): 58/66 kB | 33/135 kB | 7.1 kB | 25/78 kB | 14/95 kBProgress (5): 58/66 kB | 36/135 kB | 7.1 kB | 25/78 kB | 14/95 kBProgress (5): 60/66 kB | 36/135 kB | 7.1 kB | 25/78 kB | 14/95 kBProgress (5): 60/66 kB | 36/135 kB | 7.1 kB | 27/78 kB | 14/95 kBProgress (5): 60/66 kB | 36/135 kB | 7.1 kB | 30/78 kB | 14/95 kBProgress (5): 60/66 kB | 36/135 kB | 7.1 kB | 33/78 kB | 14/95 kBProgress (5): 60/66 kB | 36/135 kB | 7.1 kB | 36/78 kB | 14/95 kBProgress (5): 60/66 kB | 36/135 kB | 7.1 kB | 38/78 kB | 14/95 kBProgress (5): 60/66 kB | 36/135 kB | 7.1 kB | 41/78 kB | 14/95 kBProgress (5): 60/66 kB | 36/135 kB | 7.1 kB | 44/78 kB | 14/95 kBProgress (5): 60/66 kB | 36/135 kB | 7.1 kB | 47/78 kB | 14/95 kBProgress (5): 60/66 kB | 38/135 kB | 7.1 kB | 47/78 kB | 14/95 kBProgress (5): 60/66 kB | 41/135 kB | 7.1 kB | 47/78 kB | 14/95 kBProgress (5): 60/66 kB | 44/135 kB | 7.1 kB | 47/78 kB | 14/95 kBProgress (5): 60/66 kB | 44/135 kB | 7.1 kB | 47/78 kB | 16/95 kB                                                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar (7.1 kB at 47 kB/s)
+Progress (4): 60/66 kB | 44/135 kB | 49/78 kB | 16/95 kBProgress (4): 60/66 kB | 44/135 kB | 52/78 kB | 16/95 kBProgress (4): 60/66 kB | 44/135 kB | 55/78 kB | 16/95 kBProgress (4): 60/66 kB | 44/135 kB | 58/78 kB | 16/95 kBProgress (4): 60/66 kB | 44/135 kB | 60/78 kB | 16/95 kBProgress (4): 60/66 kB | 44/135 kB | 63/78 kB | 16/95 kBProgress (4): 60/66 kB | 47/135 kB | 63/78 kB | 16/95 kBProgress (4): 60/66 kB | 47/135 kB | 63/78 kB | 19/95 kBProgress (4): 63/66 kB | 47/135 kB | 63/78 kB | 19/95 kBProgress (4): 63/66 kB | 47/135 kB | 66/78 kB | 19/95 kBProgress (4): 63/66 kB | 49/135 kB | 66/78 kB | 19/95 kBProgress (4): 66/66 kB | 49/135 kB | 66/78 kB | 19/95 kBProgress (4): 66/66 kB | 49/135 kB | 66/78 kB | 22/95 kBProgress (4): 66/66 kB | 52/135 kB | 66/78 kB | 22/95 kBProgress (4): 66/66 kB | 55/135 kB | 66/78 kB | 22/95 kBProgress (4): 66 kB | 55/135 kB | 66/78 kB | 22/95 kB   Progress (4): 66 kB | 55/135 kB | 69/78 kB | 22/95 kBProgress (4): 66 kB | 55/135 kB | 71/78 kB | 22/95 kBProgress (4): 66 kB | 55/135 kB | 71/78 kB | 25/95 kBProgress (4): 66 kB | 55/135 kB | 71/78 kB | 27/95 kBProgress (4): 66 kB | 58/135 kB | 71/78 kB | 27/95 kBProgress (4): 66 kB | 58/135 kB | 74/78 kB | 27/95 kBProgress (4): 66 kB | 58/135 kB | 77/78 kB | 27/95 kBProgress (4): 66 kB | 58/135 kB | 78 kB | 27/95 kB   Progress (4): 66 kB | 58/135 kB | 78 kB | 30/95 kBProgress (4): 66 kB | 58/135 kB | 78 kB | 33/95 kBProgress (4): 66 kB | 58/135 kB | 78 kB | 36/95 kBProgress (4): 66 kB | 60/135 kB | 78 kB | 36/95 kBProgress (4): 66 kB | 63/135 kB | 78 kB | 36/95 kBProgress (4): 66 kB | 63/135 kB | 78 kB | 38/95 kBProgress (4): 66 kB | 66/135 kB | 78 kB | 38/95 kBProgress (4): 66 kB | 66/135 kB | 78 kB | 41/95 kBProgress (4): 66 kB | 66/135 kB | 78 kB | 44/95 kBProgress (4): 66 kB | 66/135 kB | 78 kB | 47/95 kBProgress (4): 66 kB | 66/135 kB | 78 kB | 49/95 kBProgress (4): 66 kB | 69/135 kB | 78 kB | 49/95 kBProgress (4): 66 kB | 71/135 kB | 78 kB | 49/95 kBProgress (4): 66 kB | 74/135 kB | 78 kB | 49/95 kBProgress (4): 66 kB | 77/135 kB | 78 kB | 49/95 kBProgress (4): 66 kB | 80/135 kB | 78 kB | 49/95 kBProgress (4): 66 kB | 82/135 kB | 78 kB | 49/95 kBProgress (4): 66 kB | 85/135 kB | 78 kB | 49/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 49/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 52/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 55/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 58/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 60/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 63/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 66/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 69/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 71/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 74/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 77/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 80/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 82/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 85/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 88/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 90/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 93/95 kBProgress (4): 66 kB | 88/135 kB | 78 kB | 95 kB   Progress (4): 66 kB | 90/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 93/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 96/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 99/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 101/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 104/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 107/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 110/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 112/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 115/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 118/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 121/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 123/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 126/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 129/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 132/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 134/135 kB | 78 kB | 95 kBProgress (4): 66 kB | 135 kB | 78 kB | 95 kB                                                Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.jar (66 kB at 159 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar (78 kB at 185 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.jar (95 kB at 229 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.jar (135 kB at 287 kB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running pl.pandait.panda.PandaApplicationSeleniumTest
+Mar 12, 2021 7:23:01 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Mar 12, 2021 7:23:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Uruchamiam test 1: Sprawdzenie napisu na stronie g??wnej
+Mar 12, 2021 7:23:30 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Mar 12, 2021 7:23:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Uruchamiam test 2: Sprawdzenie napisu na podstronie
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.669 s - in pl.pandait.panda.PandaApplicationSeleniumTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default) @ panda ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  51.408 s
+[INFO] Finished at: 2021-03-12T19:23:44Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4APnrfk9Cp3SEdnwxV7HBujih4Lz+BD36pPc65Si/ZRsAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/Qi6NSbGyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+AagoPJm+AAAA[0m[Pipeline] }
+[8mha:////4NVvVeaEhvUMTGgPLDi3GmnYrwG8jGJxFxBV5ac/rEUZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN7eqacu+AAAA[0m[Pipeline] // withEnv
+[8mha:////4PvxGlpbUb5MnjIdNPXaDX3IslzJWoFlwu/PXasuyfSvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw9oZXXUvgAAAA==[0m[Pipeline] }
+[8mha:////4BgK2eMTfu37jeptYuvUgufEFNtMC9tR6E7fMoyy6kTVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiNFAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QF35yCGvgAAAA==[0m[Pipeline] // stage
+[8mha:////4FzoBxSAq+8AC1B99RX5HCJzwT8o0jzGH7e7dF7i0uZkAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMMCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXbbz/P6g3WLEHRwgAAAA==[0m[Pipeline] stage
+[8mha:////4M/JNdBr61YCCpL4VGngETuI68bInzU2bEdu14yW+mF2AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgoEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAARKflFwgAAAA==[0m[Pipeline] { (Artifactory)
+[8mha:////4K5+gP8cnrFeSmZQw1D2jnIMJl1bSihQeVmSPK77EWe3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAE/wUw2vgAAAA==[0m[Pipeline] tool
+[8mha:////4N2zWiIsHa5HSFUOXyTEsUnODuEKPqKVG5ywAMLgEIcAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAF+8FcvvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4K601KmjRnw/A4+VhyCVqorqBmuy8jz94MhuxoesRB4AAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfABiZ7rUwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4A5GS55lnZ4NIaPbN2SLk0pslr3jOGF1OSxjzpJmkoF8AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0owNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPhRixbsIAAAA=[0m[Pipeline] {
+[8mha:////4OV7Xu+GZKG2LzMpgJf6Peee6lvPzjmAyRsGQPjJpeRpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LBJiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPkHVpXsIAAAA=[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [MySettings] to file:/home/workspace/first_pipeline@2@tmp/config16004871732303550553tmp
+[8mha:////4HQ17pqYYlKMCveHGADLwKp4je6FHzemq+Ub+ELNynLwAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0BISYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+81LNBsIAAAA=[0m[Pipeline] {
+[8mha:////4NWPdvt85I3IXmBr4gwTRX9za2t9XE9k5ZEf6diVvyUsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBwilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPkgcDP2+AAAA[0m[Pipeline] sh
++ mvn -s /home/workspace/first_pipeline@2@tmp/config16004871732303550553tmp deploy -Dmaven.test.skip=true
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< pl.pandait:panda >--------------------------
+[INFO] Building panda 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.pom
+Progress (1): 2.7/6.4 kBProgress (1): 5.5/6.4 kBProgress (1): 6.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.pom (6.4 kB at 6.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom
+Progress (1): 2.7/9.6 kBProgress (1): 5.5/9.6 kBProgress (1): 8.2/9.6 kBProgress (1): 9.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom (9.6 kB at 75 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom
+Progress (1): 2.7/37 kBProgress (1): 5.5/37 kBProgress (1): 8.2/37 kBProgress (1): 11/37 kB Progress (1): 14/37 kBProgress (1): 16/37 kBProgress (1): 19/37 kBProgress (1): 22/37 kBProgress (1): 25/37 kBProgress (1): 27/37 kBProgress (1): 30/37 kBProgress (1): 33/37 kBProgress (1): 36/37 kBProgress (1): 37 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom (37 kB at 222 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom
+Progress (1): 2.7/15 kBProgress (1): 5.5/15 kBProgress (1): 8.2/15 kBProgress (1): 11/15 kB Progress (1): 14/15 kBProgress (1): 15 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom (15 kB at 122 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.jar
+Progress (1): 2.7/33 kBProgress (1): 5.5/33 kBProgress (1): 8.2/33 kBProgress (1): 11/33 kB Progress (1): 14/33 kBProgress (1): 16/33 kBProgress (1): 19/33 kBProgress (1): 22/33 kBProgress (1): 25/33 kBProgress (1): 27/33 kBProgress (1): 30/33 kBProgress (1): 33/33 kBProgress (1): 33 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.jar (33 kB at 245 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom
+Progress (1): 2.7/7.1 kBProgress (1): 5.5/7.1 kBProgress (1): 7.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom (7.1 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar
+Progress (1): 2.7/34 kBProgress (1): 5.5/34 kBProgress (1): 8.2/34 kBProgress (1): 11/34 kB Progress (1): 14/34 kBProgress (1): 16/34 kBProgress (1): 19/34 kBProgress (1): 22/34 kBProgress (1): 25/34 kBProgress (1): 27/34 kBProgress (1): 30/34 kBProgress (1): 33/34 kBProgress (1): 34 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar (34 kB at 203 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default) @ panda ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ panda ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default) @ panda ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ panda ---
+[INFO] Building jar: /home/workspace/first_pipeline@2/target/panda-0.0.1.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ panda ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ panda ---
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom
+Progress (1): 998 B                   Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom (998 B at 3.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+Progress (1): 2.7/11 kBProgress (1): 5.5/11 kBProgress (1): 8.2/11 kBProgress (1): 11/11 kB Progress (1): 11 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom (11 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+Progress (1): 2.7/42 kBProgress (1): 5.5/42 kBProgress (1): 8.2/42 kBProgress (1): 11/42 kB Progress (1): 14/42 kBProgress (1): 16/42 kBProgress (1): 19/42 kBProgress (1): 22/42 kBProgress (1): 25/42 kBProgress (1): 27/42 kBProgress (1): 30/42 kBProgress (1): 33/42 kBProgress (1): 36/42 kBProgress (1): 38/42 kBProgress (1): 41/42 kBProgress (1): 42 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom (42 kB at 281 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.pom
+Progress (1): 4.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.pom (4.0 kB at 29 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar
+Progress (1): 4.1/121 kBProgress (1): 8.2/121 kBProgress (1): 12/121 kB Progress (1): 16/121 kBProgress (1): 20/121 kBProgress (1): 25/121 kBProgress (1): 29/121 kBProgress (1): 33/121 kBProgress (1): 37/121 kBProgress (1): 41/121 kBProgress (1): 45/121 kBProgress (1): 49/121 kBProgress (1): 53/121 kBProgress (1): 57/121 kBProgress (1): 61/121 kBProgress (1): 66/121 kBProgress (1): 70/121 kBProgress (1): 74/121 kBProgress (1): 78/121 kBProgress (1): 82/121 kBProgress (1): 86/121 kBProgress (1): 90/121 kBProgress (1): 94/121 kBProgress (1): 98/121 kBProgress (1): 102/121 kBProgress (1): 106/121 kBProgress (1): 111/121 kBProgress (1): 115/121 kBProgress (1): 119/121 kBProgress (1): 121 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar (121 kB at 448 kB/s)
+Progress (1): 2.7/233 kBProgress (1): 5.5/233 kBProgress (1): 8.2/233 kBProgress (1): 11/233 kB Progress (1): 14/233 kBProgress (1): 16/233 kBProgress (1): 19/233 kBProgress (1): 22/233 kBProgress (2): 22/233 kB | 2.7/38 kBProgress (2): 22/233 kB | 5.5/38 kBProgress (2): 22/233 kB | 8.2/38 kBProgress (2): 22/233 kB | 11/38 kB Progress (2): 22/233 kB | 14/38 kBProgress (3): 22/233 kB | 14/38 kB | 2.7/239 kBProgress (3): 22/233 kB | 14/38 kB | 5.5/239 kBProgress (3): 22/233 kB | 14/38 kB | 8.2/239 kBProgress (3): 22/233 kB | 14/38 kB | 11/239 kB Progress (3): 22/233 kB | 14/38 kB | 14/239 kBProgress (4): 22/233 kB | 14/38 kB | 14/239 kB | 2.7/155 kBProgress (4): 25/233 kB | 14/38 kB | 14/239 kB | 2.7/155 kBProgress (4): 27/233 kB | 14/38 kB | 14/239 kB | 2.7/155 kBProgress (4): 27/233 kB | 14/38 kB | 16/239 kB | 2.7/155 kBProgress (4): 27/233 kB | 14/38 kB | 16/239 kB | 5.5/155 kBProgress (4): 27/233 kB | 14/38 kB | 19/239 kB | 5.5/155 kBProgress (4): 27/233 kB | 16/38 kB | 19/239 kB | 5.5/155 kBProgress (4): 27/233 kB | 19/38 kB | 19/239 kB | 5.5/155 kBProgress (4): 27/233 kB | 19/38 kB | 19/239 kB | 8.2/155 kBProgress (4): 27/233 kB | 19/38 kB | 19/239 kB | 11/155 kB Progress (4): 27/233 kB | 19/38 kB | 19/239 kB | 14/155 kBProgress (4): 27/233 kB | 19/38 kB | 19/239 kB | 16/155 kBProgress (4): 27/233 kB | 19/38 kB | 19/239 kB | 19/155 kBProgress (4): 27/233 kB | 22/38 kB | 19/239 kB | 19/155 kBProgress (4): 30/233 kB | 22/38 kB | 19/239 kB | 19/155 kBProgress (4): 30/233 kB | 22/38 kB | 19/239 kB | 22/155 kBProgress (4): 30/233 kB | 22/38 kB | 19/239 kB | 25/155 kBProgress (4): 30/233 kB | 22/38 kB | 19/239 kB | 27/155 kBProgress (4): 30/233 kB | 25/38 kB | 19/239 kB | 27/155 kBProgress (4): 30/233 kB | 27/38 kB | 19/239 kB | 27/155 kBProgress (4): 30/233 kB | 30/38 kB | 19/239 kB | 27/155 kBProgress (4): 33/233 kB | 30/38 kB | 19/239 kB | 27/155 kBProgress (4): 33/233 kB | 33/38 kB | 19/239 kB | 27/155 kBProgress (4): 36/233 kB | 33/38 kB | 19/239 kB | 27/155 kBProgress (4): 38/233 kB | 33/38 kB | 19/239 kB | 27/155 kBProgress (4): 38/233 kB | 33/38 kB | 22/239 kB | 27/155 kBProgress (4): 38/233 kB | 33/38 kB | 22/239 kB | 30/155 kBProgress (4): 38/233 kB | 33/38 kB | 25/239 kB | 30/155 kBProgress (4): 41/233 kB | 33/38 kB | 25/239 kB | 30/155 kBProgress (4): 44/233 kB | 33/38 kB | 25/239 kB | 30/155 kBProgress (4): 44/233 kB | 33/38 kB | 25/239 kB | 33/155 kBProgress (4): 47/233 kB | 33/38 kB | 25/239 kB | 33/155 kBProgress (4): 47/233 kB | 36/38 kB | 25/239 kB | 33/155 kBProgress (4): 49/233 kB | 36/38 kB | 25/239 kB | 33/155 kBProgress (4): 49/233 kB | 36/38 kB | 25/239 kB | 36/155 kBProgress (4): 49/233 kB | 36/38 kB | 27/239 kB | 36/155 kBProgress (4): 49/233 kB | 38 kB | 27/239 kB | 36/155 kB   Progress (4): 49/233 kB | 38 kB | 30/239 kB | 36/155 kBProgress (4): 52/233 kB | 38 kB | 30/239 kB | 36/155 kBProgress (4): 55/233 kB | 38 kB | 30/239 kB | 36/155 kBProgress (4): 58/233 kB | 38 kB | 30/239 kB | 36/155 kBProgress (4): 58/233 kB | 38 kB | 33/239 kB | 36/155 kBProgress (4): 60/233 kB | 38 kB | 33/239 kB | 36/155 kBProgress (4): 60/233 kB | 38 kB | 33/239 kB | 38/155 kBProgress (4): 63/233 kB | 38 kB | 33/239 kB | 38/155 kBProgress (4): 66/233 kB | 38 kB | 33/239 kB | 38/155 kBProgress (4): 69/233 kB | 38 kB | 33/239 kB | 38/155 kBProgress (4): 71/233 kB | 38 kB | 33/239 kB | 38/155 kBProgress (4): 74/233 kB | 38 kB | 33/239 kB | 38/155 kBProgress (4): 77/233 kB | 38 kB | 33/239 kB | 38/155 kBProgress (4): 80/233 kB | 38 kB | 33/239 kB | 38/155 kBProgress (4): 80/233 kB | 38 kB | 36/239 kB | 38/155 kBProgress (4): 82/233 kB | 38 kB | 36/239 kB | 38/155 kBProgress (4): 82/233 kB | 38 kB | 38/239 kB | 38/155 kBProgress (4): 82/233 kB | 38 kB | 38/239 kB | 41/155 kBProgress (4): 82/233 kB | 38 kB | 41/239 kB | 41/155 kBProgress (4): 82/233 kB | 38 kB | 41/239 kB | 44/155 kBProgress (4): 82/233 kB | 38 kB | 41/239 kB | 47/155 kBProgress (4): 85/233 kB | 38 kB | 41/239 kB | 47/155 kBProgress (4): 85/233 kB | 38 kB | 41/239 kB | 49/155 kBProgress (4): 85/233 kB | 38 kB | 44/239 kB | 49/155 kBProgress (4): 88/233 kB | 38 kB | 44/239 kB | 49/155 kBProgress (4): 88/233 kB | 38 kB | 47/239 kB | 49/155 kBProgress (4): 90/233 kB | 38 kB | 47/239 kB | 49/155 kBProgress (4): 93/233 kB | 38 kB | 47/239 kB | 49/155 kBProgress (4): 93/233 kB | 38 kB | 49/239 kB | 49/155 kBProgress (4): 93/233 kB | 38 kB | 52/239 kB | 49/155 kBProgress (4): 96/233 kB | 38 kB | 52/239 kB | 49/155 kBProgress (4): 96/233 kB | 38 kB | 55/239 kB | 49/155 kBProgress (4): 96/233 kB | 38 kB | 55/239 kB | 52/155 kBProgress (4): 96/233 kB | 38 kB | 58/239 kB | 52/155 kBProgress (4): 96/233 kB | 38 kB | 60/239 kB | 52/155 kBProgress (4): 96/233 kB | 38 kB | 60/239 kB | 55/155 kBProgress (4): 96/233 kB | 38 kB | 60/239 kB | 58/155 kBProgress (4): 96/233 kB | 38 kB | 60/239 kB | 60/155 kBProgress (4): 96/233 kB | 38 kB | 60/239 kB | 63/155 kBProgress (4): 96/233 kB | 38 kB | 63/239 kB | 63/155 kBProgress (4): 96/233 kB | 38 kB | 66/239 kB | 63/155 kBProgress (4): 99/233 kB | 38 kB | 66/239 kB | 63/155 kBProgress (4): 101/233 kB | 38 kB | 66/239 kB | 63/155 kBProgress (4): 104/233 kB | 38 kB | 66/239 kB | 63/155 kBProgress (4): 107/233 kB | 38 kB | 66/239 kB | 63/155 kBProgress (4): 110/233 kB | 38 kB | 66/239 kB | 63/155 kBProgress (4): 110/233 kB | 38 kB | 66/239 kB | 66/155 kBProgress (4): 110/233 kB | 38 kB | 66/239 kB | 69/155 kBProgress (4): 112/233 kB | 38 kB | 66/239 kB | 69/155 kBProgress (4): 115/233 kB | 38 kB | 66/239 kB | 69/155 kBProgress (4): 115/233 kB | 38 kB | 69/239 kB | 69/155 kBProgress (4): 115/233 kB | 38 kB | 69/239 kB | 71/155 kBProgress (4): 118/233 kB | 38 kB | 69/239 kB | 71/155 kBProgress (4): 121/233 kB | 38 kB | 69/239 kB | 71/155 kBProgress (4): 123/233 kB | 38 kB | 69/239 kB | 71/155 kBProgress (4): 126/233 kB | 38 kB | 69/239 kB | 71/155 kBProgress (4): 129/233 kB | 38 kB | 69/239 kB | 71/155 kBProgress (4): 132/233 kB | 38 kB | 69/239 kB | 71/155 kBProgress (4): 134/233 kB | 38 kB | 69/239 kB | 71/155 kBProgress (4): 137/233 kB | 38 kB | 69/239 kB | 71/155 kBProgress (4): 140/233 kB | 38 kB | 69/239 kB | 71/155 kBProgress (4): 140/233 kB | 38 kB | 71/239 kB | 71/155 kBProgress (4): 140/233 kB | 38 kB | 74/239 kB | 71/155 kBProgress (4): 140/233 kB | 38 kB | 77/239 kB | 71/155 kBProgress (4): 140/233 kB | 38 kB | 80/239 kB | 71/155 kBProgress (4): 140/233 kB | 38 kB | 82/239 kB | 71/155 kBProgress (4): 140/233 kB | 38 kB | 85/239 kB | 71/155 kBProgress (4): 140/233 kB | 38 kB | 88/239 kB | 71/155 kB                                                        Downloaded from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar (38 kB at 82 kB/s)
+Progress (3): 140/233 kB | 90/239 kB | 71/155 kBProgress (3): 140/233 kB | 93/239 kB | 71/155 kBProgress (3): 140/233 kB | 96/239 kB | 71/155 kBProgress (3): 140/233 kB | 99/239 kB | 71/155 kBProgress (3): 140/233 kB | 101/239 kB | 71/155 kBProgress (3): 140/233 kB | 104/239 kB | 71/155 kBProgress (3): 140/233 kB | 104/239 kB | 74/155 kBProgress (3): 140/233 kB | 104/239 kB | 77/155 kBProgress (3): 140/233 kB | 104/239 kB | 80/155 kBProgress (3): 140/233 kB | 104/239 kB | 82/155 kBProgress (3): 140/233 kB | 107/239 kB | 82/155 kBProgress (3): 140/233 kB | 110/239 kB | 82/155 kBProgress (3): 140/233 kB | 112/239 kB | 82/155 kBProgress (3): 140/233 kB | 115/239 kB | 82/155 kBProgress (3): 140/233 kB | 118/239 kB | 82/155 kBProgress (3): 143/233 kB | 118/239 kB | 82/155 kBProgress (3): 143/233 kB | 118/239 kB | 85/155 kBProgress (3): 145/233 kB | 118/239 kB | 85/155 kBProgress (3): 148/233 kB | 118/239 kB | 85/155 kBProgress (3): 148/233 kB | 118/239 kB | 88/155 kBProgress (3): 148/233 kB | 118/239 kB | 90/155 kBProgress (3): 148/233 kB | 121/239 kB | 90/155 kBProgress (3): 151/233 kB | 121/239 kB | 90/155 kBProgress (3): 151/233 kB | 121/239 kB | 93/155 kBProgress (3): 154/233 kB | 121/239 kB | 93/155 kBProgress (3): 154/233 kB | 121/239 kB | 96/155 kBProgress (3): 156/233 kB | 121/239 kB | 96/155 kBProgress (3): 159/233 kB | 121/239 kB | 96/155 kBProgress (3): 159/233 kB | 121/239 kB | 99/155 kBProgress (3): 162/233 kB | 121/239 kB | 99/155 kBProgress (3): 162/233 kB | 121/239 kB | 101/155 kBProgress (3): 165/233 kB | 121/239 kB | 101/155 kBProgress (3): 165/233 kB | 121/239 kB | 104/155 kBProgress (3): 167/233 kB | 121/239 kB | 104/155 kBProgress (3): 167/233 kB | 121/239 kB | 107/155 kBProgress (3): 167/233 kB | 121/239 kB | 110/155 kBProgress (3): 167/233 kB | 121/239 kB | 112/155 kBProgress (3): 167/233 kB | 121/239 kB | 115/155 kBProgress (3): 170/233 kB | 121/239 kB | 115/155 kBProgress (3): 170/233 kB | 123/239 kB | 115/155 kBProgress (3): 170/233 kB | 126/239 kB | 115/155 kBProgress (3): 170/233 kB | 129/239 kB | 115/155 kBProgress (3): 170/233 kB | 132/239 kB | 115/155 kBProgress (3): 170/233 kB | 134/239 kB | 115/155 kBProgress (3): 170/233 kB | 134/239 kB | 118/155 kBProgress (3): 173/233 kB | 134/239 kB | 118/155 kBProgress (3): 173/233 kB | 134/239 kB | 121/155 kBProgress (3): 175/233 kB | 134/239 kB | 121/155 kBProgress (3): 175/233 kB | 134/239 kB | 123/155 kBProgress (3): 178/233 kB | 134/239 kB | 123/155 kBProgress (3): 181/233 kB | 134/239 kB | 123/155 kBProgress (3): 184/233 kB | 134/239 kB | 123/155 kBProgress (3): 186/233 kB | 134/239 kB | 123/155 kBProgress (3): 189/233 kB | 134/239 kB | 123/155 kBProgress (3): 192/233 kB | 134/239 kB | 123/155 kBProgress (3): 195/233 kB | 134/239 kB | 123/155 kBProgress (3): 197/233 kB | 134/239 kB | 123/155 kBProgress (3): 200/233 kB | 134/239 kB | 123/155 kBProgress (3): 203/233 kB | 134/239 kB | 123/155 kBProgress (3): 206/233 kB | 134/239 kB | 123/155 kBProgress (3): 208/233 kB | 134/239 kB | 123/155 kBProgress (3): 211/233 kB | 134/239 kB | 123/155 kBProgress (3): 214/233 kB | 134/239 kB | 123/155 kBProgress (3): 217/233 kB | 134/239 kB | 123/155 kBProgress (3): 219/233 kB | 134/239 kB | 123/155 kBProgress (3): 219/233 kB | 137/239 kB | 123/155 kBProgress (3): 219/233 kB | 137/239 kB | 126/155 kBProgress (3): 219/233 kB | 140/239 kB | 126/155 kBProgress (3): 219/233 kB | 140/239 kB | 129/155 kBProgress (3): 219/233 kB | 143/239 kB | 129/155 kBProgress (3): 219/233 kB | 143/239 kB | 132/155 kBProgress (3): 219/233 kB | 145/239 kB | 132/155 kBProgress (3): 219/233 kB | 145/239 kB | 134/155 kBProgress (3): 219/233 kB | 148/239 kB | 134/155 kBProgress (3): 219/233 kB | 148/239 kB | 137/155 kBProgress (3): 219/233 kB | 151/239 kB | 137/155 kBProgress (3): 219/233 kB | 151/239 kB | 140/155 kBProgress (3): 219/233 kB | 154/239 kB | 140/155 kBProgress (3): 219/233 kB | 154/239 kB | 143/155 kBProgress (3): 219/233 kB | 156/239 kB | 143/155 kBProgress (3): 219/233 kB | 156/239 kB | 145/155 kBProgress (3): 219/233 kB | 159/239 kB | 145/155 kBProgress (3): 219/233 kB | 159/239 kB | 148/155 kBProgress (3): 219/233 kB | 162/239 kB | 148/155 kBProgress (3): 219/233 kB | 162/239 kB | 151/155 kBProgress (3): 219/233 kB | 162/239 kB | 154/155 kBProgress (3): 219/233 kB | 165/239 kB | 154/155 kBProgress (3): 219/233 kB | 165/239 kB | 155 kB    Progress (3): 219/233 kB | 167/239 kB | 155 kBProgress (3): 219/233 kB | 170/239 kB | 155 kBProgress (3): 219/233 kB | 173/239 kB | 155 kBProgress (3): 223/233 kB | 173/239 kB | 155 kBProgress (3): 227/233 kB | 173/239 kB | 155 kBProgress (3): 231/233 kB | 173/239 kB | 155 kBProgress (3): 233 kB | 173/239 kB | 155 kB    Progress (3): 233 kB | 175/239 kB | 155 kBProgress (3): 233 kB | 178/239 kB | 155 kBProgress (3): 233 kB | 181/239 kB | 155 kBProgress (3): 233 kB | 184/239 kB | 155 kBProgress (3): 233 kB | 186/239 kB | 155 kBProgress (3): 233 kB | 189/239 kB | 155 kBProgress (3): 233 kB | 192/239 kB | 155 kBProgress (3): 233 kB | 195/239 kB | 155 kBProgress (3): 233 kB | 197/239 kB | 155 kBProgress (3): 233 kB | 200/239 kB | 155 kBProgress (3): 233 kB | 203/239 kB | 155 kBProgress (3): 233 kB | 206/239 kB | 155 kBProgress (3): 233 kB | 208/239 kB | 155 kBProgress (3): 233 kB | 211/239 kB | 155 kBProgress (3): 233 kB | 214/239 kB | 155 kBProgress (3): 233 kB | 217/239 kB | 155 kBProgress (3): 233 kB | 219/239 kB | 155 kBProgress (3): 233 kB | 222/239 kB | 155 kBProgress (3): 233 kB | 225/239 kB | 155 kBProgress (3): 233 kB | 228/239 kB | 155 kBProgress (3): 233 kB | 230/239 kB | 155 kBProgress (3): 233 kB | 233/239 kB | 155 kBProgress (3): 233 kB | 236/239 kB | 155 kBProgress (3): 233 kB | 239/239 kB | 155 kBProgress (3): 233 kB | 239 kB | 155 kB                                          Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar (233 kB at 407 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar (155 kB at 272 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar (239 kB at 407 kB/s)
+[INFO] Installing /home/workspace/first_pipeline@2/target/panda-0.0.1.jar to /root/.m2/repository/pl/pandait/panda/0.0.1/panda-0.0.1.jar
+[INFO] Installing /home/workspace/first_pipeline@2/pom.xml to /root/.m2/repository/pl/pandait/panda/0.0.1/panda-0.0.1.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ panda ---
+Uploading to artifactory: http://192.168.44.44:8081/artifactory/libs-release-local/pl/pandait/panda/0.0.1/panda-0.0.1.jar
+Progress (1): 0.3/27 MBProgress (1): 0.5/27 MBProgress (1): 0.8/27 MBProgress (1): 1.1/27 MBProgress (1): 1.4/27 MBProgress (1): 1.6/27 MBProgress (1): 1.9/27 MBProgress (1): 2.2/27 MBProgress (1): 2.4/27 MBProgress (1): 2.7/27 MBProgress (1): 3.0/27 MBProgress (1): 3.2/27 MBProgress (1): 3.5/27 MBProgress (1): 3.8/27 MBProgress (1): 4.1/27 MBProgress (1): 4.3/27 MBProgress (1): 4.6/27 MBProgress (1): 4.9/27 MBProgress (1): 5.1/27 MBProgress (1): 5.4/27 MBProgress (1): 5.7/27 MBProgress (1): 5.9/27 MBProgress (1): 6.2/27 MBProgress (1): 6.5/27 MBProgress (1): 6.8/27 MBProgress (1): 7.0/27 MBProgress (1): 7.3/27 MBProgress (1): 7.6/27 MBProgress (1): 7.8/27 MBProgress (1): 8.1/27 MBProgress (1): 8.4/27 MBProgress (1): 8.7/27 MBProgress (1): 8.9/27 MBProgress (1): 9.2/27 MBProgress (1): 9.5/27 MBProgress (1): 9.7/27 MBProgress (1): 10/27 MB Progress (1): 10/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 13/27 MBProgress (1): 13/27 MBProgress (1): 13/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 17/27 MBProgress (1): 17/27 MBProgress (1): 17/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 20/27 MBProgress (1): 20/27 MBProgress (1): 20/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 23/27 MBProgress (1): 23/27 MBProgress (1): 23/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 27/27 MBProgress (1): 27/27 MBProgress (1): 27/27 MBProgress (1): 27 MB                      Uploaded to artifactory: http://192.168.44.44:8081/artifactory/libs-release-local/pl/pandait/panda/0.0.1/panda-0.0.1.jar (27 MB at 3.3 MB/s)
+Uploading to artifactory: http://192.168.44.44:8081/artifactory/libs-release-local/pl/pandait/panda/0.0.1/panda-0.0.1.pom
+Progress (1): 4.1/6.3 kBProgress (1): 6.3 kB                        Uploaded to artifactory: http://192.168.44.44:8081/artifactory/libs-release-local/pl/pandait/panda/0.0.1/panda-0.0.1.pom (6.3 kB at 9.5 kB/s)
+Downloading from artifactory: http://192.168.44.44:8081/artifactory/libs-release-local/pl/pandait/panda/maven-metadata.xml
+Progress (1): 370 B                   Downloaded from artifactory: http://192.168.44.44:8081/artifactory/libs-release-local/pl/pandait/panda/maven-metadata.xml (370 B at 419 B/s)
+Uploading to artifactory: http://192.168.44.44:8081/artifactory/libs-release-local/pl/pandait/panda/maven-metadata.xml
+Progress (1): 322 B                   Uploaded to artifactory: http://192.168.44.44:8081/artifactory/libs-release-local/pl/pandait/panda/maven-metadata.xml (322 B at 7.2 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.081 s
+[INFO] Finished at: 2021-03-12T19:24:08Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4AUDI9CHoRkoBWAP90uV5QVX41UIZeCu4DOikNhusQJkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKkAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHtLqhnvgAAAA==[0m[Pipeline] }
+Deleting 1 temporary files
+[8mha:////4FtA6aHo7aNsG/ol3pGuADSF14ylNVgaU7c4q37f0hunAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0RAJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g/VbDuWvgAAAA==[0m[Pipeline] // configFileProvider
+[8mha:////4CnWFwDIY269pv4/ksZCyJmF6zCrpcHOD3n/UIq+qEQcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpKIKEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF52Oeq6w/hotjNvgAAAA==[0m[Pipeline] }
+[8mha:////4N6IeGSFg0nbHvockcahC5s1AQYtJt669itUXGhLvhOAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw/PotqnvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Pkqg0RDVF8CbbOCF0HqYy/ByC/HrnoUAOGk2Zd3mb0CAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAQSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334A5YXsHL4AAAA=[0m[Pipeline] }
+[8mha:////4FBkofF0QQDySfsb/E1DUukaoAU7efjnyS1fxKhJcWQ7AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUQASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334A3cd/7b4AAAA=[0m[Pipeline] // stage
+[8mha:////4P2JixfDLzjWl6fSiLdthwqQweU5Lfmv55aveOGSIQiUAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULICEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wbb7z7P6g2MzcR3wgAAAA==[0m[Pipeline] stage
+[8mha:////4L7JwiN5A6SOJSKVu+8P2Lm8dYe+nGG2DMHQzXcm7m88AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0pBJiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPCJq12sIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4HDDDxT1/7WTLvgrV0rABR2ma5wMrqPqycYonMzautBnAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxnGsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DGb6ZU74AAAA=[0m[Pipeline] sh
++ docker stop pandaapp
+pandaapp
+Error when executing always post condition:
+java.lang.NoSuchMethodError: No such DSL method 'unit' found among steps [archive, bat, build, catchError, checkout, compareVersions, deleteDir, dir, dockerFingerprintFrom, dockerFingerprintRun, echo, emailext, emailextrecipients, envVarsForTool, error, fileExists, findBuildScans, findFiles, getContext, git, input, isUnix, junit, library, libraryResource, load, lock, mail, milestone, node, nodesByLabel, parallel, powershell, properties, publishChecks, publishHTML, pwd, pwsh, readCSV, readFile, readJSON, readManifest, readMavenPom, readProperties, readTrusted, readYaml, resolveScm, retry, script, sh, sha1, sleep, stage, stash, step, tee, timeout, timestamps, tm, tool, touch, unarchive, unstable, unstash, unzip, validateDeclarativePipeline, waitUntil, warnError, withChecks, withContext, withCredentials, withDockerContainer, withDockerRegistry, withDockerServer, withEnv, withGradle, wrap, writeCSV, writeFile, writeJSON, writeMavenPom, writeYaml, ws, zip] or symbols [all, allBranchesSame, allOf, always, ant, antFromApache, antOutcome, antTarget, any, anyOf, apiToken, architecture, archiveArtifacts, artifactManager, authorizationMatrix, batchFile, bitbucket, bitbucketBranchDiscovery, bitbucketForkDiscovery, bitbucketPublicRepoPullRequestFilter, bitbucketPullRequestDiscovery, bitbucketSshCheckout, bitbucketTagDiscovery, bitbucketTrustEveryone, bitbucketTrustNobody, bitbucketTrustProject, bitbucketTrustTeam, bitbucketWebhookConfiguration, bitbucketWebhookRegistration, booleanParam, branch, brokenBuildSuspects, brokenTestsSuspects, buildButton, buildDiscarder, buildDiscarders, buildRetention, buildUser, buildingTag, caseInsensitive, caseSensitive, certificate, changeRequest, changelog, changeset, checkoutToSubdirectory, choice, choiceParam, cleanWs, clock, command, configFile, configFileProvider, credentials, cron, crumb, culprits, defaultFolderConfiguration, defaultView, demand, developers, disableConcurrentBuilds, disableResume, docker, dockerCert, dockerServer, dockerTool, dockerfile, downstream, dumb, durabilityHint, email-ext, envVars, envVarsFilter, environment, equals, expression, extendedEmailPublisher, file, fileParam, filePath, fingerprint, fingerprints, frameOptions, freeStyle, freeStyleJob, fromDocker, fromScm, fromSource, git, gitBranchDiscovery, gitHubBranchDiscovery, gitHubBranchHeadAuthority, gitHubExcludeArchivedRepositories, gitHubExcludePublicRepositories, gitHubForkDiscovery, gitHubPullRequestDiscovery, gitHubSshCheckout, gitHubTagDiscovery, gitHubTopicsFilter, gitHubTrustContributors, gitHubTrustEveryone, gitHubTrustNobody, gitHubTrustPermissions, gitTagDiscovery, github, githubPush, globalConfigFiles, gradle, headRegexFilter, headWildcardFilter, hyperlink, hyperlinkToModels, inheriting, inheritingGlobal, installSource, isRestartedRun, jdk, jdkInstaller, jgit, jgitapache, jnlp, jobBuildDiscarder, jobName, junitTestResultStorage, label, lastDuration, lastFailure, lastGrantedAuthorities, lastStable, lastSuccess, legacy, legacySCM, list, local, location, logRotator, loggedInUsersCanDoAnything, mailer, masterBuild, maven, maven3Mojos, mavenErrors, mavenGlobalConfig, mavenMojos, mavenWarnings, modernSCM, myView, namedBranchesDifferent, newContainerPerStage, node, nodeProperties, nonInheriting, none, not, overrideIndexTriggers, paneStatus, parallelsAlwaysFailFast, parameters, password, pattern, permanent, pipeline-model, pipeline-model-docker, pipelineTriggers, plainText, plugin, pollSCM, preserveStashes, projectNamingStrategy, proxy, pruneTags, queueItemAuthenticator, quietPeriod, rateLimit, rateLimitBuilds, recipients, requestor, resourceRoot, retainOnlyVariables, run, runParam, sSHLauncher, schedule, scmRetryCount, scriptApproval, scriptApprovalLink, search, security, shell, simpleBuildDiscarder, skipDefaultCheckout, skipStagesAfterUnstable, slave, sourceRegexFilter, sourceWildcardFilter, ssh, sshPublicKey, sshUserPrivateKey, standard, status, string, stringParam, suppressAutomaticTriggering, swapSpace, tag, teamSlugFilter, text, textParam, timestamper, timestamperConfig, timezone, tmpSpace, toolLocation, triggeredBy, unsecured, untrusted, upstream, upstreamDevelopers, userSeed, usernameColonPassword, usernamePassword, viewsTabBar, weather, withAnt, x509ClientCert, zip] or globals [currentBuild, docker, env, params, pipeline, scm]
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:216)
+	at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:122)
+	at jdk.internal.reflect.GeneratedMethodAccessor605.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:163)
+	at org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:157)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:161)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:165)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:135)
+	at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+	at WorkflowScript.run(WorkflowScript:57)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.delegateAndExecute(ModelInterpreter.groovy:137)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:756)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:395)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:393)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:755)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2030)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2015)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2056)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:745)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executePostBuild(ModelInterpreter.groovy:723)
+	at ___cps.transform___(Native Method)
+	at com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:86)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:113)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:83)
+	at jdk.internal.reflect.GeneratedMethodAccessor337.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:129)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:268)
+	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:18)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:51)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:185)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:400)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$400(CpsThreadGroup.java:96)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:312)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:276)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:67)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[8mha:////4Emvp1QnNIApEvuwBTG3Emd2JgEIxs1o5nnwvcGFsxJ9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKhDEJUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzsc9X1B6XaHPq+AAAA[0m[Pipeline] }
+[8mha:////4NITWuJUi7oZFarlHekvuZYUsBNLFgJ/0WH5dFaNYvjEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKkAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wGRFP+hvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BtPJ7NdsCNjmTdYTWC0UNLph4nb4mO15YxI9agC4e+nAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKJAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu13X8A4O2ugb4AAAA=[0m[Pipeline] }
+[8mha:////4P3casHaIfr8K0LyuY1woAdqNJJikKWgV0IkQ6oem14GAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu13X8A/2/7074AAAA=[0m[Pipeline] // withEnv
+[8mha:////4HtsLx5vdUUBQXTd21Htl8/I+Nb8h83np+VQDa8sq3JYAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpKECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPA0Mgwr0AAAA=[0m[Pipeline] }
+[8mha:////4JXFqw2mD0rotuC1dmEhoS7UlzxIbElrgJKYKfkelS4QAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKpEEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPInf/b70AAAA=[0m[Pipeline] // withEnv
+[8mha:////4PUbOmlLXPme8Elgbu8vcLAG7j/psSBUVsIONkA5ZTPeAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AEhcVrG9AAAA[0m[Pipeline] }
+[8mha:////4PHct4sDgTOg/3A7IapNkqAInwTISEWlbi3fodV4c2HaAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpKBBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AFvgUhK9AAAA[0m[Pipeline] // node
+[8mha:////4It6fYTw3G2QkpSz0t7WhhPh5nJurgMRmGt2AeAced0DAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRqECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPHEcF570AAAA=[0m[Pipeline] End of Pipeline
+java.lang.NoSuchMethodError: No such DSL method 'unit' found among steps [archive, bat, build, catchError, checkout, compareVersions, deleteDir, dir, dockerFingerprintFrom, dockerFingerprintRun, echo, emailext, emailextrecipients, envVarsForTool, error, fileExists, findBuildScans, findFiles, getContext, git, input, isUnix, junit, library, libraryResource, load, lock, mail, milestone, node, nodesByLabel, parallel, powershell, properties, publishChecks, publishHTML, pwd, pwsh, readCSV, readFile, readJSON, readManifest, readMavenPom, readProperties, readTrusted, readYaml, resolveScm, retry, script, sh, sha1, sleep, stage, stash, step, tee, timeout, timestamps, tm, tool, touch, unarchive, unstable, unstash, unzip, validateDeclarativePipeline, waitUntil, warnError, withChecks, withContext, withCredentials, withDockerContainer, withDockerRegistry, withDockerServer, withEnv, withGradle, wrap, writeCSV, writeFile, writeJSON, writeMavenPom, writeYaml, ws, zip] or symbols [all, allBranchesSame, allOf, always, ant, antFromApache, antOutcome, antTarget, any, anyOf, apiToken, architecture, archiveArtifacts, artifactManager, authorizationMatrix, batchFile, bitbucket, bitbucketBranchDiscovery, bitbucketForkDiscovery, bitbucketPublicRepoPullRequestFilter, bitbucketPullRequestDiscovery, bitbucketSshCheckout, bitbucketTagDiscovery, bitbucketTrustEveryone, bitbucketTrustNobody, bitbucketTrustProject, bitbucketTrustTeam, bitbucketWebhookConfiguration, bitbucketWebhookRegistration, booleanParam, branch, brokenBuildSuspects, brokenTestsSuspects, buildButton, buildDiscarder, buildDiscarders, buildRetention, buildUser, buildingTag, caseInsensitive, caseSensitive, certificate, changeRequest, changelog, changeset, checkoutToSubdirectory, choice, choiceParam, cleanWs, clock, command, configFile, configFileProvider, credentials, cron, crumb, culprits, defaultFolderConfiguration, defaultView, demand, developers, disableConcurrentBuilds, disableResume, docker, dockerCert, dockerServer, dockerTool, dockerfile, downstream, dumb, durabilityHint, email-ext, envVars, envVarsFilter, environment, equals, expression, extendedEmailPublisher, file, fileParam, filePath, fingerprint, fingerprints, frameOptions, freeStyle, freeStyleJob, fromDocker, fromScm, fromSource, git, gitBranchDiscovery, gitHubBranchDiscovery, gitHubBranchHeadAuthority, gitHubExcludeArchivedRepositories, gitHubExcludePublicRepositories, gitHubForkDiscovery, gitHubPullRequestDiscovery, gitHubSshCheckout, gitHubTagDiscovery, gitHubTopicsFilter, gitHubTrustContributors, gitHubTrustEveryone, gitHubTrustNobody, gitHubTrustPermissions, gitTagDiscovery, github, githubPush, globalConfigFiles, gradle, headRegexFilter, headWildcardFilter, hyperlink, hyperlinkToModels, inheriting, inheritingGlobal, installSource, isRestartedRun, jdk, jdkInstaller, jgit, jgitapache, jnlp, jobBuildDiscarder, jobName, junitTestResultStorage, label, lastDuration, lastFailure, lastGrantedAuthorities, lastStable, lastSuccess, legacy, legacySCM, list, local, location, logRotator, loggedInUsersCanDoAnything, mailer, masterBuild, maven, maven3Mojos, mavenErrors, mavenGlobalConfig, mavenMojos, mavenWarnings, modernSCM, myView, namedBranchesDifferent, newContainerPerStage, node, nodeProperties, nonInheriting, none, not, overrideIndexTriggers, paneStatus, parallelsAlwaysFailFast, parameters, password, pattern, permanent, pipeline-model, pipeline-model-docker, pipelineTriggers, plainText, plugin, pollSCM, preserveStashes, projectNamingStrategy, proxy, pruneTags, queueItemAuthenticator, quietPeriod, rateLimit, rateLimitBuilds, recipients, requestor, resourceRoot, retainOnlyVariables, run, runParam, sSHLauncher, schedule, scmRetryCount, scriptApproval, scriptApprovalLink, search, security, shell, simpleBuildDiscarder, skipDefaultCheckout, skipStagesAfterUnstable, slave, sourceRegexFilter, sourceWildcardFilter, ssh, sshPublicKey, sshUserPrivateKey, standard, status, string, stringParam, suppressAutomaticTriggering, swapSpace, tag, teamSlugFilter, text, textParam, timestamper, timestamperConfig, timezone, tmpSpace, toolLocation, triggeredBy, unsecured, untrusted, upstream, upstreamDevelopers, userSeed, usernameColonPassword, usernamePassword, viewsTabBar, weather, withAnt, x509ClientCert, zip] or globals [currentBuild, docker, env, params, pipeline, scm]
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:216)
+	at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:122)
+	at jdk.internal.reflect.GeneratedMethodAccessor605.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:163)
+	at org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:157)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:161)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:165)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:135)
+	at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+	at WorkflowScript.run(WorkflowScript:57)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.delegateAndExecute(ModelInterpreter.groovy:137)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:756)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:395)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:393)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:755)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2030)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2015)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2056)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:745)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executePostBuild(ModelInterpreter.groovy:723)
+	at ___cps.transform___(Native Method)
+	at com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:86)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:113)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:83)
+	at jdk.internal.reflect.GeneratedMethodAccessor337.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:129)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:268)
+	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:18)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:51)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:185)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:400)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$400(CpsThreadGroup.java:96)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:312)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:276)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:67)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Finished: FAILURE

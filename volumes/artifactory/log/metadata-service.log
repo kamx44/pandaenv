@@ -256,3 +256,59 @@ Keys.ReadAttempts                                    | 120
 
 2021-03-10T20:35:53.254Z [jfmd ] [INFO ] [76c1d7306d927d99] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 58.086 seconds. Listening on port: 8086 [router]
 2021-03-10T20:35:53.254Z [jfmd ] [INFO ] [76c1d7306d927d99] [async_converter.go:198        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2021-03-12T17:39:23.908Z [jfmd ] [INFO ] [6630db56b6796b37] [database_bearer.go:101        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2021-03-12T17:39:24.436Z [jfmd ] [INFO ] [6630db56b6796b37] [migrator.go:60                ] [main                ] - Applying 43 migrations files [database]
+2021-03-12T17:39:24.949Z [jfmd ] [INFO ] [6630db56b6796b37] [application.go:68             ] [main                ] - Metadata (jfmd) service initialization started. Version: v7.15.2 Revision: c8ae57f7cbb PID: 3019 Home: /opt/jfrog/artifactory/var [app_initializer]
+2021-03-12T17:39:24.950Z [jfmd ] [INFO ] [6630db56b6796b37] [server_bearer.go:156          ] [main                ] - Got service_id from datastore: jfmd@01f0ee52frj430p7mhnyymj0qt [ServerInit]
+2021-03-12T17:39:29.099Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:39:34.151Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:39:39.205Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:39:44.256Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:39:49.267Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:39:54.456Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:39:59.540Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 35: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:40:04.612Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 40: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:40:09.684Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 45: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:40:14.848Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 50: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:40:19.941Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 55: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:40:25.049Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 60: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:40:30.142Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 65: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:40:35.289Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 70: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:40:40.368Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 75: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:40:45.467Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 80: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:40:50.519Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 85: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:40:55.660Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Retry 90: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-12T17:40:59.620Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2021-03-12T17:40:59.624Z [jfmd ] [INFO ] [6630db56b6796b37] [accessclient.go:57            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01f0ee52frj430p7mhnyymj0qt [access_client]
+2021-03-12T17:41:01.036Z [jfmd ] [INFO ] [6630db56b6796b37] [async_converter.go:198        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2021-03-12T17:41:01.048Z [jfmd ] [INFO ] [6630db56b6796b37] [router_middlewares.go:55      ] [main                ] - 
+Metadata Info
+========================
+
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Application.Rotation.MaxSizeMb               | 25
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Level                            | info
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Application.Rotation.Compress                | true
+Logging.Application.Rotation.IntervalSeconds         | 0
+Logging.Request.FilePath                             | metadata-request.log
+Port                                                 | 8086
+Database.Type                                        | 1
+AccessClient.Url                                     | http://localhost:8081/access
+Keys.ReadIntervalDuration                            | 1s
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.Compress                    | true
+Logging.Request.Rotation.IntervalSeconds             | 0
+Keys.ReadAttempts                                    | 120
+Shared.NewRelic.Enabled                              | false
+Shared.NewRelic.AppName                              | 
+Logging.Request.Rotation.MaxFiles                    | 10
+AccessClient.JoinTimeout                             | 3m0s
+Profiling.Enabled                                    | false
+
+2021-03-12T17:41:01.050Z [jfmd ] [INFO ] [6630db56b6796b37] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 96.100 seconds. Listening on port: 8086 [router]
+2021-03-12T19:26:00.528Z [jfmd ] [ERROR] [6630db56b6796b37] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]

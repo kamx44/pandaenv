@@ -14,36 +14,65 @@
   <properties/>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.90">
     <script>pipeline {
-    agent any
+    agent {
+		label &apos;Slave&apos;
+	}
 
     tools {
         // Install the Maven version configured as &quot;M3&quot; and add it to the path.
         maven &quot;M3&quot;
     }
+    
+    environment{
+		IMAGE = readMavenPom().getArtifactId()
+		VERSION = readMavenPom().getVersion()
+	}
 
     stages {
-        stage(&apos;Build&apos;) {
-            steps {
-                // Get some code from a GitHub repository
-                git credentialsId: &apos;github&apos;, url: &apos;https://github.com/kamx44/panda_app.git&apos;
-
-                // Run Maven on a Unix agent.
-                sh &quot;mvn clean install&quot;
-
-                // To run Maven on a Windows agent, use
-                // bat &quot;mvn -Dmaven.test.failure.ignore=true clean package&quot;
-            }
-
-            post {
-                // If Maven was able to run the tests, even if some of the test
-                // failed, record the test results and archive the jar file.
-                success {
-                    junit &apos;**/target/surefire-reports/TEST-*.xml&apos;
-                    archiveArtifacts &apos;target/*.jar&apos;
+        
+        stage(&apos;Cleaning app&apos;){
+			steps {
+				sh &quot;docker rm -f pandaapp || true&quot;
+			}
+		}
+		stage(&apos;Get code&apos;){
+			steps {
+				git branch: &apos;pipeline_jenkins&apos;, credentialsId: &apos;github&apos;, url: &apos;https://github.com/kamx44/panda_app.git&apos;
+			}
+		}
+		stage(&apos;Build application &amp;&amp; JUnit&apos;){
+			steps {
+				sh &quot;mvn package -Pdocker -Dmaven.test.skip=true&quot;
+			}
+		}
+		stage(&apos;Start application&apos;){
+			steps {
+				sh &quot;docker run -d --name pandaapp -p 0.0.0.0:8080:8080 -t ${IMAGE}:${VERSION}&quot;
+			}
+		}
+		stage(&apos;Selenium test&apos;){
+			steps {
+				sh &quot;mvn test -Pselenium&quot;
+			}
+		}
+		stage(&apos;Artifactory&apos;){
+			steps {
+                configFileProvider([configFile(fileId: &apos;f29de68e-76e8-492f-a2bc-b3ab0cb9c87b&apos;, variable: &apos;MAVEN_SETTINGS&apos;)]) {
+                    sh &quot;mvn -s $MAVEN_SETTINGS deploy -Dmaven.test.skip=true&quot;
                 }
-            }
+			}
+		}
+    }
+		
+    post {
+        always {
+            sh &quot;docker stop pandaapp&quot;
+            junit &apos;**/target/surefire-reports/TEST-*.xml&apos;
+            archiveArtifacts &apos;target/*.jar&apos;
+            deleteDir()
         }
     }
+    
 }
 </script>
     <sandbox>true</sandbox>

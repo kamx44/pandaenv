@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.48">
+  <suites>
+    <suite>
+      <file>/home/workspace/first_pipeline@2/target/surefire-reports/TEST-pl.pandait.panda.PandaApplicationSeleniumTest.xml</file>
+      <name>pl.pandait.panda.PandaApplicationSeleniumTest</name>
+      <duration>25.66</duration>
+      <time>25.66</time>
+      <nodeId>90</nodeId>
+      <enclosingBlocks>
+        <string>88</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Declarative: Post Actions</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>15.636</duration>
+          <className>pl.pandait.panda.PandaApplicationSeleniumTest</className>
+          <testName>greetings_shouldOpenMainPageThenReturnWelcomeText</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>9.977</duration>
+          <className>pl.pandait.panda.PandaApplicationSeleniumTest</className>
+          <testName>greetings_shouldOpenSubpageThenReturnGreetingsText</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>25.66</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

@@ -1,23 +1,33 @@
-2021-03-10T20:35:33.262Z [jffe ] [INFO ] [                ] [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.15.5 Revision: 10000005 PID: 3399 Home: /opt/jfrog/artifactory
-2021-03-10T20:35:33.264Z [jffe ] [INFO ] [                ] [                              ] [main                ] - attempting pinging artifactory for 180 retires and 1.0s interval for total of 3 minutes
-2021-03-10T20:35:42.562Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory, attempt number 10
-2021-03-10T20:35:42.565Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory attempt number 10 failed with code : ECONNREFUSED
-2021-03-10T20:35:48.770Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
-2021-03-10T20:35:49.774Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
-2021-03-10T20:35:50.778Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
-2021-03-10T20:35:51.781Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
-2021-03-10T20:35:52.786Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory, attempt number 20
-2021-03-10T20:35:52.789Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
-2021-03-10T20:35:52.789Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory attempt number 20 failed with code : undefined
-2021-03-10T20:35:53.794Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
-2021-03-10T20:35:54.814Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
-2021-03-10T20:35:55.836Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
-2021-03-10T20:35:56.851Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
-2021-03-10T20:35:57.898Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
-2021-03-10T20:35:58.925Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
-2021-03-10T20:36:00.312Z [jffe ] [INFO ] [                ] [                              ] [main                ] - artifactory was pinged successfully
-2021-03-10T20:36:00.313Z [jffe ] [INFO ] [                ] [                              ] [main                ] - setting service id - jffe@000
-2021-03-10T20:36:00.432Z [jffe ] [INFO ] [                ] [                              ] [main                ] - Cluster join: Successfully joined the cluster
-2021-03-10T20:36:00.481Z [jffe ] [INFO ] [                ] [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
-2021-03-10T20:36:00.897Z [jffe ] [INFO ] [                ] [                              ] [main                ] - Recurring tasks started
-2021-03-10T20:36:01.261Z [jffe ] [INFO ] [                ] [                              ] [main                ] - frontend (jffe) service initialization completed in 28.16 seconds. Listening on port: port 8070
+2021-03-12T17:40:19.321Z [jffe ] [INFO ] [                ] [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.15.5 Revision: 10000005 PID: 3316 Home: /opt/jfrog/artifactory
+2021-03-12T17:40:19.323Z [jffe ] [INFO ] [                ] [                              ] [main                ] - attempting pinging artifactory for 180 retires and 1.0s interval for total of 3 minutes
+2021-03-12T17:40:29.125Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory, attempt number 10
+2021-03-12T17:40:29.162Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory attempt number 10 failed with code : ECONNREFUSED
+2021-03-12T17:40:39.518Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory, attempt number 20
+2021-03-12T17:40:39.522Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory attempt number 20 failed with code : ECONNREFUSED
+2021-03-12T17:40:50.389Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory, attempt number 30
+2021-03-12T17:40:50.409Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory attempt number 30 failed with code : ECONNREFUSED
+2021-03-12T17:40:56.494Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
+2021-03-12T17:40:57.502Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
+2021-03-12T17:40:58.521Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
+2021-03-12T17:40:59.558Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
+2021-03-12T17:41:00.560Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory, attempt number 40
+2021-03-12T17:41:00.579Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
+2021-03-12T17:41:00.579Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory attempt number 40 failed with code : undefined
+2021-03-12T17:41:01.590Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
+2021-03-12T17:41:02.599Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
+2021-03-12T17:41:03.621Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
+2021-03-12T17:41:04.683Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
+2021-03-12T17:41:05.713Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
+2021-03-12T17:41:06.742Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
+2021-03-12T17:41:07.829Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
+2021-03-12T17:41:09.130Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
+2021-03-12T17:41:10.172Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
+2021-03-12T17:41:11.270Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory, attempt number 50
+2021-03-12T17:41:11.317Z [jffe ] [ERROR] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
+2021-03-12T17:41:11.317Z [jffe ] [INFO ] [                ] [                              ] [main                ] - pinging artifactory attempt number 50 failed with code : undefined
+2021-03-12T17:41:12.774Z [jffe ] [INFO ] [                ] [                              ] [main                ] - artifactory was pinged successfully
+2021-03-12T17:41:12.774Z [jffe ] [INFO ] [                ] [                              ] [main                ] - setting service id - jffe@000
+2021-03-12T17:41:12.875Z [jffe ] [INFO ] [                ] [                              ] [main                ] - Cluster join: Successfully joined the cluster
+2021-03-12T17:41:12.951Z [jffe ] [INFO ] [                ] [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
+2021-03-12T17:41:13.578Z [jffe ] [INFO ] [                ] [                              ] [main                ] - Recurring tasks started
+2021-03-12T17:41:14.776Z [jffe ] [INFO ] [                ] [                              ] [main                ] - frontend (jffe) service initialization completed in 57.48 seconds. Listening on port: port 8070

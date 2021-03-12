@@ -223,3 +223,7 @@
 2021-03-12T19:31:46.624Z [AUDIT] Token created by 'jffe@000': tokenId='5338d2db-a1ac-4c37-8432-5c41cdca9f14', issuer='jffe@000', subject='jffe@000/users/jffe@000', expiry=1615578106624, refreshable=false
 2021-03-12T19:31:46.637Z [AUDIT] Token created by 'jffe@000': tokenId='4e8ac153-8a1e-4ebb-87d0-1c851ce64a66', issuer='jffe@000', subject='jffe@000/users/jffe@000', expiry=1615578106637, refreshable=false
 2021-03-12T19:40:12.670Z [AUDIT] Token created by 'jffe@000': tokenId='b64d3de3-0259-429e-800b-444386de665c', issuer='jffe@000', subject='jffe@000/users/admin', expiry=1615578612670, refreshable=false
+2021-03-12T19:41:46.773Z [AUDIT] Token created by 'jffe@000': tokenId='f5cc4a6b-91d9-4ff5-8cb7-cd61c51f75e7', issuer='jffe@000', subject='jffe@000/users/jffe@000', expiry=1615578706773, refreshable=false
+2021-03-12T19:41:46.773Z [AUDIT] Token created by 'jffe@000': tokenId='81c16104-2117-47f5-b700-632580a6925a', issuer='jffe@000', subject='jffe@000/users/jffe@000', expiry=1615578706771, refreshable=false
+2021-03-12T19:41:46.778Z [AUDIT] Token created by 'jffe@000': tokenId='b5d826f6-2d42-4814-a8bb-6ac77e13800f', issuer='jffe@000', subject='jffe@000/users/jffe@000', expiry=1615578706778, refreshable=false
+2021-03-12T19:41:46.791Z [AUDIT] Token created by 'jffe@000': tokenId='ac99697a-0ff6-4587-b79b-944d30a8523a', issuer='jffe@000', subject='jffe@000/users/jffe@000', expiry=1615578706790, refreshable=false

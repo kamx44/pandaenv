@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-03-10 16:43:05.824 UTC</timestamp>
+  <md5sum>9747d9eb8328bd9eaa53981d3bd9cb24</md5sum>
+  <fileName>Credential id=github name=kamx44/******</fileName>
+  <usages>
+    <entry>
+      <string>first_pipeline</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>Job1</string>
+      <ranges>1-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,41 +1,47 @@
-2021-02-22T17:14:37.186Z [jfrt ] [INFO ] [35be3d92e67f8d65] [o.a.c.h.HaNodeProperties:65   ] [ocalhost-startStop-2] - Artifactory is running in non-clustered mode.
-2021-02-22T17:14:37.242Z [jfrt ] [INFO ] [35be3d92e67f8d65] [tifactoryHomeConfigListener:85] [ocalhost-startStop-2] - Resolved Home: '/opt/jfrog/artifactory
-2021-02-22T17:14:37.793Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:147       ] [Thread-6            ] - Starting watch of folder configurations
-2021-02-22T17:14:37.842Z [jfrt ] [WARN ] [35be3d92e67f8d65] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
-2021-02-22T17:14:41.269Z [jfrt ] [INFO ] [35be3d92e67f8d65] [.BasicConfigurationManager:186] [ocalhost-startStop-2] - Artifactory (jfrt) service initialization started. Version: 7.15.3 Revision: 71503900 PID: 3781 Home: /opt/jfrog/artifactory
-2021-02-22T17:14:46.511Z [jfrt ] [INFO ] [35be3d92e67f8d65] [d.c.m.ConverterManagerImpl:212] [ocalhost-startStop-2] - Triggering PRE_INIT conversion, from 7.15.3 to 7.15.3
-2021-02-22T17:14:46.512Z [jfrt ] [INFO ] [35be3d92e67f8d65] [d.c.m.ConverterManagerImpl:215] [ocalhost-startStop-2] - Finished PRE_INIT conversion, current version is: 7.15.3
-2021-02-22T17:14:46.512Z [jfrt ] [INFO ] [35be3d92e67f8d65] [d.i.DbInitializationManager:48] [ocalhost-startStop-2] - Initializing DB Schema initialization manager
-2021-02-22T17:14:46.513Z [jfrt ] [INFO ] [35be3d92e67f8d65] [.i.DbInitializationManager:176] [ocalhost-startStop-2] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579) Pool: derby
-2021-02-22T17:14:46.513Z [jfrt ] [INFO ] [35be3d92e67f8d65] [.i.DbInitializationManager:179] [ocalhost-startStop-2] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/artifactory/derby
-2021-02-22T17:14:46.950Z [jfrt ] [INFO ] [35be3d92e67f8d65] [d.i.DbInitializationManager:69] [ocalhost-startStop-2] - ***Creating database schema***
-2021-02-22T17:14:49.434Z [jfrt ] [INFO ] [35be3d92e67f8d65] [d.i.DbInitializationManager:72] [ocalhost-startStop-2] - ***Database schema created***
-2021-02-22T17:14:49.435Z [jfrt ] [INFO ] [35be3d92e67f8d65] [d.i.DbInitializationManager:52] [ocalhost-startStop-2] - DB Schema initialization manager initialized
-2021-02-22T17:14:49.443Z [jfrt ] [INFO ] [35be3d92e67f8d65] [SchemaInitializationManager:48] [ocalhost-startStop-2] - Initializing Post-DB initialization manager
-2021-02-22T17:14:49.499Z [jfrt ] [INFO ] [35be3d92e67f8d65] [.c.ConfigurationManagerImpl:97] [ocalhost-startStop-2] - Starting file sync
-2021-02-22T17:14:49.541Z [jfrt ] [INFO ] [35be3d92e67f8d65] [SchemaInitializationManager:51] [ocalhost-startStop-2] - Post-DB initialization manager initialized
-2021-02-22T17:14:50.055Z [jfrt ] [INFO ] [430304ef346e2bc6] [ctoryContextConfigListener:325] [art-init            ] - 
-                _   _  __           _                     _____
-     /\        | | (_)/ _|         | |                   |  __ \
-    /  \   _ __| |_ _| |_ __ _  ___| |_ ___  _ __ _   _  | |__) | __ ___
-   / /\ \ | '__| __| |  _/ _` |/ __| __/ _ \| '__| | | | |  ___/ '__/ _ \
-  / ____ \| |  | |_| | || (_| | (__| || (_) | |  | |_| | | |   | | | (_) |
- /_/    \_\_|   \__|_|_| \__,_|\___|\__\___/|_|   \__, | |_|   |_|  \___/
+2021-03-10T16:04:50.568Z [jfrt ] [INFO ] [b990f30e82407ab4] [o.a.c.h.HaNodeProperties:65   ] [ocalhost-startStop-2] - Artifactory is running in non-clustered mode.
+2021-03-10T16:04:50.652Z [jfrt ] [INFO ] [b990f30e82407ab4] [tifactoryHomeConfigListener:85] [ocalhost-startStop-2] - Resolved Home: '/opt/jfrog/artifactory
+2021-03-10T16:04:53.108Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:147       ] [Thread-7            ] - Starting watch of folder configurations
+2021-03-10T16:04:53.502Z [jfrt ] [WARN ] [b990f30e82407ab4] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-10T16:05:02.324Z [jfrt ] [INFO ] [b990f30e82407ab4] [.BasicConfigurationManager:186] [ocalhost-startStop-2] - Artifactory (jfrt) service initialization started. Version: 7.15.3 Revision: 71503900 PID: 3670 Home: /opt/jfrog/artifactory
+2021-03-10T16:05:05.607Z [jfrt ] [INFO ] [b990f30e82407ab4] [d.c.m.ConverterManagerImpl:212] [ocalhost-startStop-2] - Triggering PRE_INIT conversion, from 7.15.3 to 7.15.3
+2021-03-10T16:05:05.608Z [jfrt ] [INFO ] [b990f30e82407ab4] [d.c.m.ConverterManagerImpl:215] [ocalhost-startStop-2] - Finished PRE_INIT conversion, current version is: 7.15.3
+2021-03-10T16:05:05.611Z [jfrt ] [INFO ] [b990f30e82407ab4] [d.i.DbInitializationManager:48] [ocalhost-startStop-2] - Initializing DB Schema initialization manager
+2021-03-10T16:05:05.612Z [jfrt ] [INFO ] [b990f30e82407ab4] [.i.DbInitializationManager:176] [ocalhost-startStop-2] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579) Pool: derby
+2021-03-10T16:05:05.614Z [jfrt ] [INFO ] [b990f30e82407ab4] [.i.DbInitializationManager:179] [ocalhost-startStop-2] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/artifactory/derby
+2021-03-10T16:05:05.910Z [jfrt ] [INFO ] [b990f30e82407ab4] [d.i.DbInitializationManager:69] [ocalhost-startStop-2] - ***Creating database schema***
+2021-03-10T16:05:09.146Z [jfrt ] [INFO ] [b990f30e82407ab4] [d.i.DbInitializationManager:72] [ocalhost-startStop-2] - ***Database schema created***
+2021-03-10T16:05:09.147Z [jfrt ] [INFO ] [b990f30e82407ab4] [d.i.DbInitializationManager:52] [ocalhost-startStop-2] - DB Schema initialization manager initialized
+2021-03-10T16:05:09.155Z [jfrt ] [INFO ] [b990f30e82407ab4] [SchemaInitializationManager:48] [ocalhost-startStop-2] - Initializing Post-DB initialization manager
+2021-03-10T16:05:09.221Z [jfrt ] [INFO ] [b990f30e82407ab4] [.c.ConfigurationManagerImpl:97] [ocalhost-startStop-2] - Starting file sync
+2021-03-10T16:05:09.279Z [jfrt ] [INFO ] [b990f30e82407ab4] [SchemaInitializationManager:51] [ocalhost-startStop-2] - Post-DB initialization manager initialized
+2021-03-10T16:05:10.166Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [ctoryContextConfigListener:325] [art-init            ] - 
+                _   _  __           _                      ____   _____ _____
+     /\        | | (_)/ _|         | |                    / __ \ / ____/ ____|
+    /  \   _ __| |_ _| |_ __ _  ___| |_ ___  _ __ _   _  | |  | | (___| (___
+   / /\ \ | '__| __| |  _/ _` |/ __| __/ _ \| '__| | | | | |  | |\___ \\___ \
+  / ____ \| |  | |_| | || (_| | (__| || (_) | |  | |_| | | |__| |____) |___) |
+ /_/    \_\_|   \__|_|_| \__,_|\___|\__\___/|_|   \__, |  \____/|_____/_____/
  Version:  7.15.3                                  __/ |
  Revision: 71503900                               |___/
  Artifactory Home: '/opt/jfrog/artifactory'
- Node ID: '041b93e8ce49'
+ Node ID: 'abda517ab21e'
 
-2021-02-22T17:14:50.345Z [jfrt ] [INFO ] [430304ef346e2bc6] [ifactoryApplicationContext:560] [art-init            ] - Artifactory application context set to NOT READY by refresh
-2021-02-22T17:14:57.575Z [jfrt ] [WARN ] [430304ef346e2bc6] [c.z.h.u.DriverDataSource:70   ] [art-init            ] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
-2021-02-22T17:14:57.616Z [jfrt ] [INFO ] [430304ef346e2bc6] [o.a.s.d.v.DerbyValidator:26   ] [art-init            ] - Validating connection collation for derby database
-2021-02-22T17:14:59.809Z [jfrt ] [INFO ] [430304ef346e2bc6] [ritiesStorageServiceFactory:25] [art-init            ] - Initializing DB-based Priorities Storage Service
-2021-02-22T17:15:03.018Z [jfrt ] [INFO ] [430304ef346e2bc6] [HaRoleManagerServiceFactory:24] [art-init            ] - Initializing Primary-based HA role manager
-2021-02-22T17:15:03.430Z [jfrt ] [INFO ] [430304ef346e2bc6] [actorySchedulerFactoryBean:727] [art-init            ] - Starting Quartz Scheduler now
-2021-02-22T17:15:03.487Z [jfrt ] [INFO ] [430304ef346e2bc6] [ifactoryApplicationContext:281] [art-init            ] - Artifactory context starting up 67 Spring Beans...
-2021-02-22T17:15:03.536Z [jfrt ] [INFO ] [430304ef346e2bc6] [c.CentralConfigServiceImpl:321] [art-init            ] - Loading bootstrap configuration (artifactory home dir is /opt/jfrog/artifactory).
-2021-02-22T17:15:03.821Z [jfrt ] [INFO ] [430304ef346e2bc6] [c.CentralConfigServiceImpl:852] [art-init            ] - No Central configuration found in the database, using default configuration.
-2021-02-22T17:15:03.929Z [jfrt ] [INFO ] [430304ef346e2bc6] [o.a.i.InfoWriter:54           ] [art-init            ] - 
+2021-03-10T16:05:10.307Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [ifactoryApplicationContext:560] [art-init            ] - Artifactory application context set to NOT READY by refresh
+2021-03-10T16:05:15.746Z [jfrt ] [WARN ] [41ce12b2ac07afa1] [c.z.h.u.DriverDataSource:70   ] [art-init            ] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-10T16:05:15.790Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [o.a.s.d.v.DerbyValidator:26   ] [art-init            ] - Validating connection collation for derby database
+2021-03-10T16:05:17.246Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [ritiesStorageServiceFactory:25] [art-init            ] - Initializing DB-based Priorities Storage Service
+2021-03-10T16:05:18.753Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [actorySchedulerFactoryBean:727] [art-init            ] - Starting Quartz Scheduler now
+2021-03-10T16:05:18.789Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [ifactoryApplicationContext:281] [art-init            ] - Artifactory context starting up 47 Spring Beans...
+2021-03-10T16:05:18.833Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [c.CentralConfigServiceImpl:321] [art-init            ] - Loading bootstrap configuration (artifactory home dir is /opt/jfrog/artifactory).
+2021-03-10T16:05:19.117Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [c.CentralConfigServiceImpl:852] [art-init            ] - No Central configuration found in the database, using default configuration.
+2021-03-10T16:05:19.265Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [o.a.s.a.AccessServiceImpl:506 ] [art-init            ] - Initialized new service id: jfrt@01f0ee59rzdypp0wd25tvx1wd1
+2021-03-10T16:05:19.292Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [oryAccessClientConfigStore:519] [art-init            ] - Using Access Server URL: http://localhost:8046/access source: System Config
+2021-03-10T16:05:19.689Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [.a.c.AccessClientBootstrap:152] [art-init            ] - Cluster join: Executing join on 'http://localhost:8046/access'
+2021-03-10T16:05:19.836Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [.a.c.AccessClientBootstrap:162] [art-init            ] - Cluster join: Successfully joined the cluster
+2021-03-10T16:05:20.641Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [o.a.s.a.AccessServiceImpl:437 ] [art-init            ] - Initialized access service successfully with client id 1670410218, closing old client id [null]
+2021-03-10T16:05:20.642Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [o.a.s.a.AccessServiceImpl:1313] [art-init            ] - Updating access configuration with password expiration data
+2021-03-10T16:05:21.172Z [jfrt ] [WARN ] [41ce12b2ac07afa1] [o.a.s.a.AccessServiceImpl:1562] [art-init            ] - Your Artifactory server is configured with the default admin credentials. It is highly recommended to change the default admin password. You can change the password from the User Management page.
+2021-03-10T16:05:21.286Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [o.a.i.InfoWriter:54           ] [art-init            ] - 
 
  SYSTEM INFORMATION DUMP
  =======================
@@ -122,11 +128,11 @@
    Heap Memory Usage-Commited                                            | 536870912
    Heap Memory Usage-Init                                                | 536870912
    Heap Memory Usage-Max                                                 | 2147483648
-   Heap Memory Usage-Used                                                | 424718712
-   Non-Heap Memory Usage-Commited                                        | 249696256
+   Heap Memory Usage-Used                                                | 277114368
+   Non-Heap Memory Usage-Commited                                        | 251154432
    Non-Heap Memory Usage-Init                                            | 7667712
    Non-Heap Memory Usage-Max                                             | -1
-   Non-Heap Memory Usage-Used                                            | 238075144
+   Non-Heap Memory Usage-Used                                            | 240715624
    os.arch                                                               | amd64
    os.name                                                               | Linux
    os.version                                                            | 4.15.0-128-generic
@@ -649,213 +655,208 @@
    artifactory.security.api.plus.insteadof.space                         | true
    artifactory.validate.lowercase.username.on.group.association          | false
 
-2021-02-22T17:15:04.084Z [jfrt ] [INFO ] [430304ef346e2bc6] [o.a.s.a.AccessServiceImpl:506 ] [art-init            ] - Initialized new service id: jfrt@01ez5bsggjc7h01x9d4aqs0mc0
-2021-02-22T17:15:04.115Z [jfrt ] [INFO ] [430304ef346e2bc6] [oryAccessClientConfigStore:519] [art-init            ] - Using Access Server URL: http://localhost:8046/access source: System Config
-2021-02-22T17:15:04.452Z [jfrt ] [INFO ] [430304ef346e2bc6] [.a.c.AccessClientBootstrap:152] [art-init            ] - Cluster join: Executing join on 'http://localhost:8046/access'
-2021-02-22T17:15:04.620Z [jfrt ] [INFO ] [430304ef346e2bc6] [.a.c.AccessClientBootstrap:162] [art-init            ] - Cluster join: Successfully joined the cluster
-2021-02-22T17:15:05.444Z [jfrt ] [INFO ] [430304ef346e2bc6] [o.a.s.a.AccessServiceImpl:437 ] [art-init            ] - Initialized access service successfully with client id 1651820540, closing old client id [null]
-2021-02-22T17:15:05.444Z [jfrt ] [INFO ] [430304ef346e2bc6] [o.a.s.a.AccessServiceImpl:1313] [art-init            ] - Updating access configuration with password expiration data
-2021-02-22T17:15:05.936Z [jfrt ] [WARN ] [430304ef346e2bc6] [o.a.s.a.AccessServiceImpl:1562] [art-init            ] - Your Artifactory server is configured with the default admin credentials. It is highly recommended to change the default admin password. You can change the password from the User Management page.
-2021-02-22T17:15:06.287Z [jfrt ] [INFO ] [430304ef346e2bc6] [o.a.s.SecurityServiceImpl:3147] [art-init            ] - Creating the default anonymous user, since it does not exist!
-2021-02-22T17:15:06.708Z [jfrt ] [INFO ] [430304ef346e2bc6] [tegrationCleanupServiceImpl:75] [art-init            ] - Using generated cron 0 59 3 ? * * for jobs table cleanup
-2021-02-22T17:15:07.491Z [jfrt ] [INFO ] [430304ef346e2bc6] [.c.r.ReplicatorServiceImpl:119] [art-init            ] - initializing Replicator Service
-2021-02-22T17:15:07.493Z [jfrt ] [INFO ] [430304ef346e2bc6] [.c.r.ReplicatorServiceImpl:338] [art-init            ] - Local Replicator is setting up in non-bundled mode
-2021-02-22T17:15:07.724Z [jfrt ] [INFO ] [430304ef346e2bc6] [c.CentralConfigServiceImpl:697] [art-init            ] - Reloading configuration... old revision 0, new revision 1
-2021-02-22T17:15:07.759Z [jfrt ] [INFO ] [430304ef346e2bc6] [c.CentralConfigServiceImpl:401] [art-init            ] - Force updating new descriptor (old descriptor doesn't support diff). Old descriptor revision 0
-2021-02-22T17:15:07.773Z [jfrt ] [INFO ] [430304ef346e2bc6] [c.CentralConfigServiceImpl:424] [art-init            ] - New configuration with revision 1 saved.
-2021-02-22T17:15:07.774Z [jfrt ] [INFO ] [430304ef346e2bc6] [ifactoryApplicationContext:560] [art-init            ] - Artifactory application context set to NOT READY by reload
-2021-02-22T17:15:07.879Z [jfrt ] [WARN ] [430304ef346e2bc6] [c.z.h.u.DriverDataSource:70   ] [art-init            ] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
-2021-02-22T17:15:07.927Z [jfrt ] [INFO ] [430304ef346e2bc6] [askServiceDescriptorHandler:52] [art-init            ] - No Replication configured. Replication is disabled.
-2021-02-22T17:15:07.963Z [jfrt ] [INFO ] [430304ef346e2bc6] [ifactoryApplicationContext:560] [art-init            ] - Artifactory application context set to READY by reload
-2021-02-22T17:15:07.975Z [jfrt ] [INFO ] [430304ef346e2bc6] [c.CentralConfigServiceImpl:715] [art-init            ] - Configuration reloaded.
-2021-02-22T17:15:08.002Z [jfrt ] [INFO ] [430304ef346e2bc6] [ifactoryApplicationContext:560] [art-init            ] - Artifactory application context set to READY by refresh
-2021-02-22T17:15:08.258Z [jfrt ] [INFO ] [430304ef346e2bc6] [.s.MetadataMigrationHelper:203] [art-init            ] - No repositories found that correspond to the supported Metadata Migration types. Supported types are [YUM, Helm, Debian, SBT, Chef, CocoaPods, Composer, Bower, Alpine, Ivy, Conda, Conan, Opkg, Go, Pypi, Maven, Vagrant, Docker, Gradle, Gems, NuGet, Npm, CRAN, Puppet]
-2021-02-22T17:15:08.267Z [jfrt ] [INFO ] [430304ef346e2bc6] [.s.MetadataMigrationHelper:213] [art-init            ] - Inserting completed migration status for 'metadata-service-migration'
-2021-02-22T17:15:08.270Z [jfrt ] [INFO ] [430304ef346e2bc6] [ionStatusStorageServiceImpl:78] [art-init            ] - About to insert new migration status record 'MigrationStatus(identifier=metadata-service-migration, started=1614014108269, finished=1614014108269, migrationInfoBlob=MetadataMigrationInfoBlob(migrationTargetNodeId=0, currentEventLogTimestamp=0, reposToMigrate=null))'
-2021-02-22T17:15:08.311Z [jfrt ] [INFO ] [7b7713ece32df866] [c.CentralConfigServiceImpl:697] [art-exec-7          ] - Reloading configuration... old revision 1, new revision 2
-2021-02-22T17:15:08.318Z [jfrt ] [INFO ] [430304ef346e2bc6] [.w.NodeEventTaskManagerImpl:43] [art-init            ] - Event management started on behalf of Event Operator with ID 'metadata-operator-events'
-2021-02-22T17:15:08.326Z [jfrt ] [INFO ] [430304ef346e2bc6] [o.a.m.f.MetricsServiceImpl:124] [art-init            ] - Metric Framework Service is enabled: false
-2021-02-22T17:15:08.342Z [jfrt ] [INFO ] [430304ef346e2bc6] [o.a.s.s.StorageServiceImpl:531] [art-init            ] - Scheduling CalculateReposStorageSummaryJob to run at '0 23 * ? * *'
-2021-02-22T17:15:08.360Z [jfrt ] [INFO ] [430304ef346e2bc6] [o.a.s.s.StorageServiceImpl:560] [art-init            ] - LogStorageStatusJob disabled and not scheduled to run
-2021-02-22T17:15:08.420Z [jfrt ] [INFO ] [7b7713ece32df866] [c.CentralConfigServiceImpl:424] [art-exec-7          ] - New configuration with revision 2 saved.
-2021-02-22T17:15:08.421Z [jfrt ] [INFO ] [7b7713ece32df866] [ifactoryApplicationContext:560] [art-exec-7          ] - Artifactory application context set to NOT READY by reload
-2021-02-22T17:15:08.434Z [jfrt ] [INFO ] [430304ef346e2bc6] [o.a.s.a.AccessServiceImpl:1619] [art-init            ] - Successful register of Artifactory serviceId jfrt@01ez5bsggjc7h01x9d4aqs0mc0 in Access Federation
-2021-02-22T17:15:08.436Z [jfrt ] [INFO ] [430304ef346e2bc6] [ctoryEncryptionServiceImpl:107] [art-init            ] - Starting encryption for first Artifactory startup
-2021-02-22T17:15:08.436Z [jfrt ] [INFO ] [430304ef346e2bc6] [j.s.f.SecurityFolderHelper:171] [art-init            ] - Creating artifactory encryption key at /opt/jfrog/artifactory/var/etc/artifactory/security/artifactory.tmp.key
-2021-02-22T17:15:08.445Z [jfrt ] [INFO ] [430304ef346e2bc6] [o.j.c.ConfigWrapperImpl:342   ] [art-init            ] - [Node ID: 041b93e8ce49]  detected local  create for config 'artifactory/config/security/artifactory.key'
-2021-02-22T17:15:08.490Z [jfrt ] [INFO ] [7b7713ece32df866] [ifactoryApplicationContext:560] [art-exec-7          ] - Artifactory application context set to READY by reload
-2021-02-22T17:15:08.503Z [jfrt ] [INFO ] [7b7713ece32df866] [c.CentralConfigServiceImpl:715] [art-exec-7          ] - Configuration reloaded.
-2021-02-22T17:15:08.524Z [jfrt ] [INFO ] [317389ec0cdd0fb7] [adsFolderCleanupServiceImpl:52] [art-exec-10         ] - Starting docker temp folder cleanup
-2021-02-22T17:15:08.528Z [jfrt ] [INFO ] [317389ec0cdd0fb7] [adsFolderCleanupServiceImpl:54] [art-exec-10         ] - Docker temp folder cleanup finished, time took: 4 millis
-2021-02-22T17:15:08.542Z [jfrt ] [INFO ] [430304ef346e2bc6] [ctoryContextConfigListener:266] [art-init            ] - Artifactory (jfrt) service initialization completed in 18.516 seconds. Listening on port: 8081
-2021-02-22T17:15:08.554Z [jfrt ] [INFO ] [                ] [d.DatabaseConverterRunnable:37] [pool-43-thread-1    ] - Starting Async converter thread.
-2021-02-22T17:15:08.555Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-43-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_name_idx
-2021-02-22T17:15:08.555Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-43-thread-1    ] - Conversion of v225_change_nodes_node_name_idx finished successfully.
-2021-02-22T17:15:08.555Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-43-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_path_idx
-2021-02-22T17:15:08.555Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-43-thread-1    ] - Conversion of v225_change_nodes_node_path_idx finished successfully.
-2021-02-22T17:15:08.555Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-43-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_repo_path_idx
-2021-02-22T17:15:08.555Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-43-thread-1    ] - Conversion of v225_change_nodes_node_repo_path_idx finished successfully.
-2021-02-22T17:15:08.556Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-43-thread-1    ] - Starting attempt #1 of async conversion for v225_add_bundle_files_node_id_index
-2021-02-22T17:15:08.716Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-43-thread-1    ] - Conversion of v225_add_bundle_files_node_id_index finished successfully.
-2021-02-22T17:15:09.550Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [pool-14-thread-1    ] - [Node ID: 041b93e8ce49]  detected local  modify for config 'artifactory/config/artifactory.system.properties'
-2021-02-22T17:15:09.556Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [pool-15-thread-1    ] - [Node ID: 041b93e8ce49]  detected local  modify for config 'artifactory/config/mimetypes.xml'
-2021-02-22T17:15:09.557Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [pool-16-thread-1    ] - [Node ID: 041b93e8ce49]  detected local  modify for config 'artifactory/config/binarystore.xml'
-2021-02-22T17:15:24.620Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [pool-31-thread-1    ] - [Node ID: 041b93e8ce49]  detected local  modify for config 'artifactory/config/security/access/access.admin.token'
-2021-02-22T17:15:38.013Z [jfrt ] [INFO ] [1714ab9b45e7902b] [a.e.EventsLogCleanUpService:59] [art-exec-8          ] - Starting cleanup of old events from event log
-2021-02-22T17:15:38.023Z [jfrt ] [INFO ] [1714ab9b45e7902b] [a.e.EventsLogCleanUpService:81] [art-exec-8          ] - Cleanup of old events from event log finished
-2021-02-22T17:29:04.326Z [jfrt ] [INFO ] [3ef84ac86d3b663f] [o.a.s.SecurityServiceImpl:1518] [http-nio-8081-exec-3] - Password for user: 'admin' has been successfully changed
-2021-02-22T17:32:18.410Z [jfrt ] [INFO ] [24e411aac0fbf2d3] [ifactoryApplicationContext:560] [http-nio-8081-exec-1] - Artifactory application context set to NOT READY by reload
-2021-02-22T17:32:18.500Z [jfrt ] [INFO ] [24e411aac0fbf2d3] [ifactoryApplicationContext:560] [http-nio-8081-exec-1] - Artifactory application context set to READY by reload
-2021-02-22T17:32:18.505Z [jfrt ] [INFO ] [24e411aac0fbf2d3] [.a.a.p.ProjectsServiceImpl:528] [http-nio-8081-exec-1] - Scheduling ProjectStorageQuotaNotificationJob to run every 60 minutes
-2021-02-22T17:32:18.511Z [jfrt ] [INFO ] [24e411aac0fbf2d3] [o.a.s.s.StorageServiceImpl:549] [http-nio-8081-exec-1] - Scheduling SyncStorageUsageJob to run at '12 0/1 * ? * * *'
-2021-02-22T17:32:18.695Z [jfrt ] [INFO ] [24e411aac0fbf2d3] [askServiceDescriptorHandler:44] [http-nio-8081-exec-1] - Removing all job Replication from task service handler.
-2021-02-22T17:32:18.701Z [jfrt ] [INFO ] [24e411aac0fbf2d3] [askServiceDescriptorHandler:52] [http-nio-8081-exec-1] - No Replication configured. Replication is disabled.
-2021-02-22T17:32:38.350Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [pool-48-thread-1    ] - [Node ID: 041b93e8ce49]  detected local  modify for config 'artifactory/config/artifactory.lic'
-2021-02-22T18:15:06.053Z [jfrt ] [INFO ] [235284209a0b141d] [aseBundleCleanupServiceImpl:84] [art-exec-7          ] - Starting to cleanup incomplete Release Bundles
-2021-02-22T18:15:06.059Z [jfrt ] [INFO ] [235284209a0b141d] [aseBundleCleanupServiceImpl:90] [art-exec-7          ] - Finished incomplete Release Bundles cleanup
-2021-02-22T18:16:21.485Z [jfrt ] [INFO ] [54d7ac531e7f7419] [ateRepositoryConfigService:108] [http-nio-8081-exec-4] - Creating repository libs-release-local
-2021-02-22T18:16:21.763Z [jfrt ] [INFO ] [54d7ac531e7f7419] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-4] - Reloading configuration... old revision 2, new revision 3
-2021-02-22T18:16:21.847Z [jfrt ] [INFO ] [54d7ac531e7f7419] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-4] - New configuration with revision 3 saved.
-2021-02-22T18:16:21.848Z [jfrt ] [INFO ] [54d7ac531e7f7419] [ifactoryApplicationContext:560] [http-nio-8081-exec-4] - Artifactory application context set to NOT READY by reload
-2021-02-22T18:16:21.911Z [jfrt ] [INFO ] [54d7ac531e7f7419] [askServiceDescriptorHandler:52] [http-nio-8081-exec-4] - No Replication configured. Replication is disabled.
-2021-02-22T18:16:21.928Z [jfrt ] [INFO ] [54d7ac531e7f7419] [ifactoryApplicationContext:560] [http-nio-8081-exec-4] - Artifactory application context set to READY by reload
-2021-02-22T18:16:21.943Z [jfrt ] [INFO ] [54d7ac531e7f7419] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-4] - Configuration reloaded.
-2021-02-22T18:17:29.449Z [jfrt ] [INFO ] [8f6f6942ed3f5dc ] [ateRepositoryConfigService:108] [http-nio-8081-exec-3] - Creating repository libs-snapshot-local
-2021-02-22T18:17:29.461Z [jfrt ] [INFO ] [8f6f6942ed3f5dc ] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-3] - Reloading configuration... old revision 3, new revision 4
-2021-02-22T18:17:29.512Z [jfrt ] [INFO ] [8f6f6942ed3f5dc ] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-3] - New configuration with revision 4 saved.
-2021-02-22T18:17:29.512Z [jfrt ] [INFO ] [8f6f6942ed3f5dc ] [ifactoryApplicationContext:560] [http-nio-8081-exec-3] - Artifactory application context set to NOT READY by reload
-2021-02-22T18:17:29.559Z [jfrt ] [INFO ] [8f6f6942ed3f5dc ] [askServiceDescriptorHandler:52] [http-nio-8081-exec-3] - No Replication configured. Replication is disabled.
-2021-02-22T18:17:29.570Z [jfrt ] [INFO ] [8f6f6942ed3f5dc ] [ifactoryApplicationContext:560] [http-nio-8081-exec-3] - Artifactory application context set to READY by reload
-2021-02-22T18:17:29.572Z [jfrt ] [INFO ] [8f6f6942ed3f5dc ] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-3] - Configuration reloaded.
-2021-02-22T18:28:21.940Z [jfrt ] [ERROR] [55dcf90c7699b877] [o.a.s.SecurityServiceImpl:1451] [http-nio-8081-exec-4] - Unable to create user: 'maven', New password doesn't qualify password policy: uppercase requirement is invalid. Should include at least 1
-2021-02-22T19:15:06.056Z [jfrt ] [INFO ] [10ed795e0568c8d0] [aseBundleCleanupServiceImpl:84] [art-exec-6          ] - Starting to cleanup incomplete Release Bundles
-2021-02-22T19:15:06.059Z [jfrt ] [INFO ] [10ed795e0568c8d0] [aseBundleCleanupServiceImpl:90] [art-exec-6          ] - Finished incomplete Release Bundles cleanup
-2021-02-22T19:25:08.419Z [jfrt ] [INFO ] [f45e1e74ab4d28ec] [o.a.e.UploadServiceImpl:445   ] [http-nio-8081-exec-6] - Deploy to 'libs-release-local:pl/pandait/panda/0.0.1/panda-0.0.1.jar' Content-Length: 19063702 (estimation)
-2021-02-22T19:25:09.411Z [jfrt ] [INFO ] [7f52ae15407408f7] [o.a.e.UploadServiceImpl:320   ] [ttp-nio-8081-exec-10] - Deploy to 'libs-release-local:pl/pandait/panda/0.0.1/panda-0.0.1.jar.sha1' Content-Length: 40
-2021-02-22T19:25:09.436Z [jfrt ] [INFO ] [f6d4249ee985ab2c] [o.a.e.UploadServiceImpl:320   ] [http-nio-8081-exec-9] - Deploy to 'libs-release-local:pl/pandait/panda/0.0.1/panda-0.0.1.jar.md5' Content-Length: 32
-2021-02-22T19:25:09.463Z [jfrt ] [INFO ] [f74c78d117a24dc0] [o.a.e.UploadServiceImpl:445   ] [http-nio-8081-exec-8] - Deploy to 'libs-release-local:pl/pandait/panda/0.0.1/panda-0.0.1.pom' Content-Length: 1896 (estimation)
-2021-02-22T19:25:09.563Z [jfrt ] [INFO ] [cc1234cb01b6d3bf] [o.a.e.UploadServiceImpl:320   ] [http-nio-8081-exec-7] - Deploy to 'libs-release-local:pl/pandait/panda/0.0.1/panda-0.0.1.pom.sha1' Content-Length: 40
-2021-02-22T19:25:09.634Z [jfrt ] [INFO ] [d3fdb260ca17cff2] [o.a.e.UploadServiceImpl:320   ] [http-nio-8081-exec-4] - Deploy to 'libs-release-local:pl/pandait/panda/0.0.1/panda-0.0.1.pom.md5' Content-Length: 32
-2021-02-22T19:25:09.715Z [jfrt ] [INFO ] [567a02dbc8ec16cc] [o.a.e.UploadServiceImpl:445   ] [http-nio-8081-exec-3] - Deploy to 'libs-release-local:pl/pandait/panda/maven-metadata.xml' Content-Length: 322 (estimation)
-2021-02-22T19:25:09.748Z [jfrt ] [INFO ] [8434aedfcdcb2a80] [o.a.e.UploadServiceImpl:320   ] [http-nio-8081-exec-5] - Deploy to 'libs-release-local:pl/pandait/panda/maven-metadata.xml.sha1' Content-Length: 40
-2021-02-22T19:25:09.752Z [jfrt ] [INFO ] [21157d3eec0bffc3] [o.a.e.UploadServiceImpl:320   ] [http-nio-8081-exec-6] - Deploy to 'libs-release-local:pl/pandait/panda/maven-metadata.xml.md5' Content-Length: 32
-2021-02-22T20:00:00.004Z [jfrt ] [INFO ] [5684bdfd408f375 ] [.s.d.b.s.BinaryServiceImpl:632] [art-exec-12         ] - Triggering Garbage Collection
-2021-02-22T20:00:00.274Z [jfrt ] [INFO ] [5684bdfd408f375 ] [.s.d.b.s.g.GarbageCollector:66] [art-exec-12         ] - Starting GC strategy 'TRASH_AND_BINARIES'
-2021-02-22T20:00:00.289Z [jfrt ] [INFO ] [5684bdfd408f375 ] [.s.d.b.s.g.GarbageCollector:68] [art-exec-12         ] - Finished GC Strategy 'TRASH_AND_BINARIES'
-2021-02-23T20:29:56.017Z [jfrt ] [INFO ] [b126d52c1451cdf6] [.s.d.b.s.BinaryServiceImpl:632] [art-exec-7          ] - Triggering Garbage Collection
-2021-02-23T20:29:56.023Z [jfrt ] [INFO ] [760a24c8b42a2723] [ualCacheCleanupServiceImpl:119] [art-exec-4          ] - Starting cleanup of virtual repositories cache
-2021-02-23T20:29:56.033Z [jfrt ] [INFO ] [b126d52c1451cdf6] [.s.d.b.s.g.GarbageCollector:66] [art-exec-7          ] - Starting GC strategy 'TRASH_AND_BINARIES'
-2021-02-23T20:29:56.064Z [jfrt ] [INFO ] [b126d52c1451cdf6] [.s.d.b.s.g.GarbageCollector:68] [art-exec-7          ] - Finished GC Strategy 'TRASH_AND_BINARIES'
-2021-02-23T20:29:56.043Z [jfrt ] [INFO ] [9fd30dd16498514 ] [tegrationCleanupServiceImpl:44] [art-exec-11         ] - cleaning jobs table
-2021-02-23T20:29:56.062Z [jfrt ] [INFO ] [760a24c8b42a2723] [ualCacheCleanupServiceImpl:127] [art-exec-4          ] - Completed virtual repositories cleanup: removed 0 cached files.
-2021-02-23T20:29:56.186Z [jfrt ] [INFO ] [9fd30dd16498514 ] [tegrationCleanupServiceImpl:48] [art-exec-11         ] - cleaned up 0 old job records
-2021-02-23T20:29:56.825Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [ifactoryApplicationContext:709] [art-exec-6          ] - Beginning full system export...
-2021-02-23T20:29:56.827Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [ifactoryApplicationContext:736] [art-exec-6          ] - Creating temp export directory: /opt/jfrog/artifactory/var/backup/artifactory/backup-daily/current
-2021-02-23T20:29:56.847Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [ifactoryApplicationContext:743] [art-exec-6          ] - Using backup directory: '/opt/jfrog/artifactory/var/backup/artifactory/backup-daily/current'.
-2021-02-23T20:29:56.849Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [c.CentralConfigServiceImpl:654] [art-exec-6          ] - Exporting config...
-2021-02-23T20:29:57.453Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [o.a.s.a.AccessServiceImpl:1381] [art-exec-6          ] - Exporting serviceId to file
-2021-02-23T20:29:57.456Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [o.a.s.a.AccessServiceImpl:1363] [art-exec-6          ] - Triggering export in access server...
-2021-02-23T20:29:58.100Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [ifactoryApplicationContext:937] [art-exec-6          ] - Note: the etc exported folder has excessive permissions. Be careful with the files.
-2021-02-23T20:29:58.106Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [a.s.u.SignedUrlServiceImpl:295] [art-exec-6          ] - Exporting URL signing key...
-2021-02-23T20:29:58.110Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [r.s.RepositoryServiceImpl:1023] [art-exec-6          ] - Exporting repositories...
-2021-02-23T20:29:58.128Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [a.r.d.i.DbRepoExportHandler:79] [art-exec-6          ] - artifactory-build-info export started with 1 nodes to: '/opt/jfrog/artifactory/var/backup/artifactory/backup-daily/current/repositories/artifactory-build-info'
-2021-02-23T20:29:58.146Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [a.r.d.i.DbRepoExportHandler:89] [art-exec-6          ] - artifactory-build-info export finished with: 1 Items exported (0 files and 1 folders), 0 Item skipped: (0 files and 0 folders).Duration: 22.14 millis IPS: 45.16 Target: '/opt/jfrog/artifactory/var/backup/artifactory/backup-daily/current/repositories/artifactory-build-info'
-2021-02-23T20:29:58.147Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [a.r.d.i.DbRepoExportHandler:79] [art-exec-6          ] - example-repo-local export started with 1 nodes to: '/opt/jfrog/artifactory/var/backup/artifactory/backup-daily/current/repositories/example-repo-local'
-2021-02-23T20:29:58.158Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [a.r.d.i.DbRepoExportHandler:89] [art-exec-6          ] - example-repo-local export finished with: 1 Items exported (0 files and 1 folders), 0 Item skipped: (0 files and 0 folders).Duration: 11.28 millis IPS: 88.64 Target: '/opt/jfrog/artifactory/var/backup/artifactory/backup-daily/current/repositories/example-repo-local'
-2021-02-23T20:29:58.163Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [a.r.d.i.DbRepoExportHandler:79] [art-exec-6          ] - libs-release-local export started with 8 nodes to: '/opt/jfrog/artifactory/var/backup/artifactory/backup-daily/current/repositories/libs-release-local'
-2021-02-23T20:29:58.562Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [a.r.d.i.DbRepoExportHandler:89] [art-exec-6          ] - libs-release-local export finished with: 8 Items exported (3 files and 5 folders), 0 Item skipped: (0 files and 0 folders).Duration: 402.66 millis IPS: 19.87 Target: '/opt/jfrog/artifactory/var/backup/artifactory/backup-daily/current/repositories/libs-release-local'
-2021-02-23T20:29:58.563Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [a.r.d.i.DbRepoExportHandler:79] [art-exec-6          ] - libs-snapshot-local export started with 1 nodes to: '/opt/jfrog/artifactory/var/backup/artifactory/backup-daily/current/repositories/libs-snapshot-local'
-2021-02-23T20:29:58.567Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [a.r.d.i.DbRepoExportHandler:89] [art-exec-6          ] - libs-snapshot-local export finished with: 1 Items exported (0 files and 1 folders), 0 Item skipped: (0 files and 0 folders).Duration: 3.28 millis IPS: 304.81 Target: '/opt/jfrog/artifactory/var/backup/artifactory/backup-daily/current/repositories/libs-snapshot-local'
-2021-02-23T20:29:58.592Z [jfrt ] [INFO ] [8fdfed9ba0305dc9] [ifactoryApplicationContext:839] [art-exec-6          ] - Full system export completed successfully.
-2021-02-23T20:30:06.774Z [jfrt ] [ERROR] [86b5eb119fd2cb9d] [o.a.m.s.CallHomeService:119   ] [art-exec-8          ] - Failed calling home: api.bintray.com: Temporary failure in name resolution
-java.net.UnknownHostException: api.bintray.com: Temporary failure in name resolution
-	at java.base/java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
-	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
-	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
-	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
-	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1368)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1302)
-	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.jfrog.client.http.CloseableHttpClientDecorator.doExecute(CloseableHttpClientDecorator.java:109)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-	at org.artifactory.metrics.services.CallHomeService.callHome(CallHomeService.java:114)
-	at org.artifactory.metrics.services.CallHomeService$$FastClassBySpringCGLIB$$1d14b447.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
-	at org.artifactory.schedule.aop.TraceableMethodInvocation.proceed(TraceableMethodInvocation.java:72)
-	at org.artifactory.schedule.aop.AsyncAdvice.doInvoke(AsyncAdvice.java:334)
-	at org.artifactory.schedule.aop.AsyncAdvice.lambda$submit$2(AsyncAdvice.java:285)
+2021-03-10T16:05:21.864Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [o.a.s.SecurityServiceImpl:3147] [art-init            ] - Creating the default anonymous user, since it does not exist!
+2021-03-10T16:05:22.285Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [tegrationCleanupServiceImpl:75] [art-init            ] - Using generated cron 0 51 1 ? * * for jobs table cleanup
+2021-03-10T16:05:22.321Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [ifactoryApplicationContext:560] [art-init            ] - Artifactory application context set to READY by refresh
+2021-03-10T16:05:22.408Z [jfrt ] [WARN ] [27143368984b2a83] [c.z.h.u.DriverDataSource:70   ] [art-exec-2          ] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-10T16:05:22.446Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [.s.MetadataMigrationHelper:203] [art-init            ] - No repositories found that correspond to the supported Metadata Migration types. Supported types are [Opkg, Pypi, Conan, YUM, CRAN, Vagrant, CocoaPods, Helm, NuGet, Gems, SBT, Gradle, Bower, Conda, Puppet, Maven, Docker, Composer, Debian, Go, Alpine, Chef, Npm, Ivy]
+2021-03-10T16:05:22.454Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [.s.MetadataMigrationHelper:213] [art-init            ] - Inserting completed migration status for 'metadata-service-migration'
+2021-03-10T16:05:22.455Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [ionStatusStorageServiceImpl:78] [art-init            ] - About to insert new migration status record 'MigrationStatus(identifier=metadata-service-migration, started=1615392322455, finished=1615392322455, migrationInfoBlob=MetadataMigrationInfoBlob(migrationTargetNodeId=0, currentEventLogTimestamp=0, reposToMigrate=null))'
+2021-03-10T16:05:22.482Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [.w.NodeEventTaskManagerImpl:43] [art-init            ] - Event management started on behalf of Event Operator with ID 'metadata-operator-events'
+2021-03-10T16:05:22.489Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [o.a.m.f.MetricsServiceImpl:124] [art-init            ] - Metric Framework Service is enabled: false
+2021-03-10T16:05:22.492Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [o.a.s.s.StorageServiceImpl:531] [art-init            ] - Scheduling CalculateReposStorageSummaryJob to run at '0 0 * ? * *'
+2021-03-10T16:05:22.494Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [o.a.s.s.StorageServiceImpl:560] [art-init            ] - LogStorageStatusJob disabled and not scheduled to run
+2021-03-10T16:05:22.541Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [o.a.s.a.AccessServiceImpl:1619] [art-init            ] - Successful register of Artifactory serviceId jfrt@01f0ee59rzdypp0wd25tvx1wd1 in Access Federation
+2021-03-10T16:05:22.542Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [ctoryEncryptionServiceImpl:107] [art-init            ] - Starting encryption for first Artifactory startup
+2021-03-10T16:05:22.543Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [j.s.f.SecurityFolderHelper:171] [art-init            ] - Creating artifactory encryption key at /opt/jfrog/artifactory/var/etc/artifactory/security/artifactory.tmp.key
+2021-03-10T16:05:22.552Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [o.j.c.ConfigWrapperImpl:342   ] [art-init            ] - [Node ID: abda517ab21e]  detected local  create for config 'artifactory/config/security/artifactory.key'
+2021-03-10T16:05:22.585Z [jfrt ] [INFO ] [7f930868d0aff034] [adsFolderCleanupServiceImpl:52] [art-exec-4          ] - Starting docker temp folder cleanup
+2021-03-10T16:05:22.588Z [jfrt ] [INFO ] [7f930868d0aff034] [adsFolderCleanupServiceImpl:54] [art-exec-4          ] - Docker temp folder cleanup finished, time took: 3 millis
+2021-03-10T16:05:22.606Z [jfrt ] [INFO ] [                ] [d.DatabaseConverterRunnable:37] [pool-39-thread-1    ] - Starting Async converter thread.
+2021-03-10T16:05:22.608Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-39-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_name_idx
+2021-03-10T16:05:22.608Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-39-thread-1    ] - Conversion of v225_change_nodes_node_name_idx finished successfully.
+2021-03-10T16:05:22.609Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-39-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_path_idx
+2021-03-10T16:05:22.609Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-39-thread-1    ] - Conversion of v225_change_nodes_node_path_idx finished successfully.
+2021-03-10T16:05:22.610Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-39-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_repo_path_idx
+2021-03-10T16:05:22.610Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-39-thread-1    ] - Conversion of v225_change_nodes_node_repo_path_idx finished successfully.
+2021-03-10T16:05:22.610Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-39-thread-1    ] - Starting attempt #1 of async conversion for v225_add_bundle_files_node_id_index
+2021-03-10T16:05:22.624Z [jfrt ] [INFO ] [41ce12b2ac07afa1] [ctoryContextConfigListener:266] [art-init            ] - Artifactory (jfrt) service initialization completed in 12.465 seconds. Listening on port: 8081
+2021-03-10T16:05:22.717Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-39-thread-1    ] - Conversion of v225_add_bundle_files_node_id_index finished successfully.
+2021-03-10T16:05:29.394Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [pool-16-thread-1    ] - [Node ID: abda517ab21e]  detected local  modify for config 'artifactory/config/mimetypes.xml'
+2021-03-10T16:05:29.402Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [pool-17-thread-1    ] - [Node ID: abda517ab21e]  detected local  modify for config 'artifactory/config/binarystore.xml'
+2021-03-10T16:05:29.404Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [pool-15-thread-1    ] - [Node ID: abda517ab21e]  detected local  modify for config 'artifactory/config/artifactory.system.properties'
+2021-03-10T16:05:39.841Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [pool-30-thread-1    ] - [Node ID: abda517ab21e]  detected local  modify for config 'artifactory/config/security/access/access.admin.token'
+2021-03-10T16:05:52.344Z [jfrt ] [INFO ] [8eca14b6d6426b66] [a.e.EventsLogCleanUpService:59] [art-exec-8          ] - Starting cleanup of old events from event log
+2021-03-10T16:05:52.354Z [jfrt ] [INFO ] [8eca14b6d6426b66] [a.e.EventsLogCleanUpService:81] [art-exec-8          ] - Cleanup of old events from event log finished
+2021-03-10T16:10:22.891Z [jfrt ] [INFO ] [32695498893d8884] [o.a.s.SecurityServiceImpl:1899] [http-nio-8081-exec-6] - Creating keys for user: 'admin'
+2021-03-10T16:42:28.917Z [jfrt ] [INFO ] [3c22b393c298de37] [ateRepositoryConfigService:108] [http-nio-8081-exec-8] - Creating repository libs-release-local
+2021-03-10T16:42:29.354Z [jfrt ] [INFO ] [3c22b393c298de37] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-8] - Reloading configuration... old revision 0, new revision 1
+2021-03-10T16:42:29.442Z [jfrt ] [INFO ] [3c22b393c298de37] [c.CentralConfigServiceImpl:401] [http-nio-8081-exec-8] - Force updating new descriptor (old descriptor doesn't support diff). Old descriptor revision 0
+2021-03-10T16:42:29.455Z [jfrt ] [INFO ] [3c22b393c298de37] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-8] - New configuration with revision 1 saved.
+2021-03-10T16:42:29.456Z [jfrt ] [INFO ] [3c22b393c298de37] [ifactoryApplicationContext:560] [http-nio-8081-exec-8] - Artifactory application context set to NOT READY by reload
+2021-03-10T16:42:29.592Z [jfrt ] [INFO ] [3c22b393c298de37] [ifactoryApplicationContext:560] [http-nio-8081-exec-8] - Artifactory application context set to READY by reload
+2021-03-10T16:42:29.592Z [jfrt ] [INFO ] [3c22b393c298de37] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-8] - Configuration reloaded.
+2021-03-10T16:42:54.401Z [jfrt ] [INFO ] [8413d4b7484bac6 ] [ateRepositoryConfigService:108] [http-nio-8081-exec-3] - Creating repository libs-snapshot-local
+2021-03-10T16:42:54.408Z [jfrt ] [INFO ] [8413d4b7484bac6 ] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-3] - Reloading configuration... old revision 1, new revision 2
+2021-03-10T16:42:54.502Z [jfrt ] [INFO ] [8413d4b7484bac6 ] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-3] - New configuration with revision 2 saved.
+2021-03-10T16:42:54.506Z [jfrt ] [INFO ] [8413d4b7484bac6 ] [ifactoryApplicationContext:560] [http-nio-8081-exec-3] - Artifactory application context set to NOT READY by reload
+2021-03-10T16:42:54.566Z [jfrt ] [INFO ] [8413d4b7484bac6 ] [ifactoryApplicationContext:560] [http-nio-8081-exec-3] - Artifactory application context set to READY by reload
+2021-03-10T16:42:54.567Z [jfrt ] [INFO ] [8413d4b7484bac6 ] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-3] - Configuration reloaded.
+2021-03-10T19:37:36.830Z [jfrt ] [INFO ] [                ] [ifactoryApplicationContext:560] [ocalhost-startStop-4] - Artifactory application context set to NOT READY by destroy
+2021-03-10T19:37:37.160Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:218       ] [Thread-7            ] - Watch service ended on destroy
+2021-03-10T19:37:37.160Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:225       ] [Thread-7            ] - End watch of folder configurations
+2021-03-10T19:37:37.200Z [jfrt ] [INFO ] [                ] [ifactoryApplicationContext:377] [ocalhost-startStop-4] - Destroying 47 Artifactory Spring Beans
+2021-03-10T19:37:37.235Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-4] - Removing all job Garbage Collector from task service handler.
+2021-03-10T19:37:37.244Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-4] - Removing all job Artifact Cleanup from task service handler.
+2021-03-10T19:37:37.261Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-4] - Removing all job Indexer from task service handler.
+2021-03-10T19:37:37.278Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-4] - Removing all job Backup from task service handler.
+2021-03-10T19:37:37.280Z [jfrt ] [INFO ] [                ] [o.a.m.f.MetricsServiceImpl:246] [ocalhost-startStop-4] - Stopped metric service.
+2021-03-10T19:37:37.281Z [jfrt ] [INFO ] [                ] [.w.NodeEventTaskManagerImpl:59] [ocalhost-startStop-4] - Removing dispatcher thread for operator 'metadata-operator-events'
+2021-03-10T19:37:38.525Z [jfrt ] [INFO ] [                ] [actorySchedulerFactoryBean:845] [ocalhost-startStop-4] - Shutting down Quartz Scheduler
+2021-03-10T20:24:55.688Z [jfrt ] [INFO ] [1657341850015573] [o.a.c.h.HaNodeProperties:65   ] [ocalhost-startStop-2] - Artifactory is running in non-clustered mode.
+2021-03-10T20:24:55.894Z [jfrt ] [INFO ] [1657341850015573] [tifactoryHomeConfigListener:85] [ocalhost-startStop-2] - Resolved Home: '/opt/jfrog/artifactory
+2021-03-10T20:25:00.140Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:147       ] [Thread-9            ] - Starting watch of folder configurations
+2021-03-10T20:25:01.076Z [jfrt ] [WARN ] [1657341850015573] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-10T20:25:22.404Z [jfrt ] [ERROR] [1657341850015573] [c.z.h.p.HikariPool:593        ] [ocalhost-startStop-2] - HikariCP Main - Exception during pool initialization.
+java.sql.SQLTimeoutException: Login timeout exceeded.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.timeLogin(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.EmbeddedDriver.connect(Unknown Source)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.jfrog.storage.wrapper.JFrogDataSourceWrapper.getConnection(JFrogDataSourceWrapper.java:91)
+	at org.jfrog.storage.wrapper.JFrogDataSourceWrapper.invoke(JFrogDataSourceWrapper.java:65)
+	at com.sun.proxy.$Proxy17.getConnection(Unknown Source)
+	at org.jfrog.storage.util.DbUtils.withMetadata(DbUtils.java:575)
+	at org.jfrog.storage.util.DbUtils.tableExists(DbUtils.java:265)
+	at org.artifactory.common.config.db.DbVersionDao.isDbPropertiesTableExists(DbVersionDao.java:62)
+	at org.artifactory.converter.VersionProviderImpl.tryToResolveFromDb(VersionProviderImpl.java:197)
+	at org.artifactory.converter.VersionProviderImpl.getCompoundVersionDetailsFromDbIfExists(VersionProviderImpl.java:122)
+	at org.artifactory.converter.VersionProviderImpl.loadOriginalDbVersion(VersionProviderImpl.java:143)
+	at org.artifactory.converter.VersionProviderImpl.init(VersionProviderImpl.java:104)
+	at org.artifactory.lifecycle.webapp.servlet.BasicConfigurationManager.initVersion(BasicConfigurationManager.java:160)
+	at org.artifactory.lifecycle.webapp.servlet.BasicConfigurationManager.initArtifactoryInstallation(BasicConfigurationManager.java:139)
+	at org.artifactory.lifecycle.webapp.servlet.BasicConfigurationManager.initialize(BasicConfigurationManager.java:126)
+	at org.artifactory.lifecycle.webapp.servlet.ArtifactoryHomeConfigListener.initBasicConfigManager(ArtifactoryHomeConfigListener.java:61)
+	at org.artifactory.lifecycle.webapp.servlet.ArtifactoryHomeConfigListener.contextInitialized(ArtifactoryHomeConfigListener.java:53)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4689)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5155)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1822)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.artifactory.opentracing.TraceableRunnableDecorator.run(TraceableRunnableDecorator.java:31)
-	at org.artifactory.concurrent.ArtifactoryRunnable.run(ArtifactoryRunnable.java:53)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-2021-02-23T21:15:06.053Z [jfrt ] [INFO ] [dc06a68e6f643ad6] [aseBundleCleanupServiceImpl:84] [art-exec-6          ] - Starting to cleanup incomplete Release Bundles
-2021-02-23T21:15:06.061Z [jfrt ] [INFO ] [dc06a68e6f643ad6] [aseBundleCleanupServiceImpl:90] [art-exec-6          ] - Finished incomplete Release Bundles cleanup
-2021-02-23T22:15:06.052Z [jfrt ] [INFO ] [d08c220914f93aba] [aseBundleCleanupServiceImpl:84] [art-exec-1          ] - Starting to cleanup incomplete Release Bundles
-2021-02-23T22:15:06.053Z [jfrt ] [INFO ] [d08c220914f93aba] [aseBundleCleanupServiceImpl:90] [art-exec-1          ] - Finished incomplete Release Bundles cleanup
-2021-02-23T22:44:47.570Z [jfrt ] [INFO ] [                ] [ifactoryApplicationContext:560] [ocalhost-startStop-4] - Artifactory application context set to NOT READY by destroy
-2021-02-23T22:44:47.580Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:218       ] [Thread-6            ] - Watch service ended on destroy
-2021-02-23T22:44:47.580Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:225       ] [Thread-6            ] - End watch of folder configurations
-2021-02-23T22:44:47.715Z [jfrt ] [INFO ] [                ] [ifactoryApplicationContext:377] [ocalhost-startStop-4] - Destroying 67 Artifactory Spring Beans
-2021-02-23T22:44:47.728Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-4] - Removing all job Garbage Collector from task service handler.
-2021-02-23T22:44:47.732Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-4] - Removing all job Replication from task service handler.
-2021-02-23T22:44:47.735Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-4] - Removing all job Artifact Cleanup from task service handler.
-2021-02-23T22:44:47.737Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-4] - Removing all job Backup from task service handler.
-2021-02-23T22:44:47.739Z [jfrt ] [INFO ] [                ] [o.a.m.f.MetricsServiceImpl:246] [ocalhost-startStop-4] - Stopped metric service.
-2021-02-23T22:44:47.743Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-4] - Removing all job Indexer from task service handler.
-2021-02-23T22:44:47.744Z [jfrt ] [INFO ] [                ] [.w.NodeEventTaskManagerImpl:59] [ocalhost-startStop-4] - Removing dispatcher thread for operator 'metadata-operator-events'
-2021-02-23T22:44:47.755Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [c-default-executor-2] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-02-23T22:44:47.757Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [c-default-executor-1] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-02-23T22:44:47.798Z [jfrt ] [INFO ] [                ] [actorySchedulerFactoryBean:845] [ocalhost-startStop-4] - Shutting down Quartz Scheduler
-2021-02-23T22:44:47.810Z [jfrt ] [WARN ] [                ] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-4] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
-2021-03-01T19:08:34.871Z [jfrt ] [INFO ] [4938463968f997c5] [o.a.c.h.HaNodeProperties:65   ] [ocalhost-startStop-2] - Artifactory is running in non-clustered mode.
-2021-03-01T19:08:34.911Z [jfrt ] [INFO ] [4938463968f997c5] [tifactoryHomeConfigListener:85] [ocalhost-startStop-2] - Resolved Home: '/opt/jfrog/artifactory
-2021-03-01T19:08:35.512Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:147       ] [Thread-9            ] - Starting watch of folder configurations
-2021-03-01T19:08:35.613Z [jfrt ] [WARN ] [4938463968f997c5] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
-2021-03-01T19:08:39.237Z [jfrt ] [INFO ] [4938463968f997c5] [.BasicConfigurationManager:186] [ocalhost-startStop-2] - Artifactory (jfrt) service initialization started. Version: 7.15.3 Revision: 71503900 PID: 3429 Home: /opt/jfrog/artifactory
-2021-03-01T19:08:39.700Z [jfrt ] [INFO ] [4938463968f997c5] [d.c.m.ConverterManagerImpl:212] [ocalhost-startStop-2] - Triggering PRE_INIT conversion, from 7.15.3 to 7.15.3
-2021-03-01T19:08:39.704Z [jfrt ] [INFO ] [4938463968f997c5] [d.c.m.ConverterManagerImpl:215] [ocalhost-startStop-2] - Finished PRE_INIT conversion, current version is: 7.15.3
-2021-03-01T19:08:39.704Z [jfrt ] [INFO ] [4938463968f997c5] [d.i.DbInitializationManager:48] [ocalhost-startStop-2] - Initializing DB Schema initialization manager
-2021-03-01T19:08:39.716Z [jfrt ] [INFO ] [4938463968f997c5] [.i.DbInitializationManager:176] [ocalhost-startStop-2] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579) Pool: derby
-2021-03-01T19:08:39.717Z [jfrt ] [INFO ] [4938463968f997c5] [.i.DbInitializationManager:179] [ocalhost-startStop-2] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/artifactory/derby
-2021-03-01T19:08:40.352Z [jfrt ] [INFO ] [4938463968f997c5] [d.i.DbInitializationManager:52] [ocalhost-startStop-2] - DB Schema initialization manager initialized
-2021-03-01T19:08:40.367Z [jfrt ] [INFO ] [4938463968f997c5] [SchemaInitializationManager:48] [ocalhost-startStop-2] - Initializing Post-DB initialization manager
-2021-03-01T19:08:40.476Z [jfrt ] [INFO ] [4938463968f997c5] [.c.ConfigurationManagerImpl:97] [ocalhost-startStop-2] - Starting file sync
-2021-03-01T19:08:40.721Z [jfrt ] [INFO ] [4938463968f997c5] [SchemaInitializationManager:51] [ocalhost-startStop-2] - Post-DB initialization manager initialized
-2021-03-01T19:08:41.566Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [ctoryContextConfigListener:325] [art-init            ] - 
-                _   _  __           _                     _____
-     /\        | | (_)/ _|         | |                   |  __ \
-    /  \   _ __| |_ _| |_ __ _  ___| |_ ___  _ __ _   _  | |__) | __ ___
-   / /\ \ | '__| __| |  _/ _` |/ __| __/ _ \| '__| | | | |  ___/ '__/ _ \
-  / ____ \| |  | |_| | || (_| | (__| || (_) | |  | |_| | | |   | | | (_) |
- /_/    \_\_|   \__|_|_| \__,_|\___|\__\___/|_|   \__, | |_|   |_|  \___/
+Caused by: org.apache.derby.iapi.error.StandardException: Login timeout exceeded.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 43 common frames omitted
+2021-03-10T20:25:22.405Z [jfrt ] [ERROR] [1657341850015573] [o.a.c.VersionProviderImpl:108 ] [ocalhost-startStop-2] - Failed to resolve version information: Could not find database table: db_properties
+2021-03-10T20:25:22.406Z [jfrt ] [ERROR] [1657341850015573] [tifactoryHomeConfigListener:55] [ocalhost-startStop-2] - Failed initializing Home. Caught exception: 
+java.lang.IllegalStateException: Could not find database table: db_properties
+	at org.artifactory.converter.VersionProviderImpl.init(VersionProviderImpl.java:109)
+	at org.artifactory.lifecycle.webapp.servlet.BasicConfigurationManager.initVersion(BasicConfigurationManager.java:160)
+	at org.artifactory.lifecycle.webapp.servlet.BasicConfigurationManager.initArtifactoryInstallation(BasicConfigurationManager.java:139)
+	at org.artifactory.lifecycle.webapp.servlet.BasicConfigurationManager.initialize(BasicConfigurationManager.java:126)
+	at org.artifactory.lifecycle.webapp.servlet.ArtifactoryHomeConfigListener.initBasicConfigManager(ArtifactoryHomeConfigListener.java:61)
+	at org.artifactory.lifecycle.webapp.servlet.ArtifactoryHomeConfigListener.contextInitialized(ArtifactoryHomeConfigListener.java:53)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4689)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5155)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1822)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Could not find database table: db_properties
+	at org.artifactory.common.config.db.DbVersionDao.isDbPropertiesTableExists(DbVersionDao.java:65)
+	at org.artifactory.converter.VersionProviderImpl.tryToResolveFromDb(VersionProviderImpl.java:197)
+	at org.artifactory.converter.VersionProviderImpl.getCompoundVersionDetailsFromDbIfExists(VersionProviderImpl.java:122)
+	at org.artifactory.converter.VersionProviderImpl.loadOriginalDbVersion(VersionProviderImpl.java:143)
+	at org.artifactory.converter.VersionProviderImpl.init(VersionProviderImpl.java:104)
+	... 18 common frames omitted
+Caused by: java.sql.SQLTimeoutException: Login timeout exceeded.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.timeLogin(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.EmbeddedDriver.connect(Unknown Source)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.jfrog.storage.wrapper.JFrogDataSourceWrapper.getConnection(JFrogDataSourceWrapper.java:91)
+	at org.jfrog.storage.wrapper.JFrogDataSourceWrapper.invoke(JFrogDataSourceWrapper.java:65)
+	at com.sun.proxy.$Proxy17.getConnection(Unknown Source)
+	at org.jfrog.storage.util.DbUtils.withMetadata(DbUtils.java:575)
+	at org.jfrog.storage.util.DbUtils.tableExists(DbUtils.java:265)
+	at org.artifactory.common.config.db.DbVersionDao.isDbPropertiesTableExists(DbVersionDao.java:62)
+	... 22 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Login timeout exceeded.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 43 common frames omitted
+2021-03-10T20:25:22.421Z [jfrt ] [ERROR] [1657341850015573] [actoryContextConfigListener:91] [ocalhost-startStop-2] - Failed initializing Artifactory context: Artifactory home not initialized.
+2021-03-10T20:27:34.003Z [jfrt ] [INFO ] [16bf60fba4d9b0af] [o.a.c.h.HaNodeProperties:65   ] [ocalhost-startStop-2] - Artifactory is running in non-clustered mode.
+2021-03-10T20:27:34.035Z [jfrt ] [INFO ] [16bf60fba4d9b0af] [tifactoryHomeConfigListener:85] [ocalhost-startStop-2] - Resolved Home: '/opt/jfrog/artifactory
+2021-03-10T20:27:36.396Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:147       ] [Thread-6            ] - Starting watch of folder configurations
+2021-03-10T20:27:36.748Z [jfrt ] [WARN ] [16bf60fba4d9b0af] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-10T20:27:45.583Z [jfrt ] [INFO ] [16bf60fba4d9b0af] [.BasicConfigurationManager:186] [ocalhost-startStop-2] - Artifactory (jfrt) service initialization started. Version: 7.15.3 Revision: 71503900 PID: 3283 Home: /opt/jfrog/artifactory
+2021-03-10T20:27:46.576Z [jfrt ] [INFO ] [16bf60fba4d9b0af] [d.c.m.ConverterManagerImpl:212] [ocalhost-startStop-2] - Triggering PRE_INIT conversion, from 7.15.3 to 7.15.3
+2021-03-10T20:27:46.577Z [jfrt ] [INFO ] [16bf60fba4d9b0af] [d.c.m.ConverterManagerImpl:215] [ocalhost-startStop-2] - Finished PRE_INIT conversion, current version is: 7.15.3
+2021-03-10T20:27:46.614Z [jfrt ] [INFO ] [16bf60fba4d9b0af] [d.i.DbInitializationManager:48] [ocalhost-startStop-2] - Initializing DB Schema initialization manager
+2021-03-10T20:27:46.617Z [jfrt ] [INFO ] [16bf60fba4d9b0af] [.i.DbInitializationManager:176] [ocalhost-startStop-2] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579) Pool: derby
+2021-03-10T20:27:46.617Z [jfrt ] [INFO ] [16bf60fba4d9b0af] [.i.DbInitializationManager:179] [ocalhost-startStop-2] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/artifactory/derby
+2021-03-10T20:27:48.140Z [jfrt ] [INFO ] [16bf60fba4d9b0af] [d.i.DbInitializationManager:52] [ocalhost-startStop-2] - DB Schema initialization manager initialized
+2021-03-10T20:27:48.170Z [jfrt ] [INFO ] [16bf60fba4d9b0af] [SchemaInitializationManager:48] [ocalhost-startStop-2] - Initializing Post-DB initialization manager
+2021-03-10T20:27:48.621Z [jfrt ] [INFO ] [16bf60fba4d9b0af] [.c.ConfigurationManagerImpl:97] [ocalhost-startStop-2] - Starting file sync
+2021-03-10T20:27:50.059Z [jfrt ] [INFO ] [16bf60fba4d9b0af] [SchemaInitializationManager:51] [ocalhost-startStop-2] - Post-DB initialization manager initialized
+2021-03-10T20:27:53.331Z [jfrt ] [INFO ] [c67259bac3486b96] [ctoryContextConfigListener:325] [art-init            ] - 
+                _   _  __           _                      ____   _____ _____
+     /\        | | (_)/ _|         | |                    / __ \ / ____/ ____|
+    /  \   _ __| |_ _| |_ __ _  ___| |_ ___  _ __ _   _  | |  | | (___| (___
+   / /\ \ | '__| __| |  _/ _` |/ __| __/ _ \| '__| | | | | |  | |\___ \\___ \
+  / ____ \| |  | |_| | || (_| | (__| || (_) | |  | |_| | | |__| |____) |___) |
+ /_/    \_\_|   \__|_|_| \__,_|\___|\__\___/|_|   \__, |  \____/|_____/_____/
  Version:  7.15.3                                  __/ |
  Revision: 71503900                               |___/
  Artifactory Home: '/opt/jfrog/artifactory'
- Node ID: '041b93e8ce49'
+ Node ID: '584f911c8ba1'
 
-2021-03-01T19:08:41.924Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [ifactoryApplicationContext:560] [art-init            ] - Artifactory application context set to NOT READY by refresh
-2021-03-01T19:08:53.659Z [jfrt ] [WARN ] [be0a15347c2e5cb9] [c.z.h.u.DriverDataSource:70   ] [art-init            ] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
-2021-03-01T19:08:53.805Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [o.a.s.d.v.DerbyValidator:26   ] [art-init            ] - Validating connection collation for derby database
-2021-03-01T19:09:01.232Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [ritiesStorageServiceFactory:25] [art-init            ] - Initializing DB-based Priorities Storage Service
-2021-03-01T19:09:49.248Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [HaRoleManagerServiceFactory:24] [art-init            ] - Initializing Primary-based HA role manager
-2021-03-01T19:09:51.035Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [actorySchedulerFactoryBean:727] [art-init            ] - Starting Quartz Scheduler now
-2021-03-01T19:09:51.102Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [ifactoryApplicationContext:281] [art-init            ] - Artifactory context starting up 67 Spring Beans...
-2021-03-01T19:09:52.320Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [o.a.i.InfoWriter:54           ] [art-init            ] - 
+2021-03-10T20:27:53.506Z [jfrt ] [WARN ] [c67259bac3486b96] [o.a.f.l.ArtifactoryLockFile:65] [art-init            ] - Found existing lock file. Artifactory was not shutdown properly. [/opt/jfrog/artifactory/var/data/artifactory/.lock]
+2021-03-10T20:27:54.016Z [jfrt ] [INFO ] [c67259bac3486b96] [ifactoryApplicationContext:560] [art-init            ] - Artifactory application context set to NOT READY by refresh
+2021-03-10T20:28:03.483Z [jfrt ] [WARN ] [c67259bac3486b96] [c.z.h.u.DriverDataSource:70   ] [art-init            ] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-10T20:28:04.004Z [jfrt ] [INFO ] [c67259bac3486b96] [o.a.s.d.v.DerbyValidator:26   ] [art-init            ] - Validating connection collation for derby database
+2021-03-10T20:28:07.672Z [jfrt ] [INFO ] [c67259bac3486b96] [ritiesStorageServiceFactory:25] [art-init            ] - Initializing DB-based Priorities Storage Service
+2021-03-10T20:28:15.336Z [jfrt ] [INFO ] [c67259bac3486b96] [actorySchedulerFactoryBean:727] [art-init            ] - Starting Quartz Scheduler now
+2021-03-10T20:28:15.533Z [jfrt ] [INFO ] [c67259bac3486b96] [ifactoryApplicationContext:281] [art-init            ] - Artifactory context starting up 47 Spring Beans...
+2021-03-10T20:28:17.952Z [jfrt ] [INFO ] [c67259bac3486b96] [o.a.i.InfoWriter:54           ] [art-init            ] - 
 
  SYSTEM INFORMATION DUMP
  =======================
@@ -939,14 +940,14 @@ java.net.UnknownHostException: api.bintray.com: Temporary failure in name resolu
  Host Info
  ========================
    Available Processors                                                  | 3
-   Heap Memory Usage-Commited                                            | 536870912
+   Heap Memory Usage-Commited                                            | 601882624
    Heap Memory Usage-Init                                                | 536870912
    Heap Memory Usage-Max                                                 | 2147483648
-   Heap Memory Usage-Used                                                | 278396928
-   Non-Heap Memory Usage-Commited                                        | 251846656
+   Heap Memory Usage-Used                                                | 230686720
+   Non-Heap Memory Usage-Commited                                        | 212602880
    Non-Heap Memory Usage-Init                                            | 7667712
    Non-Heap Memory Usage-Max                                             | -1
-   Non-Heap Memory Usage-Used                                            | 241503640
+   Non-Heap Memory Usage-Used                                            | 204085552
    os.arch                                                               | amd64
    os.name                                                               | Linux
    os.version                                                            | 4.15.0-128-generic
@@ -1469,216 +1470,796 @@ java.net.UnknownHostException: api.bintray.com: Temporary failure in name resolu
    artifactory.security.api.plus.insteadof.space                         | true
    artifactory.validate.lowercase.username.on.group.association          | false
 
-2021-03-01T19:09:52.342Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [o.a.s.a.AccessServiceImpl:506 ] [art-init            ] - Initialized new service id: jfrt@01ez5bsggjc7h01x9d4aqs0mc0
-2021-03-01T19:09:52.471Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [oryAccessClientConfigStore:519] [art-init            ] - Using Access Server URL: http://localhost:8046/access source: System Config
-2021-03-01T19:09:53.308Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [.a.c.AccessClientBootstrap:152] [art-init            ] - Cluster join: Executing join on 'http://localhost:8046/access'
-2021-03-01T19:09:53.752Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [.a.c.AccessClientBootstrap:162] [art-init            ] - Cluster join: Successfully joined the cluster
-2021-03-01T19:09:55.978Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [o.a.s.a.AccessServiceImpl:437 ] [art-init            ] - Initialized access service successfully with client id 1471546497, closing old client id [null]
-2021-03-01T19:09:55.979Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [o.a.s.a.AccessServiceImpl:1313] [art-init            ] - Updating access configuration with password expiration data
-2021-03-01T19:09:57.779Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [tegrationCleanupServiceImpl:75] [art-init            ] - Using generated cron 0 56 3 ? * * for jobs table cleanup
-2021-03-01T19:10:00.371Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [.c.r.ReplicatorServiceImpl:119] [art-init            ] - initializing Replicator Service
-2021-03-01T19:10:00.373Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [.c.r.ReplicatorServiceImpl:338] [art-init            ] - Local Replicator is setting up in non-bundled mode
-2021-03-01T19:10:01.661Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [.a.a.p.ProjectsServiceImpl:528] [art-init            ] - Scheduling ProjectStorageQuotaNotificationJob to run every 60 minutes
-2021-03-01T19:10:01.664Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [o.a.s.s.StorageServiceImpl:549] [art-init            ] - Scheduling SyncStorageUsageJob to run at '51 0/1 * ? * * *'
-2021-03-01T19:10:02.180Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [askServiceDescriptorHandler:44] [art-init            ] - Removing all job Replication from task service handler.
-2021-03-01T19:10:02.182Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [askServiceDescriptorHandler:52] [art-init            ] - No Replication configured. Replication is disabled.
-2021-03-01T19:10:02.311Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [ifactoryApplicationContext:560] [art-init            ] - Artifactory application context set to READY by refresh
-2021-03-01T19:10:02.745Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [.w.NodeEventTaskManagerImpl:43] [art-init            ] - Event management started on behalf of Event Operator with ID 'metadata-operator-events'
-2021-03-01T19:10:02.758Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [o.a.m.f.MetricsServiceImpl:124] [art-init            ] - Metric Framework Service is enabled: false
-2021-03-01T19:10:02.762Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [o.a.s.s.StorageServiceImpl:531] [art-init            ] - Scheduling CalculateReposStorageSummaryJob to run at '0 7 * ? * *'
-2021-03-01T19:10:02.764Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [o.a.s.s.StorageServiceImpl:560] [art-init            ] - LogStorageStatusJob disabled and not scheduled to run
-2021-03-01T19:10:02.988Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [o.a.s.a.AccessServiceImpl:1619] [art-init            ] - Successful register of Artifactory serviceId jfrt@01ez5bsggjc7h01x9d4aqs0mc0 in Access Federation
-2021-03-01T19:10:03.127Z [jfrt ] [INFO ] [9cbb231242e649bc] [adsFolderCleanupServiceImpl:52] [art-exec-5          ] - Starting docker temp folder cleanup
-2021-03-01T19:10:03.140Z [jfrt ] [INFO ] [9cbb231242e649bc] [adsFolderCleanupServiceImpl:54] [art-exec-5          ] - Docker temp folder cleanup finished, time took: 14 millis
-2021-03-01T19:10:03.249Z [jfrt ] [INFO ] [                ] [d.DatabaseConverterRunnable:37] [pool-43-thread-1    ] - Starting Async converter thread.
-2021-03-01T19:10:03.250Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-43-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_name_idx
-2021-03-01T19:10:03.250Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-43-thread-1    ] - Conversion of v225_change_nodes_node_name_idx finished successfully.
-2021-03-01T19:10:03.250Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-43-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_path_idx
-2021-03-01T19:10:03.250Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-43-thread-1    ] - Conversion of v225_change_nodes_node_path_idx finished successfully.
-2021-03-01T19:10:03.250Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-43-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_repo_path_idx
-2021-03-01T19:10:03.250Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-43-thread-1    ] - Conversion of v225_change_nodes_node_repo_path_idx finished successfully.
-2021-03-01T19:10:03.250Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-43-thread-1    ] - Starting attempt #1 of async conversion for v225_add_bundle_files_node_id_index
-2021-03-01T19:10:03.272Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-43-thread-1    ] - Conversion of v225_add_bundle_files_node_id_index finished successfully.
-2021-03-01T19:10:03.557Z [jfrt ] [INFO ] [be0a15347c2e5cb9] [ctoryContextConfigListener:266] [art-init            ] - Artifactory (jfrt) service initialization completed in 81.800 seconds. Listening on port: 8081
-2021-03-01T19:10:13.754Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [pool-11-thread-1    ] - [Node ID: 041b93e8ce49]  detected local  modify for config 'artifactory/config/security/access/access.admin.token'
-2021-03-01T19:10:32.317Z [jfrt ] [INFO ] [2e5a34338dbe8fbe] [a.e.EventsLogCleanUpService:59] [art-exec-2          ] - Starting cleanup of old events from event log
-2021-03-01T19:10:36.227Z [jfrt ] [INFO ] [2e5a34338dbe8fbe] [a.e.EventsLogCleanUpService:81] [art-exec-2          ] - Cleanup of old events from event log finished
-2021-03-01T19:32:09.351Z [jfrt ] [INFO ] [                ] [.c.p.GrpcBlockingCallManger:74] [pool-42-thread-1    ] - Stream lost, resubscribing to stream
-2021-03-01T19:32:11.911Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614625801979] - Stream lost, resubscribing to stream
-2021-03-01T19:32:11.911Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614625802143] - Stream lost, resubscribing to stream
-2021-03-01T19:38:12.119Z [jfrt ] [WARN ] [                ] [c.z.h.p.HikariPool:787        ] [iCP Main housekeeper] - HikariCP Main - Thread starvation or clock leap detected (housekeeper delta=54s233ms296µs277ns).
-2021-03-01T19:46:32.918Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614627985223] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:46:32.918Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614627985223] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:46:49.587Z [jfrt ] [INFO ] [                ] [.c.p.GrpcBlockingCallManger:74] [pool-48-thread-1    ] - Stream lost, resubscribing to stream
-2021-03-01T19:46:51.884Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614627995492] - Stream lost, resubscribing to stream
-2021-03-01T19:46:51.884Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614627995492] - Stream lost, resubscribing to stream
-2021-03-01T19:46:58.466Z [jfrt ] [WARN ] [                ] [c.z.h.p.HikariPool:787        ] [iCP Main housekeeper] - HikariCP Main - Thread starvation or clock leap detected (housekeeper delta=13m25s22ms399µs844ns).
-2021-03-01T19:47:04.471Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614628018631] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:47:04.471Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614628018652] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:47:21.406Z [jfrt ] [INFO ] [                ] [.c.p.GrpcBlockingCallManger:74] [pool-51-thread-1    ] - Stream lost, resubscribing to stream
-2021-03-01T19:47:30.022Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614628025174] - Stream lost, resubscribing to stream
-2021-03-01T19:47:30.022Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614628025181] - Stream lost, resubscribing to stream
-2021-03-01T19:48:18.958Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614628064952] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:48:17.158Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614628064873] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:48:22.932Z [jfrt ] [WARN ] [                ] [c.z.h.p.HikariPool:787        ] [iCP Main housekeeper] - HikariCP Main - Thread starvation or clock leap detected (housekeeper delta=52s851ms241µs104ns).
-2021-03-01T19:48:35.191Z [jfrt ] [INFO ] [                ] [.c.p.GrpcBlockingCallManger:74] [pool-54-thread-1    ] - Stream lost, resubscribing to stream
-2021-03-01T19:48:35.191Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614628099131] - Stream lost, resubscribing to stream
-2021-03-01T19:48:35.191Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614628099148] - Stream lost, resubscribing to stream
-2021-03-01T19:48:40.205Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614628115201] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:48:40.207Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614628115202] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:49:04.157Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614628121490] - Stream lost, resubscribing to stream
-2021-03-01T19:49:31.579Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614628121490] - Stream lost, resubscribing to stream
-2021-03-01T19:49:35.407Z [jfrt ] [ERROR] [7fa5a5410cfc1ea3] [o.j.a.c.h.AccessHttpClient:137] [27.0.0.1-8091-exec-2] - Error while executing /api/v1/auth/authenticate on access. Exception message: Read timed out
-2021-03-01T19:49:37.011Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614628171669] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:49:37.057Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614628172056] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:49:46.584Z [jfrt ] [INFO ] [                ] [.c.p.GrpcBlockingCallManger:74] [pool-57-thread-1    ] - Stream lost, resubscribing to stream
-2021-03-01T19:49:52.881Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614628177880] - Stream lost, resubscribing to stream
-2021-03-01T19:49:53.443Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614628177880] - Stream lost, resubscribing to stream
-2021-03-01T19:50:06.040Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614628194824] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:50:06.041Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614628194824] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:50:39.802Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614628206981] - Stream lost, resubscribing to stream
-2021-03-01T19:50:39.802Z [jfrt ] [INFO ] [                ] [j.a.c.g.GrpcStreamObserver:115] [veGrpc_1614628206981] - Stream lost, resubscribing to stream
-2021-03-01T19:50:20.863Z [jfrt ] [INFO ] [                ] [.c.p.GrpcBlockingCallManger:74] [pool-60-thread-1    ] - Stream lost, resubscribing to stream
-2021-03-01T19:50:48.854Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614628243086] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:50:48.947Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:30] [Stream_1614628243087] - publishing full invalidation and attempting to resubscribe to affected configuration changes
-2021-03-01T19:50:51.273Z [jfrt ] [ERROR] [11811023258fec8a] [o.a.r.r.s.PingResource:97     ] [27.0.0.1-8091-exec-1] - Error during ping test
-org.jfrog.access.client.AccessClientException: Access service is unavailable: Unable to connect to Access server: Read timed out
-	at org.artifactory.security.access.AccessServiceImpl.ping(AccessServiceImpl.java:1349)
-	at jdk.internal.reflect.GeneratedMethodAccessor241.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205)
-	at com.sun.proxy.$Proxy211.ping(Unknown Source)
-	at org.artifactory.rest.resource.system.PingResource.pingArtifactory(PingResource.java:95)
-	at jdk.internal.reflect.GeneratedMethodAccessor236.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
-	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
-	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
-	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
-	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
-	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
-	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.artifactory.webapp.servlet.RepoFilter.execute(RepoFilter.java:201)
-	at org.artifactory.webapp.servlet.RepoFilter.doFilter(RepoFilter.java:103)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.artifactory.webapp.servlet.AccessFilter.useAuthentication(AccessFilter.java:538)
-	at org.artifactory.webapp.servlet.AccessFilter.useAnonymousIfPossible(AccessFilter.java:497)
-	at org.artifactory.webapp.servlet.AccessFilter.doFilterInternal(AccessFilter.java:263)
-	at org.artifactory.webapp.servlet.AccessFilter.doFilter(AccessFilter.java:203)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.artifactory.webapp.servlet.RequestFilter.doFilter(RequestFilter.java:82)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.artifactory.webapp.servlet.ArtifactoryCsrfFilter.doFilter(ArtifactoryCsrfFilter.java:83)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:164)
-	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:80)
-	at org.artifactory.webapp.servlet.SessionFilter.doFilter(SessionFilter.java:68)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.artifactory.webapp.servlet.ArtifactoryTracingFilter.doFilter(ArtifactoryTracingFilter.java:32)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.artifactory.webapp.servlet.ArtifactoryFilter.doFilter(ArtifactoryFilter.java:137)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
-	at org.apache.catalina.valves.rewrite.RewriteValve.invoke(RewriteValve.java:305)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.jfrog.access.client.AccessClientException: Unable to connect to Access server: Read timed out
-	at org.jfrog.access.client.http.AccessHttpClient.restCall(AccessHttpClient.java:143)
-	at org.jfrog.access.client.http.AccessHttpClient.ping(AccessHttpClient.java:114)
-	at org.jfrog.access.client.AccessClientImpl.ping(AccessClientImpl.java:260)
-	at org.artifactory.security.access.AccessServiceImpl.lambda$ping$32(AccessServiceImpl.java:1347)
-	at org.artifactory.security.access.AccessServiceImpl.lambda$runWithFallback$2(AccessServiceImpl.java:380)
-	at org.artifactory.security.access.AccessServiceImpl.callWithRetry(AccessServiceImpl.java:345)
-	at org.artifactory.security.access.AccessServiceImpl.ensureAuth(AccessServiceImpl.java:332)
-	at org.artifactory.security.access.AccessServiceImpl.runWithFallback(AccessServiceImpl.java:379)
-	at org.artifactory.security.access.AccessServiceImpl.ping(AccessServiceImpl.java:1347)
-	... 78 common frames omitted
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
-	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
-	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
-	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.jfrog.client.http.CloseableHttpClientDecorator.doExecute(CloseableHttpClientDecorator.java:109)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-	at org.jfrog.access.client.http.AccessHttpClient.restCall(AccessHttpClient.java:130)
-	... 86 common frames omitted
-2021-03-01T19:50:52.161Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [c-default-executor-2] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.161Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [-default-executor-15] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.162Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [-default-executor-13] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.163Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [-default-executor-11] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.163Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [c-default-executor-9] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.162Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [-default-executor-12] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.164Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [c-default-executor-7] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.163Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [-default-executor-10] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.164Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [c-default-executor-8] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.162Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [-default-executor-14] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.164Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [c-default-executor-6] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.164Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [c-default-executor-5] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.165Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [c-default-executor-4] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T19:50:52.165Z [jfrt ] [INFO ] [                ] [.j.a.c.g.GrpcStreamObserver:74] [c-default-executor-3] - affected permissions stream stopped gracefully - immediate cache invalidation will not work without restart
-2021-03-01T20:00:00.013Z [jfrt ] [INFO ] [565a39b96104699b] [.s.d.b.s.BinaryServiceImpl:632] [art-exec-39         ] - Triggering Garbage Collection
-2021-03-01T20:00:00.072Z [jfrt ] [INFO ] [565a39b96104699b] [.s.d.b.s.g.GarbageCollector:66] [art-exec-39         ] - Starting GC strategy 'TRASH_AND_BINARIES'
-2021-03-01T20:00:00.125Z [jfrt ] [INFO ] [565a39b96104699b] [.s.d.b.s.g.GarbageCollector:68] [art-exec-39         ] - Finished GC Strategy 'TRASH_AND_BINARIES'
-2021-03-01T20:09:57.847Z [jfrt ] [INFO ] [414c69645cef5bdc] [aseBundleCleanupServiceImpl:84] [art-exec-39         ] - Starting to cleanup incomplete Release Bundles
-2021-03-01T20:09:57.884Z [jfrt ] [INFO ] [414c69645cef5bdc] [aseBundleCleanupServiceImpl:90] [art-exec-39         ] - Finished incomplete Release Bundles cleanup
-2021-03-01T21:09:57.813Z [jfrt ] [INFO ] [2f242507adfd6b54] [aseBundleCleanupServiceImpl:84] [art-exec-36         ] - Starting to cleanup incomplete Release Bundles
-2021-03-01T21:09:57.815Z [jfrt ] [INFO ] [2f242507adfd6b54] [aseBundleCleanupServiceImpl:90] [art-exec-36         ] - Finished incomplete Release Bundles cleanup
-2021-03-01T22:09:57.816Z [jfrt ] [INFO ] [cf1a53e6a7543ecb] [aseBundleCleanupServiceImpl:84] [art-exec-35         ] - Starting to cleanup incomplete Release Bundles
-2021-03-01T22:09:57.817Z [jfrt ] [INFO ] [cf1a53e6a7543ecb] [aseBundleCleanupServiceImpl:90] [art-exec-35         ] - Finished incomplete Release Bundles cleanup
+2021-03-10T20:28:19.307Z [jfrt ] [INFO ] [c67259bac3486b96] [o.a.s.a.AccessServiceImpl:506 ] [art-init            ] - Initialized new service id: jfrt@01f0ee59rzdypp0wd25tvx1wd1
+2021-03-10T20:28:19.696Z [jfrt ] [INFO ] [c67259bac3486b96] [oryAccessClientConfigStore:519] [art-init            ] - Using Access Server URL: http://localhost:8046/access source: System Config
+2021-03-10T20:28:25.180Z [jfrt ] [INFO ] [c67259bac3486b96] [o.j.c.ExecutionUtils:142      ] [pool-28-thread-1    ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error while trying to connect to local router at address 'http://localhost:8046/access': Connect to localhost:8046 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2021-03-10T20:28:30.404Z [jfrt ] [INFO ] [c67259bac3486b96] [o.j.c.ExecutionUtils:142      ] [pool-28-thread-2    ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error while trying to connect to service registry (status = 404). Please review router request log for additional information
+2021-03-10T20:28:32.950Z [jfrt ] [INFO ] [c67259bac3486b96] [.a.c.AccessClientBootstrap:152] [art-init            ] - Cluster join: Executing join on 'http://localhost:8046/access'
+2021-03-10T20:28:33.945Z [jfrt ] [INFO ] [c67259bac3486b96] [.a.c.AccessClientBootstrap:162] [art-init            ] - Cluster join: Successfully joined the cluster
+2021-03-10T20:28:35.869Z [jfrt ] [INFO ] [c67259bac3486b96] [o.a.s.a.AccessServiceImpl:437 ] [art-init            ] - Initialized access service successfully with client id 1615047628, closing old client id [null]
+2021-03-10T20:28:35.869Z [jfrt ] [INFO ] [c67259bac3486b96] [o.a.s.a.AccessServiceImpl:1313] [art-init            ] - Updating access configuration with password expiration data
+2021-03-10T20:28:41.299Z [jfrt ] [INFO ] [c67259bac3486b96] [tegrationCleanupServiceImpl:75] [art-init            ] - Using generated cron 0 30 3 ? * * for jobs table cleanup
+2021-03-10T20:28:41.362Z [jfrt ] [INFO ] [c67259bac3486b96] [ifactoryApplicationContext:560] [art-init            ] - Artifactory application context set to READY by refresh
+2021-03-10T20:28:41.598Z [jfrt ] [INFO ] [c67259bac3486b96] [.w.NodeEventTaskManagerImpl:43] [art-init            ] - Event management started on behalf of Event Operator with ID 'metadata-operator-events'
+2021-03-10T20:28:41.661Z [jfrt ] [INFO ] [c67259bac3486b96] [o.a.m.f.MetricsServiceImpl:124] [art-init            ] - Metric Framework Service is enabled: false
+2021-03-10T20:28:41.687Z [jfrt ] [INFO ] [c67259bac3486b96] [o.a.s.s.StorageServiceImpl:531] [art-init            ] - Scheduling CalculateReposStorageSummaryJob to run at '0 7 * ? * *'
+2021-03-10T20:28:41.714Z [jfrt ] [INFO ] [c67259bac3486b96] [o.a.s.s.StorageServiceImpl:560] [art-init            ] - LogStorageStatusJob disabled and not scheduled to run
+2021-03-10T20:28:41.874Z [jfrt ] [INFO ] [c67259bac3486b96] [o.a.s.a.AccessServiceImpl:1619] [art-init            ] - Successful register of Artifactory serviceId jfrt@01f0ee59rzdypp0wd25tvx1wd1 in Access Federation
+2021-03-10T20:28:41.953Z [jfrt ] [INFO ] [                ] [d.DatabaseConverterRunnable:37] [pool-35-thread-1    ] - Starting Async converter thread.
+2021-03-10T20:28:41.981Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-35-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_name_idx
+2021-03-10T20:28:41.990Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-35-thread-1    ] - Conversion of v225_change_nodes_node_name_idx finished successfully.
+2021-03-10T20:28:41.991Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-35-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_path_idx
+2021-03-10T20:28:41.993Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-35-thread-1    ] - Conversion of v225_change_nodes_node_path_idx finished successfully.
+2021-03-10T20:28:41.993Z [jfrt ] [INFO ] [d6e13450dd5d97f3] [adsFolderCleanupServiceImpl:52] [art-exec-4          ] - Starting docker temp folder cleanup
+2021-03-10T20:28:41.993Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-35-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_repo_path_idx
+2021-03-10T20:28:41.994Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-35-thread-1    ] - Conversion of v225_change_nodes_node_repo_path_idx finished successfully.
+2021-03-10T20:28:41.994Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-35-thread-1    ] - Starting attempt #1 of async conversion for v225_add_bundle_files_node_id_index
+2021-03-10T20:28:41.995Z [jfrt ] [INFO ] [d6e13450dd5d97f3] [adsFolderCleanupServiceImpl:54] [art-exec-4          ] - Docker temp folder cleanup finished, time took: 2 millis
+2021-03-10T20:28:42.013Z [jfrt ] [INFO ] [c67259bac3486b96] [ctoryContextConfigListener:266] [art-init            ] - Artifactory (jfrt) service initialization completed in 48.965 seconds. Listening on port: 8081
+2021-03-10T20:28:42.035Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-35-thread-1    ] - Conversion of v225_add_bundle_files_node_id_index finished successfully.
+2021-03-10T20:28:53.981Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [pool-8-thread-1     ] - [Node ID: 584f911c8ba1]  detected local  modify for config 'artifactory/config/security/access/access.admin.token'
+2021-03-10T20:29:11.385Z [jfrt ] [INFO ] [6d3bc483e25aca15] [a.e.EventsLogCleanUpService:59] [art-exec-9          ] - Starting cleanup of old events from event log
+2021-03-10T20:29:11.790Z [jfrt ] [INFO ] [6d3bc483e25aca15] [a.e.EventsLogCleanUpService:81] [art-exec-9          ] - Cleanup of old events from event log finished
+2021-03-10T20:34:19.564Z [jfrt ] [INFO ] [                ] [ifactoryApplicationContext:560] [ocalhost-startStop-5] - Artifactory application context set to NOT READY by destroy
+2021-03-10T20:34:19.593Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:218       ] [Thread-6            ] - Watch service ended on destroy
+2021-03-10T20:34:19.593Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:225       ] [Thread-6            ] - End watch of folder configurations
+2021-03-10T20:34:19.600Z [jfrt ] [INFO ] [                ] [ifactoryApplicationContext:377] [ocalhost-startStop-5] - Destroying 47 Artifactory Spring Beans
+2021-03-10T20:34:19.601Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Indexer from task service handler.
+2021-03-10T20:34:19.602Z [jfrt ] [INFO ] [                ] [o.a.m.f.MetricsServiceImpl:246] [ocalhost-startStop-5] - Stopped metric service.
+2021-03-10T20:34:19.604Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Garbage Collector from task service handler.
+2021-03-10T20:34:19.606Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Backup from task service handler.
+2021-03-10T20:34:19.607Z [jfrt ] [INFO ] [                ] [.w.NodeEventTaskManagerImpl:59] [ocalhost-startStop-5] - Removing dispatcher thread for operator 'metadata-operator-events'
+2021-03-10T20:34:19.614Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Artifact Cleanup from task service handler.
+2021-03-10T20:34:19.687Z [jfrt ] [INFO ] [                ] [actorySchedulerFactoryBean:845] [ocalhost-startStop-5] - Shutting down Quartz Scheduler
+2021-03-10T20:34:19.689Z [jfrt ] [WARN ] [                ] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-5] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-10T20:35:10.806Z [jfrt ] [INFO ] [6f9b1f092d2b2f4 ] [o.a.c.h.HaNodeProperties:65   ] [ocalhost-startStop-2] - Artifactory is running in non-clustered mode.
+2021-03-10T20:35:10.885Z [jfrt ] [INFO ] [6f9b1f092d2b2f4 ] [tifactoryHomeConfigListener:85] [ocalhost-startStop-2] - Resolved Home: '/opt/jfrog/artifactory
+2021-03-10T20:35:14.121Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:147       ] [Thread-6            ] - Starting watch of folder configurations
+2021-03-10T20:35:14.406Z [jfrt ] [WARN ] [6f9b1f092d2b2f4 ] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-10T20:35:20.314Z [jfrt ] [INFO ] [6f9b1f092d2b2f4 ] [.BasicConfigurationManager:186] [ocalhost-startStop-2] - Artifactory (jfrt) service initialization started. Version: 7.15.3 Revision: 71503900 PID: 3334 Home: /opt/jfrog/artifactory
+2021-03-10T20:35:21.891Z [jfrt ] [INFO ] [6f9b1f092d2b2f4 ] [d.c.m.ConverterManagerImpl:212] [ocalhost-startStop-2] - Triggering PRE_INIT conversion, from 7.15.3 to 7.15.3
+2021-03-10T20:35:21.892Z [jfrt ] [INFO ] [6f9b1f092d2b2f4 ] [d.c.m.ConverterManagerImpl:215] [ocalhost-startStop-2] - Finished PRE_INIT conversion, current version is: 7.15.3
+2021-03-10T20:35:21.895Z [jfrt ] [INFO ] [6f9b1f092d2b2f4 ] [d.i.DbInitializationManager:48] [ocalhost-startStop-2] - Initializing DB Schema initialization manager
+2021-03-10T20:35:21.901Z [jfrt ] [INFO ] [6f9b1f092d2b2f4 ] [.i.DbInitializationManager:176] [ocalhost-startStop-2] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579) Pool: derby
+2021-03-10T20:35:21.903Z [jfrt ] [INFO ] [6f9b1f092d2b2f4 ] [.i.DbInitializationManager:179] [ocalhost-startStop-2] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/artifactory/derby
+2021-03-10T20:35:22.240Z [jfrt ] [INFO ] [6f9b1f092d2b2f4 ] [d.i.DbInitializationManager:52] [ocalhost-startStop-2] - DB Schema initialization manager initialized
+2021-03-10T20:35:22.262Z [jfrt ] [INFO ] [6f9b1f092d2b2f4 ] [SchemaInitializationManager:48] [ocalhost-startStop-2] - Initializing Post-DB initialization manager
+2021-03-10T20:35:22.752Z [jfrt ] [INFO ] [6f9b1f092d2b2f4 ] [.c.ConfigurationManagerImpl:97] [ocalhost-startStop-2] - Starting file sync
+2021-03-10T20:35:23.027Z [jfrt ] [INFO ] [6f9b1f092d2b2f4 ] [SchemaInitializationManager:51] [ocalhost-startStop-2] - Post-DB initialization manager initialized
+2021-03-10T20:35:24.131Z [jfrt ] [INFO ] [d1f89cf6a65516df] [ctoryContextConfigListener:325] [art-init            ] - 
+                _   _  __           _                      ____   _____ _____
+     /\        | | (_)/ _|         | |                    / __ \ / ____/ ____|
+    /  \   _ __| |_ _| |_ __ _  ___| |_ ___  _ __ _   _  | |  | | (___| (___
+   / /\ \ | '__| __| |  _/ _` |/ __| __/ _ \| '__| | | | | |  | |\___ \\___ \
+  / ____ \| |  | |_| | || (_| | (__| || (_) | |  | |_| | | |__| |____) |___) |
+ /_/    \_\_|   \__|_|_| \__,_|\___|\__\___/|_|   \__, |  \____/|_____/_____/
+ Version:  7.15.3                                  __/ |
+ Revision: 71503900                               |___/
+ Artifactory Home: '/opt/jfrog/artifactory'
+ Node ID: '7dff8f30b2ee'
+
+2021-03-10T20:35:24.244Z [jfrt ] [INFO ] [d1f89cf6a65516df] [ifactoryApplicationContext:560] [art-init            ] - Artifactory application context set to NOT READY by refresh
+2021-03-10T20:35:32.308Z [jfrt ] [WARN ] [d1f89cf6a65516df] [c.z.h.u.DriverDataSource:70   ] [art-init            ] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-10T20:35:32.596Z [jfrt ] [INFO ] [d1f89cf6a65516df] [o.a.s.d.v.DerbyValidator:26   ] [art-init            ] - Validating connection collation for derby database
+2021-03-10T20:35:36.539Z [jfrt ] [INFO ] [d1f89cf6a65516df] [ritiesStorageServiceFactory:25] [art-init            ] - Initializing DB-based Priorities Storage Service
+2021-03-10T20:35:42.511Z [jfrt ] [INFO ] [d1f89cf6a65516df] [actorySchedulerFactoryBean:727] [art-init            ] - Starting Quartz Scheduler now
+2021-03-10T20:35:42.746Z [jfrt ] [INFO ] [d1f89cf6a65516df] [ifactoryApplicationContext:281] [art-init            ] - Artifactory context starting up 47 Spring Beans...
+2021-03-10T20:35:44.320Z [jfrt ] [INFO ] [d1f89cf6a65516df] [o.a.s.a.AccessServiceImpl:506 ] [art-init            ] - Initialized new service id: jfrt@01f0ee59rzdypp0wd25tvx1wd1
+2021-03-10T20:35:44.765Z [jfrt ] [INFO ] [d1f89cf6a65516df] [oryAccessClientConfigStore:519] [art-init            ] - Using Access Server URL: http://localhost:8046/access source: System Config
+2021-03-10T20:35:48.972Z [jfrt ] [INFO ] [d1f89cf6a65516df] [o.j.c.ExecutionUtils:142      ] [pool-28-thread-1    ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error while trying to connect to service registry (status = 404). Please review router request log for additional information
+2021-03-10T20:35:53.239Z [jfrt ] [INFO ] [d1f89cf6a65516df] [.a.c.AccessClientBootstrap:152] [art-init            ] - Cluster join: Executing join on 'http://localhost:8046/access'
+2021-03-10T20:35:53.376Z [jfrt ] [INFO ] [d1f89cf6a65516df] [.a.c.AccessClientBootstrap:162] [art-init            ] - Cluster join: Successfully joined the cluster
+2021-03-10T20:35:54.076Z [jfrt ] [INFO ] [d1f89cf6a65516df] [o.a.s.a.AccessServiceImpl:437 ] [art-init            ] - Initialized access service successfully with client id 646826081, closing old client id [null]
+2021-03-10T20:35:54.077Z [jfrt ] [INFO ] [d1f89cf6a65516df] [o.a.s.a.AccessServiceImpl:1313] [art-init            ] - Updating access configuration with password expiration data
+2021-03-10T20:35:54.866Z [jfrt ] [INFO ] [d1f89cf6a65516df] [o.a.i.InfoWriter:54           ] [art-init            ] - 
+
+ SYSTEM INFORMATION DUMP
+ =======================
+
+ System Info
+ ========================
+   java.library.path                                                     | /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+   java.class.path                                                       | /opt/jfrog/artifactory/app/artifactory/tomcat/bin/bootstrap.jar
+                                                                         | /opt/jfrog/artifactory/app/artifactory/tomcat/bin/tomcat-juli.jar
+
+ Java System Info
+ ========================
+   java.class.version                                                    | 55.0
+   java.home                                                             | /opt/jfrog/artifactory/app/third-party/java
+   java.io.tmpdir                                                        | /opt/jfrog/artifactory/var/work/artifactory/tomcat/temp
+   java.runtime.name                                                     | OpenJDK Runtime Environment
+   java.runtime.version                                                  | 11.0.10+9
+   java.specification.name                                               | Java Platform API Specification
+   java.specification.vendor                                             | Oracle Corporation
+   java.specification.version                                            | 11
+   java.vendor                                                           | AdoptOpenJDK
+   java.vendor.url                                                       | https://adoptopenjdk.net/
+   java.vendor.url.bug                                                   | https://github.com/AdoptOpenJDK/openjdk-support/issues
+   java.version                                                          | 11.0.10
+   java.vm.info                                                          | mixed mode
+   java.vm.name                                                          | OpenJDK 64-Bit Server VM
+   java.vm.specification.name                                            | Java Virtual Machine Specification
+   java.vm.specification.vendor                                          | Oracle Corporation
+   java.vm.specification.version                                         | 11
+   java.vm.vendor                                                        | AdoptOpenJDK
+   java.vm.version                                                       | 11.0.10+9
+   sun.arch.data.model                                                   | 64
+   sun.boot.library.path                                                 | /opt/jfrog/artifactory/app/third-party/java/lib
+   sun.cpu.endian                                                        | little
+   sun.cpu.isalist                                                       | 
+   sun.io.unicode.encoding                                               | UnicodeLittle
+   sun.java.launcher                                                     | SUN_STANDARD
+   sun.jnu.encoding                                                      | ANSI_X3.4-1968
+   sun.management.compiler                                               | HotSpot 64-Bit Tiered Compilers
+   sun.os.patch.level                                                    | unknown
+   JVM Input arguments                                                   | --add-opens=java.base/java.lang=ALL-UNNAMED
+                                                                         | --add-opens=java.base/java.io=ALL-UNNAMED
+                                                                         | --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+                                                                         | -Djava.util.logging.config.file=/opt/jfrog/artifactory/app/artifactory/tomcat/conf/logging.properties
+                                                                         | -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+                                                                         | -Djdk.tls.ephemeralDHKeySize=****
+                                                                         | -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+                                                                         | -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+                                                                         | -Xms512m
+                                                                         | -Xmx2g
+                                                                         | -XX:+UseG1GC
+                                                                         | -XX:OnOutOfMemoryError=kill -9 %p
+                                                                         | --add-opens=java.base/java.util=ALL-UNNAMED
+                                                                         | --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+                                                                         | --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+                                                                         | --add-opens=java.base/java.text=ALL-UNNAMED
+                                                                         | --add-opens=java.base/java.nio=ALL-UNNAMED
+                                                                         | --add-opens=java.desktop/java.awt.font=ALL-UNNAMED
+                                                                         | -Dfile.encoding=UTF8
+                                                                         | -Djruby.compile.invokedynamic=false
+                                                                         | -Djruby.bytecode.version=1.8
+                                                                         | -Dorg.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=true
+                                                                         | -Djava.security.egd=file:/dev/./urandom
+                                                                         | -Dartdist=docker
+                                                                         | -Djf.product.home=/opt/jfrog/artifactory
+                                                                         | -Djruby.bytecode.version=1.8
+                                                                         | -Dignore.endorsed.dirs=
+                                                                         | -Dcatalina.base=/opt/jfrog/artifactory/app/artifactory/tomcat
+                                                                         | -Dcatalina.home=/opt/jfrog/artifactory/app/artifactory/tomcat
+                                                                         | -Djava.io.tmpdir=/opt/jfrog/artifactory/var/work/artifactory/tomcat/temp
+
+ User Info
+ ========================
+   user.country                                                          | US
+   user.dir                                                              | /var/opt/jfrog/artifactory
+   user.home                                                             | /home/artifactory
+   user.language                                                         | en
+   user.name                                                             | artifactory
+   user.timezone                                                         | GMT
+
+ Host Info
+ ========================
+   Available Processors                                                  | 3
+   Heap Memory Usage-Commited                                            | 536870912
+   Heap Memory Usage-Init                                                | 536870912
+   Heap Memory Usage-Max                                                 | 2147483648
+   Heap Memory Usage-Used                                                | 360185856
+   Non-Heap Memory Usage-Commited                                        | 243466240
+   Non-Heap Memory Usage-Init                                            | 7667712
+   Non-Heap Memory Usage-Max                                             | -1
+   Non-Heap Memory Usage-Used                                            | 233041296
+   os.arch                                                               | amd64
+   os.name                                                               | Linux
+   os.version                                                            | 4.15.0-128-generic
+
+ Artifactory Info
+ ========================
+   artifactory.runMode.test                                              | false
+   artifactory.runMode.qa                                                | false
+   artifactory.runMode.dev                                               | false
+   artifactory.runMode.devHa                                             | false
+   artifactory.version                                                   | 7.15.3
+   artifactory.revision                                                  | 71503900
+   artifactory.buildNumber                                               | LOCAL
+   artifactory.timestamp                                                 | 1167040800000
+   artifactory.context.path                                              | /artifactory
+   artifactory.override.context.path                                     | /artifactory
+   artifactory.access.context.path                                       | /access
+   artifactory.servlet.supportUrlSessionTracking                         | false
+   artifactory.addons.disabled                                           | 
+   artifactory.addons.info.url                                           | http://service.jfrog.org/artifactory/addons/info/%s
+   artifactory.addons.info.url                                           | http://www.jfrog.com/confluence/display/RTF/%s
+   artifactory.jcr.addons.info.url                                       | http://www.jfrog.com/confluence/display/JCR/%s
+   artifactory.async.corePoolSize                                        | 12
+   artifactory.async.poolTtlSecs                                         | 60
+   artifactory.async.poolMaxQueueSize                                    | 10000
+   artifactory.versioningQueryIntervalSecs                               | 7200
+   artifactory.logs.viewRefreshRateSecs                                  | 10
+   artifactory.locks.timeoutSecs                                         | 120
+   artifactory.locks.debugTimeouts                                       | false
+   artifactory.task.pause.timeoutSecs                                    | 120
+   artifactory.task.retry.wait.beforeRescheduleSecs                      | 5
+   artifactory.task.completionLockTimeoutRetries                         | 100
+   artifactory.repo.concurrentDownloadSyncTimeoutSecs                    | 900
+   artifactory.repo.downloadStatsEnabled                                 | true
+   artifactory.repo.download.saveGetResource                             | false
+   artifactory.repo.global.disabled                                      | true
+   artifactory.fsitem.cache.idleTimeSecs                                 | 1200
+   artifactory.docker.tokens.cache.idleTimeSecs                          | 240
+   artifactory.artifactory.tokens.cache.idleTimeSecs                     | 600
+   artifactory.cacheFS.sync.quietPeriodSecs                              | 900
+   artifactory.search.maxResults                                         | 500
+   artifactory.search.userQueryLimit                                     | 1000
+   artifactory.search.max.list.size                                      | 600
+   artifactory.search.userSqlQueryLimit                                  | 2000
+   artifactory.search.limitAnonymousUsersOnly                            | true
+   artifactory.search.content.maxFragments                               | 500
+   artifactory.search.content.maxFragmentsSize                           | 5000
+   artifactory.search.archive.minQueryLength                             | 3
+   artifactory.search.pattern.timeoutSecs                                | 30
+   artifactory.search.projects.maxReposToProcess                         | 10
+   artifactory.gc.useIndex                                               | false
+   artifactory.gc.intervalSecs                                           | 86400
+   artifactory.gc.delaySecs                                              | 7200
+   artifactory.gc.sleepBetweenNodesMillis                                | 20
+   artifactory.gc.scanStartSleepingThresholdMillis                       | 20000
+   artifactory.gc.scanSleepBetweenIterationsMillis                       | 200
+   artifactory.gc.fileScanSleepIterationMillis                           | 1000
+   artifactory.gc.fileScanSleepMillis                                    | 250
+   artifactory.gc.maxCacheEntries                                        | 10000
+   artifactory.gc.readersMaxTimeSecs                                     | 10800
+   artifactory.gc.failCount.threshold                                    | 10
+   artifactory.gc.binaries.joinWithNodes                                 | true
+   artifactory.gc.numberOfWorkersThreads                                 | 3
+   artifactory.gc.skipFullGcBetweenMinorIterations                       | 20
+   artifactory.traffic.collectionActive                                  | false
+   artifactory.traffic.v2.enabled                                        | false
+   artifactory.traffic.v2.enabled.finally                                | false
+   artifactory.traffic.ignore.range.header.when.calc.binary.size.for.redirect| false
+   artifactory.security.authentication.cache.initSize                    | 100
+   artifactory.security.authentication.cache.idleTimeSecs                | 300
+   artifactory.security.ui.authentication.cache.idleTimeSecs             | 15
+   artifactory.security.userLastAccessUpdatesResolutionSecs              | 5
+   artifactory.security.master.key                                       | ************************
+   artifactory.security.master.key.numOfFallbackKeys                     | *
+   artifactory.security.disableRememberMe                                | false
+   artifactory.security.rememberMe.lifetimeSecs                          | 1209600
+   artifactory.security.ldap.forceGroupMemberAttFullDN                   | false
+   artifactory.security.ldap.disable.group.search.attributes.limitation  | false
+   artifactory.security.ldap.group.policy.cleanOnFail                    | true
+   artifactory.security.ldap.group.search.filterThreshold                | 0
+   artifactory.security.ldap.group.cacheRetentionSecs                    | 300
+   artifactory.ldap.max.page.size                                        | 1000
+   artifactory.ldap.paging.support                                       | true
+   artifactory.ldap.disable.paging.support.period.minutes                | 10
+   artifactory.enable.aql.read.committed                                 | false
+   artifactory.mvn.central.hostPattern                                   | .maven.org
+   artifactory.mvn.central.indexerMaxQueryIntervalSecs                   | 86400
+   artifactory.mvn.metadata.plugin.calculation.workers                   | 2
+   artifactory.mvn.metadata.calculation.workers                          | 8
+   artifactory.mvn.dynamicMetadata.cacheRetentionSecs                    | 10
+   artifactory.mvn.metadata.version3.enabled                             | true
+   artifactory.mvn.custom.types                                          | tar.gz,tar.bz2
+   artifactory.request.disableVersionTokens                              | false
+   artifactory.request.searchLatestReleaseByDateCreated                  | false
+   artifactory.npm.tag.tagLatestByPublish                                | false
+   artifactory.build.maxFoldersToScanForDeletionWarnings                 | 2
+   artifactory.build.checksum.cache.idleTimeSecs                         | 300
+   artifactory.updates.refreshIntervalSecs                               | 14400
+   artifactory.updates.url                                               | http://service.jfrog.org/artifactory/updates
+   artifactory.artifactoryRequestsToGlobalCanRetrieveRemoteArtifacts     | false
+   artifactory.ui.syntaxColoringMaxTextSizeBytes                         | 512000
+   artifactory.plugin.scripts.refreshIntervalSecs                        | 0
+   artifactory.aol.skip.skipable.converters                              | false
+   artifactory.plugin.aol.support                                        | false
+   artifactory.aol.dedicated.server                                      | false
+   artifactory.aol.displayAccountManagementLink                          | true
+   artifactory.aol.security.http.sso.enable                              | false
+   artifactory.aol.security.anon.access.enable                           | false
+   artifactory.aol.indexer.enable                                        | false
+   artifactory.aol.docker.skip.creating.dns.record                       | false
+   artifactory.ui.session.timeout.minutes                                | 30
+   artifactory.file.roller.maxFileToRetain                               | 10
+   artifactory.backup.fileExportSleepIterationMillis                     | 2000
+   artifactory.backup.fileExportSleepMillis                              | 250
+   artifactory.s3.existsCheckAfterAddingStream                           | true
+   artifactory.binary.provider.artifacts.existence.cache.expirySecs      | 60
+   artifactory.binary.provider.artifacts.existence.cache.size            | 20000
+   artifactory.http.acceptEncoding.gzip                                  | true
+   artifactory.http.useExpectContinue                                    | false
+   artifactory.http.forceForbiddenResponse                               | false
+   artifactory.http.connectionPool.timeToLive                            | 30
+   artifactory.http.enableCookieManagement                               | false
+   artifactory.filtering.resourceSizeKb                                  | 64
+   artifactory.repo.remote.checkForExistingResourceOnRequest             | true
+   artifactory.version.query.enabled                                     | true
+   artifactory.response.disableContentDispositionFilename                | false
+   artifactory.composer.metadata.extractor.workers                       | 20
+   artifactory.composer.metadata.index.workers                           | 10
+   artifactory.chef.metadata.index.workers                               | 10
+   artifactory.yum.virtual.metadata.calculation.workers                  | 5
+   artifactory.rpm.metadata.calculation.workers                          | 8
+   artifactory.rpm.metadata.history.cycles.to.keep                       | 3
+   artifactory.rpm.metadata.require.logic.enabled                        | true
+   artifactory.debian.metadata.queue                                     | 
+   artifactory.debian.metadata.calculation.workers                       | 8
+   artifactory.debian.metadata.auto.calculation.disabled                 | false
+   artifactory.debian.coordinates.calculation.workers                    | 4
+   artifactory.debian.virtual.metadata.calculation.workers               | 5
+   artifactory.debian.remote.etag                                        | true
+   artifactory.debian.metadata.validation                                | true
+   artifactory.debian.metadata.calculateMd5InPackagesFiles               | false
+   artifactory.debian.use.acquire.byhash                                 | true
+   artifactory.debian.packages.byhash.history.cycles.to.Keep             | 3
+   artifactory.debian.release.extended.label                             | false
+   artifactory.archive.licenseFile.names                                 | license,LICENSE,license.txt,LICENSE.txt,LICENSE.TXT
+   artifactory.ui.search.maxRowsPerPage                                  | 20
+   artifactory.ui.search.artifacts.caseInsensitive                       | true
+   artifactory.replication.checksumDeploy.minSizeKb                      | 10
+   artifactory.replication.consumer.queueSize                            | 1
+   artifactory.replication.local.iteration.sleepThresholdMillis          | 1000
+   artifactory.replication.local.iteration.sleepMillis                   | 100
+   artifactory.replication.event.queue.size                              | 50000
+   artifactory.replication.properties.max.length                         | 100000
+   artifactory.replication.statistics.max.length                         | 5000
+   artifactory.replication.initContext.task.intervalSecs                 | 60
+   artifactory.replication.initContext.task.initialDelaySecs             | 5
+   artifactory.replication.push.fullTree.saveLocally                     | true
+   artifactory.replication.push.fullTree.saveLocally.free.disk.threshold.bytes| 100000000
+   artifactory.replication.push.caseDifference.support                   | false
+   artifactory.request.explodedArchiveExtensions                         | zip,tar,tar.gz,tgz,7z,tar.bz2
+   artifactory.bintray.jcenter.url                                       | http://jcenter.bintray.com
+   artifactory.jcr.xray.demo.enabled                                     | false
+   artifactory.bintray.url                                               | https://bintray.com
+   artifactory.bintray.api.url                                           | https://api.bintray.com
+   artifactory.bintray.token.expirySecs                                  | 3600
+   artifactory.bintray.distributionRegex.timeoutMillis                   | 180000
+   artifactory.bintray.ui.hideUploads                                    | false
+   artifactory.bintray.ui.hideInfo                                       | false
+   artifactory.bintray.ui.hideRemoteSearch                               | false
+   artifactory.bintray.client.threadPool.size                            | 5
+   artifactory.enable.ui.pages.in.Iframe                                 | false
+   artifactory.bintray.client.requestTimeoutMS                           | 150000
+   artifactory.bintray.client.distribution.requestTimeoutMS              | 30000
+   artifactory.bintray.client.signRequestTimeoutMS                       | 45000
+   artifactory.useUserNameAutoCompleteOnLogin                            | on
+   artifactory.ui.hideEncryptedPassword                                  | *****
+   artifactory.stats.flushIntervalSecs                                   | 30
+   artifactory.stats.remote.flushIntervalSecs                            | 35
+   artifactory.stats.flushTimeoutSecs                                    | 120
+   artifactory.integrationCleanup.intervalSecs                           | 300
+   artifactory.integrationCleanup.quietPeriodSecs                        | 60
+   artifactory.folderPruning.intervalSecs                                | 300
+   artifactory.folderPruning.quietPeriodSecs                             | 60
+   artifactory.repo.virtualCacheCleanup.maxAgeHours                      | 168
+   artifactory.repo.virtualCacheCleanup.pattern                          | *.pom
+   artifactory.security.authentication.password.salt                     | ****************
+   artifactory.db.idGenerator.fetch.amount                               | 2000
+   artifactory.db.idGenerator.max.update.retries                         | 50
+   artifactory.gems.localIndexTaskIntervalSecs                           | 30
+   artifactory.gems.virtualIndexTaskIntervalSecs                         | 300
+   artifactory.gems.remoteAllowCacheDependencies                         | true
+   artifactory.gems.gemsIndexTaskQueueLimit                              | 20000
+   artifactory.gems.gemsAfterRepoInitHack                                | true
+   artifactory.gems.number.of.split.iterations                           | 1
+   artifactory.gems.compact.index.enabled                                | false
+   artifactory.gems.compact.index.workers                                | 5
+   artifactory.gems.compact.etag.stash.size                              | 5000
+   artifactory.gems.compact.etag.cache.size                              | 20000
+   artifactory.gems.compact.etag.cache.eviction.time.minutes             | 15
+   artifactory.gems.compact.packages.cache.size                          | 100000
+   artifactory.gems.compact.packages.cache.eviction.time.minutes         | 15
+   artifactory.jruby.runtime.localContextMode                            | CONCURRENT
+   artifactory.security.authentication.crowd.group.startIndex            | 0
+   artifactory.security.authentication.crowd.group.maxResults            | 9999
+   artifactory.ui.hideChecksums                                          | true
+   artifactory.airgap.recovery.intervalSecs                              | 300
+   artifactory.releasebundle.close.transaction.retries                   | 3
+   artifactory.releasebundle.close.transaction.retries.waiting.millis    | 1000
+   artifactory.archive.indexer.intervalSecs                              | 60
+   artifactory.xray.indexer.intervalSecs                                 | 60
+   artifactory.xray.client.token.authentication.support                  | true
+   artifactory.xray.client.token.expiry.minutes                          | 1440
+   artifactory.xray.client.block.cache.expiration.intervalSecs           | 300
+   artifactory.xray.client.block.unscanned.cache.expiration.intervalSecs | 120
+   artifactory.xray.event.job.read.limit                                 | 10000
+   artifactory.xray.client.block.cache.size                              | 100000
+   artifactory.xray.client.heartbeat.intervalSecs                        | 5
+   artifactory.xray.client.repositories.policies.update.intervalSecs     | 20
+   artifactory.xray.client.repositories.policies.update.quietPeriodSecs  | 5
+   artifactory.xray.client.max.connections                               | 50
+   artifactory.xray.client.connection.timeout.millis                     | 5000
+   artifactory.xray.client.builds.socket.timeout.millis                  | 600000
+   artifactory.xray.client.normal.socket.timeout.millis                  | 25000
+   artifactory.xray.cleanup.job.quietPeriodSecs                          | 60
+   artifactory.xray.cleanup.job.db.query.limit                           | 100
+   artifactory.xray.cleanup.job.batch.size                               | 100
+   artifactory.xray.cleanup.job.sleep.interval.millis                    | 0
+   artifactory.xray.block.unscanned.recheck.intervalSecs                 | 20
+   artifactory.nuget.inMemoryRemoteCaches                                | true
+   artifactory.nuget.forceAuthentication                                 | false
+   artifactory.nuget.allowRootGetWithAnon                                | false
+   artifactory.nuget.disableSemVer2SearchFilterForLocalRepos             | false
+   artifactory.nuget.disableSemverComparator                             | false
+   artifactory.nuget.ignoreIsLatestVersionFilter                         | true
+   artifactory.nuget.xstream.reusage.for.remote.metadata.enabled         | true
+   artifactory.nuget.allowV3Download                                     | true
+   artifactory.ha.orphan.cluster.singleton.lock.period.minutes           | 30
+   artifactory.ha.heartbeat.intervalSecs                                 | 5
+   artifactory.ha.heartbeat.staleSecs                                    | 30
+   artifactory.ha.heartbeat.stale.server.cleanup.periodMinutes           | 180
+   artifactory.ha.heartbeat.network.timeout                              | 10
+   artifactory.ha.propagation.http.socketTimeoutMs                       | 15000
+   artifactory.ha.propagation.http.connectionTimeoutMs                   | 5000
+   artifactory.ha.propagation.http.maxTotalConnections                   | 150
+   artifactory.ha.propagation.CallTimeoutSecs                            | 30
+   artifactory.binary.store.error.notification.intervalSecs              | 30
+   artifactory.binary.store.error.notification.staleSecs                 | 30
+   artifactory.ha.membersIntroduction.intervalSecs                       | 30
+   artifactory.ha.membersIntroduction.staleSecs                          | 30
+   artifactory.npm.remote.metadata.content.validation                    | true
+   artifactory.npm.remote.metadata.json.accept.header                    | true
+   artifactory.npm.alternative.download.enabled                          | false
+   artifactory.npm.default.audit.provider                                | https://registry.npmjs.org
+   artifactory.npm.minimal.xray.audit.support                            | 2.8.0
+   artifactory.npm.virtual.cache.item.ttl.seconds                        | 600
+   artifactory.npm.virtual.cache.cleanup.batch.size                      | 1000
+   artifactory.npm.semver4j.enabled                                      | true
+   artifactory.npm.external.versioning.enabled                           | false
+   artifactory.npm.github.packages.url                                   | https://npm.pkg.github.com/
+   artifactory.import.max.parallelRepos                                  | 2
+   artifactory.debian.distribution.path                                  | dists
+   artifactory.opkg.metadata.calculation.workers                         | 5
+   artifactory.debian.default.architectures                              | i386,amd64
+   artifactory.pypi.index.quietPeriodSecs                                | 60
+   artifactory.pypi.index.sleepMilliSecs                                 | 60
+   artifactory.pypi.index.preferMetadataOnRootDepth                      | true
+   artifactory.eventually.persisted.task.manager.jobSecs                 | 600
+   artifactory.docker.filter.catalog.by.user.permission                  | false
+   artifactory.docker.cleanup.maxAgeMillis                               | 86400000
+   artifactory.docker.cleanup.uploadsTmpFolderJobMillis                  | 86400000
+   artifactory.docker.cleanup.tmpFolder.maxSearchResult                  | 5000
+   artifactory.docker.tags.cleanup.intervalSecs                          | 300
+   artifactory.docker.tags.cleanup.quietPeriodSecs                       | 60
+   artifactory.docker.tags.orphan.layer.cleanup.intervalSecs             | 90
+   artifactory.docker.tags.orphan.layer.cleanup.quietPeriodSecs          | 300
+   artifactory.docker.manifest.marker.lock.timeoutMillis                 | 30000
+   artifactory.docker.indexNumOfWorkerThreads                            | 5
+   artifactory.http.range.support                                        | true
+   artifactory.acl.dirty.read.timeout                                    | 20000
+   artifactory.acl.version.cache.async.reload                            | false
+   artifactory.acl.version.cache.async.waiting.time.millis               | 60000
+   artifactory.acl.version.cache.async.waiting.on.error.time.millis      | 60000
+   artifactory.acl.minimum.wait.refresh.data.seconds                     | 30
+   artifactory.central.config.validation                                 | true
+   artifactory.central.config.dirty.read.timeout.millis                  | 2000
+   artifactory.central.config.latest.revisions.expire.after.access.seconds| 21600
+   artifactory.central.config.latest.revisions.dictionary.size           | 20
+   artifactory.central.config.save.number.of.retries                     | 5
+   artifactory.central.config.save.backoff.max.delay                     | 8000
+   artifactory.central.config.save.backoff.multiplier                    | 2
+   artifactory.repositories.dirty.read.timeout.millis                    | 5000
+   artifactory.repo.http.idleConnectionMonitorInterval                   | 10
+   artifactory.repo.http.disableIdleConnectionMonitoring                 | false
+   artifactory.support.core.bundle.contentCollectionAwaitTimeout         | 60
+   artifactory.support.core.bundle.waitForSlotBeforeWithdraw             | 600
+   artifactory.support.core.bundle.maxBundles                            | 5
+   artifactory.support.bundle.retrieval.token.expiry.minutes             | 5
+   artifactory.binary.provider.zones                                     | a,b,c
+   artifactory.binary.provider.prune.chunk.size                          | 500
+   artifactory.properties.search.chunk.size                              | 500
+   artifactory.security.useFrontCacheForBlockedUsers                     | true
+   artifactory.security.loginBlockDelay                                  | 1000
+   artifactory.security.maxLoginBlockDelay                               | 60000
+   artifactory.security.max.incorrect.login.attempts                     | 2
+   artifactory.security.max.users.toTrack                                | 10000
+   artifactory.security.password.expiry.passwordExpireNotificationJobIntervalSecs| *****
+   artifactory.security.password.expiry.passwordExpireJobIntervalSecs    | *****
+   artifactory.security.password.expiry.daysToNotifyBefore               | *
+   artifactory.http.client.max.total.connections                         | 50
+   artifactory.http.client.max.connections.per.route                     | 50
+   artifactory.http.client.max.docker.token.connections                  | 2
+   artifactory.hazelcast.max.lock.lease.time.minutes                     | 30
+   artifactory.repo.remote.blockedMismatchingMimeTypes                   | text/html,application/xhtml+xml
+   artifactory.mvn.metadata.calculation.skip.delete.event                | false
+   artifactory.repo.remote.browsing.content.length.limit.KB              | 1024
+   artifactory.repo.remote.syncProperties.blacklistUrls                  | 
+   artifactory.remote.repo.url.strict.policy                             | true
+   artifactory.remote.repo.url.verifier.cache.expirySecs                 | 300
+   artifactory.remote.repo.url.verifier.cache.size                       | 200
+   artifactory.sumologic.api.url                                         | https://auth.sumologic.com
+   artifactory.move.copy.max.folder.cache.size                           | 1000000
+   artifactory.move.copy.default.transaction.size                        | 1000
+   artifactory.node.properties.replace.all                               | false
+   artifactory.node.properties.log.performance                           | false
+   artifactory.workQueue.execution.syncExecutionTimeoutMillis            | 120000
+   artifactory.workQueue.dojob.enabled                                   | true
+   artifactory.workQueue.dojob.intervalSecs                              | 5
+   artifactory.workitem.max.lock.lease.time.minutes                      | 30
+   artifactory.ha.messages.workers                                       | 10
+   artifactory.airgap.workers                                            | 5
+   artifactory.security.communication.constant                           | ArtifactorySecurityCommunicationConstant
+   artifactory.nuget.disablePermissionCheck                              | false
+   artifactory.treebrowser.sortRepositories.sortByType                   | virtual,distribution,local,remote,cached
+   artifactory.treebrowser.folder.compact                                | true
+   artifactory.maven.metadata.publishModelVersion                        | true
+   artifactory.access.token.expiresIn.default                            | 3600
+   artifactory.access.token.non.admin.max.expires.in                     | 3600
+   artifactory.access.token.file.limitedForAnonymous                     | true
+   artifactory.access.token.file.non.admin.max.expires.in                | 10800
+   artifactory.access.client.token.verify.result.cache.size              | -1
+   artifactory.access.client.token.verify.result.cache.expiry            | -1
+   artifactory.access.client.waitForServer                               | 90
+   artifactory.access.client.max.connections                             | 50
+   artifactory.access.client.connection.timeout                          | -1
+   artifactory.access.client.socket.timeout                              | -1
+   artifactory.access.client.force.rest                                  | false
+   artifactory.access.client.force.grpc                                  | false
+   artifactory.access.client.startup.ping.retries                        | 90
+   artifactory.access.grpc.client.keepalive.timeoutMillis                | 15000
+   artifactory.access.grpc.client.resubscribe.delayMillis                | 5000
+   artifactory.metadata.client.max.connections                           | 50
+   artifactory.metadata.client.connection.timeout                        | 10000
+   artifactory.metadata.client.socket.timeout                            | 300000
+   artifactory.metadata.client.serverUrl.override                        | http://localhost:8086
+   artifactory.metadata.event.operator.threads                           | 5
+   artifactory.metadata.event.operator.dispatcher.interval.secs          | 60
+   artifactory.metadata.event.unstable.margin.secs                       | 60
+   artifactory.metadata.native.ui                                        | true
+   artifactory.metadata.server.events.persistence                        | distributed
+   artifactory.metadata.server.max.files.to.write.per.version            | 1000
+   artifactory.security.active.principal.token.ttl                       | 600
+   artifactory.security.active.principal.token.ttl                       | 10000
+   artifactory.saml.requests.ids.cache.size                              | 3000
+   artifactory.saml.inResponseTo.validation.enable                       | false
+   artifactory.puppet.metadata.calculation.workers                       | 5
+   artifactory.puppet.repo.metadata.calculation.workers                  | 5
+   artifactory.puppet.reindex.period                                     | 1800
+   artifactory.puppet.additional.modulegroup                             | 
+   artifactory.puppet.additional.endorsement                             | 
+   artifactory.onboarding.skipWizard                                     | false
+   artifactory.configuration.manager.retry.amount                        | 3
+   artifactory.configuration.manager.quiet.period                        | 20000
+   artifactory.configuration.manager.blocking.time                       | 60000
+   artifactory.aggregation.time.window.secs                              | 60
+   artifactory.most.downloaded.cache.idleTimeSecs                        | 900
+   artifactory.replication.eventBased.connection.maxDelay                | 1800000
+   artifactory.replications.eventbased.workers                           | 8
+   artifactory.replication.eventbased.maxQueueItems                      | 500
+   artifactory.replication.eventbased.maxPullReplicationsPerRepo         | 30
+   artifactory.replication.eventbased.maxPullReplicationInboundEventsPerRepo| 10000
+   artifactory.replication.eventbased.pullInboundUseSimpleExecutor       | false
+   artifactory.replication.eventbased.pullDispatcher.timeMillis          | 1511
+   artifactory.ha.replication.max.pool.size                              | 16
+   artifactory.build.retention.enabled                                   | true
+   artifactory.build.retention.workers                                   | 10
+   artifactory.build.retention.always.async                              | false
+   artifactory.build.info.migration.job.enabled                          | true
+   artifactory.build.info.migration.job.queue.workers                    | 2
+   artifactory.build.info.migration.fix.properties                       | false
+   artifactory.build.ui.skip.delete.permission.check                     | false
+   artifactory.locking.provider.type                                     | db
+   artifactory.db.lock.cleanup.job.interval                              | 120
+   artifactory.db.lock.cleanup.job.stale.interval                        | 120
+   artifactory.db.mssql.property.value.max.size                          | 900
+   artifactory.db.postgres.property.value.max.size                       | 2400
+   artifactory.db.lock.conditional.insert.enabled                        | true
+   artifactory.migration.job.waitForCluster.sleepIntervalMillis          | 300000
+   artifactory.migration.job.dbQueryLimit                                | 100
+   artifactory.migration.job.batchSize                                   | 10
+   artifactory.migration.job.sleepIntervalMillis                         | 5000
+   artifactory.sha2.migration.job.queue.workers                          | 2
+   artifactory.sha2.migration.job.enabled                                | false
+   artifactory.pathChecksum.migration.job.enabled                        | false
+   artifactory.pathChecksum.migration.job.queue.workers                  | 2
+   artifactory.upload.failOnChecksumValidationError                      | false
+   artifactory.remote.download.inVain.consume.limit.inMegaBytes          | 1
+   artifactory.remote.fetching.list.maximum.iteration                    | 3
+   artifactory.service.name                                              | https://localhost:8080/artifactory/webapp/
+   artifactory.helm.metadata.calculation.workers                         | 5
+   artifactory.helm.virtual.metadata.calculation.workers                 | 5
+   artifactory.helm.index.queue.max.items                                | 100
+   artifactory.alpine.metadata.calculation.workers                       | 5
+   artifactory.alpine.virtual.metadata.calculation.workers               | 5
+   artifactory.cran.metadata.calculation.workers                         | 5
+   artifactory.conan.metadata.calculation.workers                        | 5
+   artifactory.conan.index.timestamp.override.threshold.millis           | 60000
+   artifactory.conan.v2.migration.job.enabled                            | true
+   artifactory.conan.v2.migration.job.queue.workers                      | 2
+   artifactory.sql.converter.allowExternalConversionScripts              | false
+   artifactory.database.converters.skip                                  | false
+   artifactory.master.key.waiting.timeout.millis                         | *****
+   artifactory.join.key.waiting.timeout.millis                           | *****
+   artifactory.bootstrap.logger.debug                                    | false
+   artifactory.enable.context.aware.logger                               | false
+   artifactory.send.overwrites.to.trashcan                               | true
+   artifactory.trashcan.max.search.results                               | 10000
+   artifactory.enable.replicator.use                                     | true
+   artifactory.start.local.replicator                                    | false
+   artifactory.min.replicator.use.filesize.in.bytes                      | 8000000
+   artifactory.block.on.conversion.cache.timeout.in.millis               | 0
+   artifactory.node.events.enabled                                       | true
+   artifactory.node.events.metrics.enabled                               | true
+   artifactory.node.events.max.time                                      | 31536000000
+   artifactory.jobs.table.ttl.millis                                     | 604800000
+   artifactory.jobs.table.fetch.limit                                    | 10000
+   artifactory.replication.full.useEventLog                              | false
+   artifactory.replication.full.eventlog.commit.durationMillis           | 5000
+   artifactory.replication.full.eventlog.forceSuccessfulFullTree         | false
+   artifactory.replication.errorQueue.maxErrors                          | 100
+   artifactory.replication.errorQueue.enabled                            | false
+   artifactory.replication.errorQueue.retryCount                         | 10
+   artifactory.releasebundle.cleanup.intervalSecs                        | 3600
+   artifactory.releasebundle.distribute.streaming.intervalSecs           | 15
+   artifactory.local.port.for.replicator                                 | 8081
+   artifactory.package.native.ui.results                                 | 1000
+   artifactory.package.native.ui.include.total.downloads                 | true
+   artifactory.package.native.ui.search.by.path                          | false
+   artifactory.http.sso.create.session.ui.request.only                   | true
+   artifactory.s3.autoBucketCreation.skip                                | false
+   artifactory.global.message.cache.ageSecs                              | 10
+   artifactory.apply.local.repos.permissions.on.remote.repos             | true
+   artifactory.apply.remote.repos.permissions.on.local.repos             | true
+   artifactory.ui.continue.paging.limit                                  | 500
+   artifactory.conda.metadata.calculation.workers                        | 5
+   artifactory.npm.metadata.calculation.workers                          | 10
+   artifactory.npm.reindex.metadata.calculation.workers                  | 10
+   artifactory.go.github.useRaw                                          | false
+   artifactory.go.pathFallback.allow                                     | false
+   artifactory.go.sumdb.enabled                                          | true
+   artifactory.go.latest.version.support                                 | true
+   artifactory.go.skip.github.get.import.path.request                    | true
+   artifactory.native.ui.search.max.time.millis                          | 60000
+   artifactory.access.admin.default.password.check.period.millis         | *****
+   artifactory.signed.url.cdn.validForSecs                               | 30
+   artifactory.signed.url.validForSecs                                   | 86400
+   artifactory.signed.url.ui.download.valid.for.secs                     | 300
+   artifactory.should.include.native.prop.keys                           | ****
+   artifactory.replication.skip.check.localgenerated                     | false
+   artifactory.docker.catalogs.tags.fallback.fetch.remote.cache          | false
+   artifactory.sql.server.query.builder.force.add.offset.to.query        | false
+   artifactory.support.bundles.retention.count                           | 15
+   artifactory.max.artifacts.permission.test.on.checksum.deploy          | 10
+   artifactory.ignore.checksum.deploy.permission.check                   | false
+   artifactory.enforce.permission.check.on.identical.checksum.deploy     | false
+   artifactory.list.of.repos.allowed.send.redirect.url                   | 
+   artifactory.cloud.binary.provider.redirect.threshold.in.bytes         | 204800
+   artifactory.internal.request.disable.method.delegation                | false
+   artifactory.is.add.user.name.to.sign.url.for.redirect                 | false
+   artifactory.list.of.repos.hosts.need.to.avoid.url.normalisation       | mcr.microsoft.com, pkgs.dev.azure.com, nuget.pkg.github.com, promitor.azurecr.io
+   artifactory.cipher.black.list                                         | arcfour256
+   artifactory.key.exchange.black.list                                   | 
+   artifactory.max.release.bundle.size.to.display                        | 3000
+   artifactory.events.log.cleanup.task.period.hours                      | 13
+   artifactory.events.log.cleanup.age.of.entries.to.discard.days         | 60
+   artifactory.replication.events.fetch.batch.limit                      | 1000
+   artifactory.events.log.cleanup.interval.hours                         | 4
+   artifactory.events.log.cleanup.iteration.sleep.time.millis            | 10
+   artifactory.shutdown.on.invalid.db.scheme                             | false
+   artifactory.update.storage.status.enabled                             | false
+   artifactory.update.storage.status.cron                                | 0 0/15 * ? * *
+   artifactory.storage.usage.sync.max.retries.until.flush                | 15
+   artifactory.storage.usage.save.number.of.retries                      | 5
+   artifactory.storage.usage.save.backoff.max.delay                      | 8000
+   artifactory.storage.usage.save.backoff.multiplier                     | 2
+   artifactory.projects.storage.quota.enabled                            | true
+   artifactory.projects.storage.quota.error.tolerance.percentage         | 1
+   artifactory.projects.storage.quota.notification.threshold.hardLimit.percentage| 75
+   artifactory.projects.storage.quota.notification.job.interval.minutes  | 60
+   artifactory.projects.storage.quota.notification.job.initial.delay.minutes| 10
+   artifactory.projects.storage.quota.notification.period                | 720
+   artifactory.allow.insecure.templates                                  | false
+   artifactory.docker.blobs.caches.enabled                               | true
+   artifactory.docker.blobs.cache.stat.print.interval.millis             | 300000
+   artifactory.security.authentication.skip.artifactory.redirect         | false
+   artifactory.system.import.enabled                                     | true
+   artifactory.repository.import.enabled                                 | true
+   artifactory.allow.export.import.insecure.paths                        | false
+   artifactory.ha.affinity.task.fallback                                 | false
+   artifactory.ha.task.affinity.enabled                                  | false
+   artifactory.oauth.redirect.prefer.custom.base.url                     | true
+   artifactory.default.pipelines.repo.key                                | **************
+   artifactory.event.client.timeout.seconds                              | 60
+   artifactory.jf.event.max.workers                                      | 60
+   artifactory.use.repo.path.on.remote.offline                           | true
+   artifactory.metrics.enabled                                           | false
+   artifactory.exclude.artifacts.from.metadata                           | false
+   artifactory.exclude.artifacts.from.metadata.cache.size                | 20000
+   artifactory.exclude.artifacts.from.metadata.cache.eviction.time       | 15
+   artifactory.include.md5.into.etag.check                               | false
+   artifactory.security.api.plus.insteadof.space                         | true
+   artifactory.validate.lowercase.username.on.group.association          | false
+
+2021-03-10T20:35:55.322Z [jfrt ] [INFO ] [d1f89cf6a65516df] [tegrationCleanupServiceImpl:75] [art-init            ] - Using generated cron 0 9 0 ? * * for jobs table cleanup
+2021-03-10T20:35:55.365Z [jfrt ] [INFO ] [d1f89cf6a65516df] [ifactoryApplicationContext:560] [art-init            ] - Artifactory application context set to READY by refresh
+2021-03-10T20:35:55.519Z [jfrt ] [INFO ] [d1f89cf6a65516df] [.w.NodeEventTaskManagerImpl:43] [art-init            ] - Event management started on behalf of Event Operator with ID 'metadata-operator-events'
+2021-03-10T20:35:55.532Z [jfrt ] [INFO ] [d1f89cf6a65516df] [o.a.m.f.MetricsServiceImpl:124] [art-init            ] - Metric Framework Service is enabled: false
+2021-03-10T20:35:55.549Z [jfrt ] [INFO ] [d1f89cf6a65516df] [o.a.s.s.StorageServiceImpl:531] [art-init            ] - Scheduling CalculateReposStorageSummaryJob to run at '0 3 * ? * *'
+2021-03-10T20:35:55.552Z [jfrt ] [INFO ] [d1f89cf6a65516df] [o.a.s.s.StorageServiceImpl:560] [art-init            ] - LogStorageStatusJob disabled and not scheduled to run
+2021-03-10T20:35:55.602Z [jfrt ] [INFO ] [d1f89cf6a65516df] [o.a.s.a.AccessServiceImpl:1619] [art-init            ] - Successful register of Artifactory serviceId jfrt@01f0ee59rzdypp0wd25tvx1wd1 in Access Federation
+2021-03-10T20:35:55.625Z [jfrt ] [INFO ] [1032a7baf8a4446a] [adsFolderCleanupServiceImpl:52] [art-exec-4          ] - Starting docker temp folder cleanup
+2021-03-10T20:35:55.627Z [jfrt ] [INFO ] [1032a7baf8a4446a] [adsFolderCleanupServiceImpl:54] [art-exec-4          ] - Docker temp folder cleanup finished, time took: 2 millis
+2021-03-10T20:35:55.654Z [jfrt ] [INFO ] [                ] [d.DatabaseConverterRunnable:37] [pool-35-thread-1    ] - Starting Async converter thread.
+2021-03-10T20:35:55.655Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-35-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_name_idx
+2021-03-10T20:35:55.656Z [jfrt ] [INFO ] [d1f89cf6a65516df] [ctoryContextConfigListener:266] [art-init            ] - Artifactory (jfrt) service initialization completed in 31.537 seconds. Listening on port: 8081
+2021-03-10T20:35:55.655Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-35-thread-1    ] - Conversion of v225_change_nodes_node_name_idx finished successfully.
+2021-03-10T20:35:55.657Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-35-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_path_idx
+2021-03-10T20:35:55.659Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-35-thread-1    ] - Conversion of v225_change_nodes_node_path_idx finished successfully.
+2021-03-10T20:35:55.659Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-35-thread-1    ] - Starting attempt #1 of async conversion for v225_change_nodes_node_repo_path_idx
+2021-03-10T20:35:55.660Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-35-thread-1    ] - Conversion of v225_change_nodes_node_repo_path_idx finished successfully.
+2021-03-10T20:35:55.660Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:33] [pool-35-thread-1    ] - Starting attempt #1 of async conversion for v225_add_bundle_files_node_id_index
+2021-03-10T20:35:55.677Z [jfrt ] [INFO ] [                ] [ncDBSqlConditionalConverter:35] [pool-35-thread-1    ] - Conversion of v225_add_bundle_files_node_id_index finished successfully.
+2021-03-10T20:36:13.378Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [pool-9-thread-1     ] - [Node ID: 7dff8f30b2ee]  detected local  modify for config 'artifactory/config/security/access/access.admin.token'
+2021-03-10T20:36:25.414Z [jfrt ] [INFO ] [26a735f9550c2752] [a.e.EventsLogCleanUpService:59] [art-exec-8          ] - Starting cleanup of old events from event log
+2021-03-10T20:36:25.442Z [jfrt ] [INFO ] [26a735f9550c2752] [a.e.EventsLogCleanUpService:81] [art-exec-8          ] - Cleanup of old events from event log finished
+2021-03-10T20:57:50.447Z [jfrt ] [INFO ] [52e2448508b2d551] [ateRepositoryConfigService:108] [http-nio-8081-exec-3] - Creating repository lib-release-local
+2021-03-10T20:57:51.009Z [jfrt ] [INFO ] [52e2448508b2d551] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-3] - Reloading configuration... old revision 2, new revision 3
+2021-03-10T20:57:51.271Z [jfrt ] [INFO ] [52e2448508b2d551] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-3] - New configuration with revision 3 saved.
+2021-03-10T20:57:51.272Z [jfrt ] [INFO ] [52e2448508b2d551] [ifactoryApplicationContext:560] [http-nio-8081-exec-3] - Artifactory application context set to NOT READY by reload
+2021-03-10T20:57:51.413Z [jfrt ] [WARN ] [52e2448508b2d551] [c.z.h.u.DriverDataSource:70   ] [http-nio-8081-exec-3] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-10T20:57:51.515Z [jfrt ] [INFO ] [52e2448508b2d551] [ifactoryApplicationContext:560] [http-nio-8081-exec-3] - Artifactory application context set to READY by reload
+2021-03-10T20:57:51.516Z [jfrt ] [INFO ] [52e2448508b2d551] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-3] - Configuration reloaded.
+2021-03-10T20:58:32.511Z [jfrt ] [INFO ] [78af42dfbe4e8f60] [eteRepositoryConfigService:100] [http-nio-8081-exec-1] - Deleting repository libs-release-local
+2021-03-10T20:58:32.555Z [jfrt ] [INFO ] [78af42dfbe4e8f60] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-1] - Reloading configuration... old revision 3, new revision 4
+2021-03-10T20:58:32.710Z [jfrt ] [INFO ] [78af42dfbe4e8f60] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-1] - New configuration with revision 4 saved.
+2021-03-10T20:58:32.711Z [jfrt ] [INFO ] [78af42dfbe4e8f60] [ifactoryApplicationContext:560] [http-nio-8081-exec-1] - Artifactory application context set to NOT READY by reload
+2021-03-10T20:58:32.806Z [jfrt ] [INFO ] [78af42dfbe4e8f60] [ifactoryApplicationContext:560] [http-nio-8081-exec-1] - Artifactory application context set to READY by reload
+2021-03-10T20:58:32.807Z [jfrt ] [INFO ] [78af42dfbe4e8f60] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-1] - Configuration reloaded.
+2021-03-10T20:58:32.839Z [jfrt ] [INFO ] [78af42dfbe4e8f60] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-1] - Reloading configuration... old revision 4, new revision 5
+2021-03-10T20:58:32.898Z [jfrt ] [INFO ] [78af42dfbe4e8f60] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-1] - New configuration with revision 5 saved.
+2021-03-10T20:58:32.899Z [jfrt ] [INFO ] [78af42dfbe4e8f60] [ifactoryApplicationContext:560] [http-nio-8081-exec-1] - Artifactory application context set to NOT READY by reload
+2021-03-10T20:58:33.717Z [jfrt ] [INFO ] [78af42dfbe4e8f60] [s.MetadataEventServiceImpl:231] [http-nio-8081-exec-1] - Received delete instruction on root for repository 'libs-release-local-cache'. Deleting paths from Metadata Server
+2021-03-10T20:58:33.934Z [jfrt ] [INFO ] [78af42dfbe4e8f60] [ifactoryApplicationContext:560] [http-nio-8081-exec-1] - Artifactory application context set to READY by reload
+2021-03-10T20:58:33.935Z [jfrt ] [INFO ] [78af42dfbe4e8f60] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-1] - Configuration reloaded.
+2021-03-10T20:58:35.656Z [jfrt ] [INFO ] [465dcd3aa18b9c48] [eteRepositoryConfigService:100] [http-nio-8081-exec-7] - Deleting repository libs-snapshot-local
+2021-03-10T20:58:35.660Z [jfrt ] [INFO ] [465dcd3aa18b9c48] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-7] - Reloading configuration... old revision 5, new revision 6
+2021-03-10T20:58:35.730Z [jfrt ] [INFO ] [465dcd3aa18b9c48] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-7] - New configuration with revision 6 saved.
+2021-03-10T20:58:35.731Z [jfrt ] [INFO ] [465dcd3aa18b9c48] [ifactoryApplicationContext:560] [http-nio-8081-exec-7] - Artifactory application context set to NOT READY by reload
+2021-03-10T20:58:35.827Z [jfrt ] [INFO ] [465dcd3aa18b9c48] [ifactoryApplicationContext:560] [http-nio-8081-exec-7] - Artifactory application context set to READY by reload
+2021-03-10T20:58:35.834Z [jfrt ] [INFO ] [465dcd3aa18b9c48] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-7] - Configuration reloaded.
+2021-03-10T20:58:35.938Z [jfrt ] [INFO ] [465dcd3aa18b9c48] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-7] - Reloading configuration... old revision 6, new revision 7
+2021-03-10T20:58:35.986Z [jfrt ] [INFO ] [465dcd3aa18b9c48] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-7] - New configuration with revision 7 saved.
+2021-03-10T20:58:35.988Z [jfrt ] [INFO ] [465dcd3aa18b9c48] [ifactoryApplicationContext:560] [http-nio-8081-exec-7] - Artifactory application context set to NOT READY by reload
+2021-03-10T20:58:36.028Z [jfrt ] [INFO ] [465dcd3aa18b9c48] [s.MetadataEventServiceImpl:231] [http-nio-8081-exec-7] - Received delete instruction on root for repository 'libs-snapshot-local-cache'. Deleting paths from Metadata Server
+2021-03-10T20:58:36.563Z [jfrt ] [INFO ] [465dcd3aa18b9c48] [ifactoryApplicationContext:560] [http-nio-8081-exec-7] - Artifactory application context set to READY by reload
+2021-03-10T20:58:36.565Z [jfrt ] [INFO ] [465dcd3aa18b9c48] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-7] - Configuration reloaded.
+2021-03-10T20:58:52.513Z [jfrt ] [INFO ] [6592df4f89c5b692] [eteRepositoryConfigService:100] [http-nio-8081-exec-8] - Deleting repository lib-release-local
+2021-03-10T20:58:52.517Z [jfrt ] [INFO ] [6592df4f89c5b692] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-8] - Reloading configuration... old revision 7, new revision 8
+2021-03-10T20:58:52.620Z [jfrt ] [INFO ] [6592df4f89c5b692] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-8] - New configuration with revision 8 saved.
+2021-03-10T20:58:52.620Z [jfrt ] [INFO ] [6592df4f89c5b692] [ifactoryApplicationContext:560] [http-nio-8081-exec-8] - Artifactory application context set to NOT READY by reload
+2021-03-10T20:58:52.693Z [jfrt ] [INFO ] [6592df4f89c5b692] [ifactoryApplicationContext:560] [http-nio-8081-exec-8] - Artifactory application context set to READY by reload
+2021-03-10T20:58:52.696Z [jfrt ] [INFO ] [6592df4f89c5b692] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-8] - Configuration reloaded.
+2021-03-10T20:58:52.704Z [jfrt ] [INFO ] [6592df4f89c5b692] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-8] - Reloading configuration... old revision 8, new revision 9
+2021-03-10T20:58:52.773Z [jfrt ] [INFO ] [6592df4f89c5b692] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-8] - New configuration with revision 9 saved.
+2021-03-10T20:58:52.774Z [jfrt ] [INFO ] [6592df4f89c5b692] [ifactoryApplicationContext:560] [http-nio-8081-exec-8] - Artifactory application context set to NOT READY by reload
+2021-03-10T20:58:52.819Z [jfrt ] [INFO ] [6592df4f89c5b692] [s.MetadataEventServiceImpl:231] [http-nio-8081-exec-8] - Received delete instruction on root for repository 'lib-release-local'. Deleting paths from Metadata Server
+2021-03-10T20:58:52.839Z [jfrt ] [INFO ] [6592df4f89c5b692] [ifactoryApplicationContext:560] [http-nio-8081-exec-8] - Artifactory application context set to READY by reload
+2021-03-10T20:58:52.845Z [jfrt ] [INFO ] [6592df4f89c5b692] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-8] - Configuration reloaded.
+2021-03-10T20:59:25.119Z [jfrt ] [INFO ] [60f7380fdabdf686] [ateRepositoryConfigService:108] [http-nio-8081-exec-9] - Creating repository libs-release-local
+2021-03-10T20:59:25.123Z [jfrt ] [INFO ] [60f7380fdabdf686] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-9] - Reloading configuration... old revision 9, new revision 10
+2021-03-10T20:59:25.184Z [jfrt ] [INFO ] [60f7380fdabdf686] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-9] - New configuration with revision 10 saved.
+2021-03-10T20:59:25.185Z [jfrt ] [INFO ] [60f7380fdabdf686] [ifactoryApplicationContext:560] [http-nio-8081-exec-9] - Artifactory application context set to NOT READY by reload
+2021-03-10T20:59:25.228Z [jfrt ] [INFO ] [60f7380fdabdf686] [ifactoryApplicationContext:560] [http-nio-8081-exec-9] - Artifactory application context set to READY by reload
+2021-03-10T20:59:25.228Z [jfrt ] [INFO ] [60f7380fdabdf686] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-9] - Configuration reloaded.
+2021-03-10T20:59:35.354Z [jfrt ] [INFO ] [31648f37304972c5] [ateRepositoryConfigService:108] [http-nio-8081-exec-3] - Creating repository libs-snapshot-local
+2021-03-10T20:59:35.358Z [jfrt ] [INFO ] [31648f37304972c5] [c.CentralConfigServiceImpl:697] [http-nio-8081-exec-3] - Reloading configuration... old revision 10, new revision 11
+2021-03-10T20:59:35.411Z [jfrt ] [INFO ] [31648f37304972c5] [c.CentralConfigServiceImpl:424] [http-nio-8081-exec-3] - New configuration with revision 11 saved.
+2021-03-10T20:59:35.413Z [jfrt ] [INFO ] [31648f37304972c5] [ifactoryApplicationContext:560] [http-nio-8081-exec-3] - Artifactory application context set to NOT READY by reload
+2021-03-10T20:59:35.461Z [jfrt ] [INFO ] [31648f37304972c5] [ifactoryApplicationContext:560] [http-nio-8081-exec-3] - Artifactory application context set to READY by reload
+2021-03-10T20:59:35.461Z [jfrt ] [INFO ] [31648f37304972c5] [c.CentralConfigServiceImpl:715] [http-nio-8081-exec-3] - Configuration reloaded.
+2021-03-10T21:10:13.349Z [jfrt ] [INFO ] [925d72916d3ea4ec] [o.a.e.UploadServiceImpl:445   ] [http-nio-8081-exec-6] - Deploy to 'libs-release-local:pl/pandait/panda/0.0.1/panda-0.0.1.jar' Content-Length: 27351349 (estimation)
+2021-03-10T21:10:16.290Z [jfrt ] [INFO ] [b1f946c38fcd29c2] [o.a.e.UploadServiceImpl:320   ] [http-nio-8081-exec-9] - Deploy to 'libs-release-local:pl/pandait/panda/0.0.1/panda-0.0.1.jar.sha1' Content-Length: 40
+2021-03-10T21:10:16.322Z [jfrt ] [INFO ] [bab9980de6b1fc19] [o.a.e.UploadServiceImpl:320   ] [http-nio-8081-exec-2] - Deploy to 'libs-release-local:pl/pandait/panda/0.0.1/panda-0.0.1.jar.md5' Content-Length: 32
+2021-03-10T21:10:16.333Z [jfrt ] [INFO ] [3216af7204072943] [o.a.e.UploadServiceImpl:445   ] [http-nio-8081-exec-2] - Deploy to 'libs-release-local:pl/pandait/panda/0.0.1/panda-0.0.1.pom' Content-Length: 3133 (estimation)
+2021-03-10T21:10:16.584Z [jfrt ] [INFO ] [ee272c8172e155b ] [o.a.e.UploadServiceImpl:320   ] [http-nio-8081-exec-2] - Deploy to 'libs-release-local:pl/pandait/panda/0.0.1/panda-0.0.1.pom.sha1' Content-Length: 40
+2021-03-10T21:10:16.596Z [jfrt ] [INFO ] [ca605d1a83cfd2d2] [o.a.e.UploadServiceImpl:320   ] [ttp-nio-8081-exec-10] - Deploy to 'libs-release-local:pl/pandait/panda/0.0.1/panda-0.0.1.pom.md5' Content-Length: 32
+2021-03-10T21:10:16.775Z [jfrt ] [INFO ] [f16df5418cb1e3e0] [o.a.e.UploadServiceImpl:445   ] [http-nio-8081-exec-3] - Deploy to 'libs-release-local:pl/pandait/panda/maven-metadata.xml' Content-Length: 295 (estimation)
+2021-03-10T21:10:16.816Z [jfrt ] [INFO ] [6b9f9596da4243aa] [o.a.e.UploadServiceImpl:320   ] [http-nio-8081-exec-5] - Deploy to 'libs-release-local:pl/pandait/panda/maven-metadata.xml.sha1' Content-Length: 40
+2021-03-10T21:10:16.821Z [jfrt ] [INFO ] [dde0cb9d5d6d92d8] [o.a.e.UploadServiceImpl:320   ] [http-nio-8081-exec-1] - Deploy to 'libs-release-local:pl/pandait/panda/maven-metadata.xml.md5' Content-Length: 32
+2021-03-10T21:12:09.818Z [jfrt ] [INFO ] [                ] [ifactoryApplicationContext:560] [ocalhost-startStop-5] - Artifactory application context set to NOT READY by destroy
+2021-03-10T21:12:09.845Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:218       ] [Thread-6            ] - Watch service ended on destroy
+2021-03-10T21:12:09.846Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:225       ] [Thread-6            ] - End watch of folder configurations
+2021-03-10T21:12:09.892Z [jfrt ] [INFO ] [                ] [ifactoryApplicationContext:377] [ocalhost-startStop-5] - Destroying 47 Artifactory Spring Beans
+2021-03-10T21:12:09.893Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Garbage Collector from task service handler.
+2021-03-10T21:12:09.900Z [jfrt ] [INFO ] [                ] [o.a.m.f.MetricsServiceImpl:246] [ocalhost-startStop-5] - Stopped metric service.
+2021-03-10T21:12:09.902Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Backup from task service handler.
+2021-03-10T21:12:09.930Z [jfrt ] [INFO ] [                ] [.w.NodeEventTaskManagerImpl:59] [ocalhost-startStop-5] - Removing dispatcher thread for operator 'metadata-operator-events'
+2021-03-10T21:12:09.943Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Artifact Cleanup from task service handler.
+2021-03-10T21:12:09.949Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Indexer from task service handler.
+2021-03-10T21:12:11.113Z [jfrt ] [INFO ] [                ] [actorySchedulerFactoryBean:845] [ocalhost-startStop-5] - Shutting down Quartz Scheduler
+2021-03-10T21:12:11.147Z [jfrt ] [WARN ] [                ] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-5] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.

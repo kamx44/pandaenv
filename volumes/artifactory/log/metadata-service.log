@@ -1,163 +1,258 @@
-2021-02-22T17:14:37.824Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 5 seconds with 2m0s timeout [init]
-2021-02-22T17:14:42.899Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 10 seconds with 2m0s timeout [init]
-2021-02-22T17:14:47.918Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 15 seconds with 2m0s timeout [init]
-2021-02-22T17:14:51.006Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [database_bearer.go:101        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
-2021-02-22T17:14:51.064Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:60                ] [main                ] - Applying 43 migrations files [database]
-2021-02-22T17:14:51.072Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v001_packages.sql successfully applied (4 statements) [database]
-2021-02-22T17:14:51.080Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v002_versions.sql successfully applied (5 statements) [database]
-2021-02-22T17:14:51.089Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v003_package_qualifiers.sql successfully applied (2 statements) [database]
-2021-02-22T17:14:51.107Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v004_package_user_properties.sql successfully applied (3 statements) [database]
-2021-02-22T17:14:51.143Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v005_package_tags.sql successfully applied (2 statements) [database]
-2021-02-22T17:14:51.152Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v006_package_stats.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:51.172Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v007_sources.sql successfully applied (2 statements) [database]
-2021-02-22T17:14:51.442Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v008_package_info_sources.sql successfully applied (3 statements) [database]
-2021-02-22T17:14:51.450Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v009_servers.sql successfully applied (2 statements) [database]
-2021-02-22T17:14:51.470Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v010_version_qualifiers.sql successfully applied (3 statements) [database]
-2021-02-22T17:14:51.478Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v011_version_user_properties.sql successfully applied (3 statements) [database]
-2021-02-22T17:14:51.503Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v012_version_tags.sql successfully applied (3 statements) [database]
-2021-02-22T17:14:51.510Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v013_version_stats.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:51.565Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v014_licenses.sql successfully applied (2 statements) [database]
-2021-02-22T17:14:51.573Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v015_files.sql successfully applied (5 statements) [database]
-2021-02-22T17:14:51.780Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v016_file_qualifiers.sql successfully applied (3 statements) [database]
-2021-02-22T17:14:51.792Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v017_package_licenses.sql successfully applied (3 statements) [database]
-2021-02-22T17:14:51.812Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v018_version_licenses.sql successfully applied (3 statements) [database]
-2021-02-22T17:14:51.826Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v019_files_versions.sql successfully applied (3 statements) [database]
-2021-02-22T17:14:51.839Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v020_repo.sql successfully applied (2 statements) [database]
-2021-02-22T17:14:51.859Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v021_lead_paths.sql successfully applied (4 statements) [database]
-2021-02-22T17:14:51.876Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v022_package_descriptions.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:51.908Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v023_contributors.sql successfully applied (2 statements) [database]
-2021-02-22T17:14:51.922Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v024_version_contributors.sql successfully applied (3 statements) [database]
-2021-02-22T17:14:51.941Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v025_sharedconfigs.sql successfully applied (2 statements) [database]
-2021-02-22T17:14:51.959Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v026_version_vulns.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:51.972Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v027_package_vulns.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:52.049Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v028_versions_ordinal_index.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:52.066Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v029_qualifier_user_prop_length.sql successfully applied (0 statements) [database]
-2021-02-22T17:14:52.078Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v030_version_addcolumn_size.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:52.085Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v031_package_add_base_model_complete.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:52.110Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v032_rename_stats_columns.sql successfully applied (3 statements) [database]
-2021-02-22T17:14:52.129Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v033_rename_size_column.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:52.140Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v034_ver_stats_fk_ver_repos_fk.sql successfully applied (11 statements) [database]
-2021-02-22T17:14:52.182Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v035_files_unique_name_sha256.sql successfully applied (4 statements) [database]
-2021-02-22T17:14:52.200Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v036_version_add_modified.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:52.218Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v037_version_add_base_model_complete.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:52.225Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v038_file_targets.sql successfully applied (2 statements) [database]
-2021-02-22T17:14:52.367Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v039_file_targets_fk.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:52.382Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v042_async_data_converter.sql successfully applied (5 statements) [database]
-2021-02-22T17:14:52.403Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v043_add_mark_for_deletion.sql successfully applied (3 statements) [database]
-2021-02-22T17:14:52.427Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v044_add_dependant_task.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:52.435Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:221               ] [main                ] - Migration v045_delete_reorder_prerelease_version_task.sql successfully applied (1 statements) [database]
-2021-02-22T17:14:52.670Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [migrator.go:69                ] [main                ] - Applied 106 database migrations statements in 1.605769108s seconds [database]
-2021-02-22T17:14:53.248Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [application.go:68             ] [main                ] - Metadata (jfmd) service initialization started. Version: v7.15.2 Revision: c8ae57f7cbb PID: 3411 Home: /opt/jfrog/artifactory/var [app_initializer]
-2021-02-22T17:14:53.261Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [server_bearer.go:158          ] [main                ] - Created service_id and pushed to store: jfmd@01ez5bs5y2qpwy0sj9ah4cpd6z [ServerInit]
-2021-02-22T17:14:57.342Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [accessclient.go:57            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
-2021-02-22T17:14:58.608Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [accessclient.go:57            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
-2021-02-22T17:14:58.608Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [accessclient.go:57            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01ez5bs5y2qpwy0sj9ah4cpd6z [access_client]
-2021-02-22T17:14:58.770Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [router_middlewares.go:55      ] [main                ] - 
+2021-03-10T16:04:42.267Z [jfmd ] [INFO ] [6630df6a8463b659] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 5 seconds with 2m0s timeout [init]
+2021-03-10T16:04:47.332Z [jfmd ] [INFO ] [6630df6a8463b659] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 10 seconds with 2m0s timeout [init]
+2021-03-10T16:04:52.370Z [jfmd ] [INFO ] [6630df6a8463b659] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 15 seconds with 2m0s timeout [init]
+2021-03-10T16:04:57.407Z [jfmd ] [INFO ] [6630df6a8463b659] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 20 seconds with 2m0s timeout [init]
+2021-03-10T16:05:02.584Z [jfmd ] [INFO ] [6630df6a8463b659] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 25 seconds with 2m0s timeout [init]
+2021-03-10T16:05:07.678Z [jfmd ] [INFO ] [6630df6a8463b659] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 30 seconds with 2m0s timeout [init]
+2021-03-10T16:05:09.847Z [jfmd ] [INFO ] [6630df6a8463b659] [database_bearer.go:101        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2021-03-10T16:05:09.938Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:60                ] [main                ] - Applying 43 migrations files [database]
+2021-03-10T16:05:09.945Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v001_packages.sql successfully applied (4 statements) [database]
+2021-03-10T16:05:09.952Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v002_versions.sql successfully applied (5 statements) [database]
+2021-03-10T16:05:10.006Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v003_package_qualifiers.sql successfully applied (2 statements) [database]
+2021-03-10T16:05:10.057Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v004_package_user_properties.sql successfully applied (3 statements) [database]
+2021-03-10T16:05:10.064Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v005_package_tags.sql successfully applied (2 statements) [database]
+2021-03-10T16:05:10.087Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v006_package_stats.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:10.112Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v007_sources.sql successfully applied (2 statements) [database]
+2021-03-10T16:05:10.133Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v008_package_info_sources.sql successfully applied (3 statements) [database]
+2021-03-10T16:05:10.149Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v009_servers.sql successfully applied (2 statements) [database]
+2021-03-10T16:05:10.159Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v010_version_qualifiers.sql successfully applied (3 statements) [database]
+2021-03-10T16:05:10.184Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v011_version_user_properties.sql successfully applied (3 statements) [database]
+2021-03-10T16:05:10.200Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v012_version_tags.sql successfully applied (3 statements) [database]
+2021-03-10T16:05:10.215Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v013_version_stats.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:10.268Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v014_licenses.sql successfully applied (2 statements) [database]
+2021-03-10T16:05:10.278Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v015_files.sql successfully applied (5 statements) [database]
+2021-03-10T16:05:10.293Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v016_file_qualifiers.sql successfully applied (3 statements) [database]
+2021-03-10T16:05:10.307Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v017_package_licenses.sql successfully applied (3 statements) [database]
+2021-03-10T16:05:10.328Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v018_version_licenses.sql successfully applied (3 statements) [database]
+2021-03-10T16:05:10.440Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v019_files_versions.sql successfully applied (3 statements) [database]
+2021-03-10T16:05:10.454Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v020_repo.sql successfully applied (2 statements) [database]
+2021-03-10T16:05:10.500Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v021_lead_paths.sql successfully applied (4 statements) [database]
+2021-03-10T16:05:10.507Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v022_package_descriptions.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:10.522Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v023_contributors.sql successfully applied (2 statements) [database]
+2021-03-10T16:05:10.755Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v024_version_contributors.sql successfully applied (3 statements) [database]
+2021-03-10T16:05:10.780Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v025_sharedconfigs.sql successfully applied (2 statements) [database]
+2021-03-10T16:05:10.807Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v026_version_vulns.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:10.824Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v027_package_vulns.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:10.841Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v028_versions_ordinal_index.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:10.865Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v029_qualifier_user_prop_length.sql successfully applied (0 statements) [database]
+2021-03-10T16:05:10.874Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v030_version_addcolumn_size.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:10.887Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v031_package_add_base_model_complete.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:10.923Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v032_rename_stats_columns.sql successfully applied (3 statements) [database]
+2021-03-10T16:05:10.942Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v033_rename_size_column.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:10.967Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v034_ver_stats_fk_ver_repos_fk.sql successfully applied (11 statements) [database]
+2021-03-10T16:05:10.976Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v035_files_unique_name_sha256.sql successfully applied (4 statements) [database]
+2021-03-10T16:05:10.991Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v036_version_add_modified.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:11.011Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v037_version_add_base_model_complete.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:11.121Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v038_file_targets.sql successfully applied (2 statements) [database]
+2021-03-10T16:05:11.133Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v039_file_targets_fk.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:11.142Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v042_async_data_converter.sql successfully applied (5 statements) [database]
+2021-03-10T16:05:11.196Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v043_add_mark_for_deletion.sql successfully applied (3 statements) [database]
+2021-03-10T16:05:11.214Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v044_add_dependant_task.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:11.239Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:221               ] [main                ] - Migration v045_delete_reorder_prerelease_version_task.sql successfully applied (1 statements) [database]
+2021-03-10T16:05:11.299Z [jfmd ] [INFO ] [6630df6a8463b659] [migrator.go:69                ] [main                ] - Applied 106 database migrations statements in 1.36135989s seconds [database]
+2021-03-10T16:05:11.800Z [jfmd ] [INFO ] [6630df6a8463b659] [application.go:68             ] [main                ] - Metadata (jfmd) service initialization started. Version: v7.15.2 Revision: c8ae57f7cbb PID: 3406 Home: /opt/jfrog/artifactory/var [app_initializer]
+2021-03-10T16:05:11.807Z [jfmd ] [INFO ] [6630df6a8463b659] [server_bearer.go:158          ] [main                ] - Created service_id and pushed to store: jfmd@01f0ee52frj430p7mhnyymj0qt [ServerInit]
+2021-03-10T16:05:15.937Z [jfmd ] [INFO ] [6630df6a8463b659] [accessclient.go:57            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2021-03-10T16:05:15.937Z [jfmd ] [INFO ] [6630df6a8463b659] [accessclient.go:57            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01f0ee52frj430p7mhnyymj0qt [access_client]
+2021-03-10T16:05:16.137Z [jfmd ] [INFO ] [6630df6a8463b659] [async_converter.go:198        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2021-03-10T16:05:16.136Z [jfmd ] [INFO ] [6630df6a8463b659] [router_middlewares.go:55      ] [main                ] - 
+Metadata Info
+========================
+
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Application.Rotation.MaxAgeDays              | 365
+AccessClient.Url                                     | http://localhost:8081/access
+Port                                                 | 8086
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.Rotation.MaxSizeMb               | 25
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Application.Rotation.Compress                | true
+Logging.Request.FilePath                             | metadata-request.log
+Logging.Application.Rotation.IntervalSeconds         | 0
+Logging.Request.Rotation.MaxFiles                    | 10
+Database.Type                                        | 1
+Keys.ReadIntervalDuration                            | 1s
+Profiling.Enabled                                    | false
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Level                            | info
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Logging.Request.Rotation.Compress                    | true
+Logging.Request.Rotation.IntervalSeconds             | 0
+AccessClient.JoinTimeout                             | 3m0s
+Keys.ReadAttempts                                    | 120
+Shared.NewRelic.Enabled                              | false
+Shared.NewRelic.AppName                              | 
+Logging.Request.Rotation.MaxSizeMb                   | 25
+
+2021-03-10T16:05:16.138Z [jfmd ] [INFO ] [6630df6a8463b659] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 4.337 seconds. Listening on port: 8086 [router]
+2021-03-10T20:24:34.088Z [jfmd ] [INFO ] [3f32eb5661d86178] [database_bearer.go:101        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2021-03-10T20:24:34.555Z [jfmd ] [INFO ] [3f32eb5661d86178] [migrator.go:60                ] [main                ] - Applying 43 migrations files [database]
+2021-03-10T20:24:35.131Z [jfmd ] [INFO ] [3f32eb5661d86178] [application.go:68             ] [main                ] - Metadata (jfmd) service initialization started. Version: v7.15.2 Revision: c8ae57f7cbb PID: 3019 Home: /opt/jfrog/artifactory/var [app_initializer]
+2021-03-10T20:24:35.262Z [jfmd ] [INFO ] [3f32eb5661d86178] [server_bearer.go:156          ] [main                ] - Got service_id from datastore: jfmd@01f0ee52frj430p7mhnyymj0qt [ServerInit]
+2021-03-10T20:24:39.431Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:24:44.534Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:24:49.662Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:24:54.808Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:24:59.866Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:25:04.959Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:25:10.244Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 35: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:25:15.321Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 40: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:25:20.696Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 45: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:25:25.713Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 50: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:25:30.879Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 55: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:25:36.191Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 60: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:25:41.420Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 65: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:25:46.544Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Retry 70: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
+2021-03-10T20:25:51.769Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2021-03-10T20:25:51.770Z [jfmd ] [INFO ] [3f32eb5661d86178] [accessclient.go:57            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01f0ee52frj430p7mhnyymj0qt [access_client]
+2021-03-10T20:25:51.944Z [jfmd ] [INFO ] [3f32eb5661d86178] [async_converter.go:198        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2021-03-10T20:25:51.944Z [jfmd ] [INFO ] [3f32eb5661d86178] [router_middlewares.go:55      ] [main                ] - 
+Metadata Info
+========================
+
+Logging.Request.Rotation.IntervalSeconds             | 0
+Keys.ReadAttempts                                    | 120
+Profiling.Enabled                                    | false
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Request.FilePath                             | metadata-request.log
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Shared.NewRelic.Enabled                              | false
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Request.Rotation.MaxFiles                    | 10
+AccessClient.JoinTimeout                             | 3m0s
+Keys.ReadIntervalDuration                            | 1s
+Logging.Application.Rotation.IntervalSeconds         | 0
+Port                                                 | 8086
+Shared.NewRelic.AppName                              | 
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Level                            | info
+Logging.Application.Rotation.Compress                | true
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Request.Rotation.Compress                    | true
+Database.Type                                        | 1
+AccessClient.Url                                     | http://localhost:8081/access
+
+2021-03-10T20:25:51.945Z [jfmd ] [INFO ] [3f32eb5661d86178] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 76.810 seconds. Listening on port: 8086 [router]
+2021-03-10T20:26:37.269Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2021-03-10T20:26:37.269Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2021-03-10T20:26:37.271Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:37.271Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:37.287Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:37.287Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:37.308Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:37.308Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:37.351Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:37.351Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:37.432Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:37.438Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:37.593Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:37.633Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:38.021Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:38.024Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:38.722Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:38.723Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:40.010Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:26:40.012Z [jfmd ] [ERROR] [3f32eb5661d86178] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-03-10T20:27:13.121Z [jfmd ] [INFO ] [74122228ccff461b] [database_bearer.go:101        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2021-03-10T20:27:13.221Z [jfmd ] [INFO ] [74122228ccff461b] [migrator.go:60                ] [main                ] - Applying 43 migrations files [database]
+2021-03-10T20:27:13.730Z [jfmd ] [INFO ] [74122228ccff461b] [application.go:68             ] [main                ] - Metadata (jfmd) service initialization started. Version: v7.15.2 Revision: c8ae57f7cbb PID: 3027 Home: /opt/jfrog/artifactory/var [app_initializer]
+2021-03-10T20:27:13.733Z [jfmd ] [INFO ] [74122228ccff461b] [server_bearer.go:156          ] [main                ] - Got service_id from datastore: jfmd@01f0ee52frj430p7mhnyymj0qt [ServerInit]
+2021-03-10T20:27:17.864Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:27:22.893Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:27:27.977Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:27:33.103Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:27:38.202Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:27:43.578Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:27:48.899Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 35: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:27:53.977Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 40: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:27:59.112Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 45: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:28:04.299Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 50: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:28:09.401Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 55: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:28:14.503Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 60: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:28:19.629Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 65: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:28:24.785Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 70: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:28:29.996Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Retry 75: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
+2021-03-10T20:28:32.184Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2021-03-10T20:28:32.185Z [jfmd ] [INFO ] [74122228ccff461b] [accessclient.go:57            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01f0ee52frj430p7mhnyymj0qt [access_client]
+2021-03-10T20:28:32.351Z [jfmd ] [INFO ] [74122228ccff461b] [router_middlewares.go:55      ] [main                ] - 
 Metadata Info
 ========================
 
 Shared.NewRelic.Enabled                              | false
+Logging.Application.Rotation.Compress                | true
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Database.Type                                        | 1
+AccessClient.Url                                     | http://localhost:8081/access
+Profiling.Enabled                                    | false
+Port                                                 | 8086
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.FilePath                         | metadata-service.log
 Logging.Application.Level                            | info
 Logging.Application.Rotation.MaxAgeDays              | 365
-Logging.Request.FilePath                             | metadata-request.log
-Logging.Request.Rotation.MaxFiles                    | 10
-Logging.Request.Rotation.IntervalSeconds             | 0
-Keys.ReadIntervalDuration                            | 1s
-Port                                                 | 8086
-Shared.NewRelic.AppName                              | 
-Shared.NewRelic.DistributedTracerEnabled             | true
-Logging.Application.Rotation.MaxSizeMb               | 25
 Logging.Application.Rotation.IntervalSeconds         | 0
-AccessClient.Url                                     | http://localhost:8081/access
-Logging.Request.Rotation.MaxAgeDays                  | 365
-Logging.Request.Rotation.Compress                    | true
-Profiling.Enabled                                    | false
-Shared.NewRelic.EnableDebugLog                       | false
-Logging.Application.FilePath                         | metadata-service.log
+Shared.NewRelic.AppName                              | 
+Logging.Application.Rotation.MaxSizeMb               | 25
 Logging.Application.Rotation.MaxFiles                | 10
-Logging.Application.Rotation.Compress                | true
-Logging.Request.Rotation.MaxSizeMb                   | 25
-Database.Type                                        | 1
+Logging.Request.FilePath                             | metadata-request.log
+Logging.Request.Rotation.IntervalSeconds             | 0
 AccessClient.JoinTimeout                             | 3m0s
 Keys.ReadAttempts                                    | 120
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.MaxFiles                    | 10
+Logging.Request.Rotation.Compress                    | true
+Keys.ReadIntervalDuration                            | 1s
 
-2021-02-22T17:14:58.770Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 5.520 seconds. Listening on port: 8086 [router]
-2021-02-22T17:14:58.770Z [jfmd ] [INFO ] [64c8ac8bfc5f2766] [async_converter.go:198        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
-2021-02-23T22:44:50.001Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
-2021-02-23T22:44:50.002Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
-2021-02-23T22:44:50.030Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.030Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.043Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.043Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.065Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.065Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.107Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.109Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.192Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.196Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.358Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.359Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.679Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:50.680Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:51.325Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:51.327Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:52.609Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-02-23T22:44:52.609Z [jfmd ] [ERROR] [64c8ac8bfc5f2766] [compatibility_logger.go:28    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
-2021-03-01T19:08:27.205Z [jfmd ] [INFO ] [3382221cc16846a3] [database_bearer.go:101        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
-2021-03-01T19:08:27.443Z [jfmd ] [INFO ] [3382221cc16846a3] [migrator.go:60                ] [main                ] - Applying 43 migrations files [database]
-2021-03-01T19:08:28.002Z [jfmd ] [INFO ] [3382221cc16846a3] [application.go:68             ] [main                ] - Metadata (jfmd) service initialization started. Version: v7.15.2 Revision: c8ae57f7cbb PID: 3065 Home: /opt/jfrog/artifactory/var [app_initializer]
-2021-03-01T19:08:28.012Z [jfmd ] [INFO ] [3382221cc16846a3] [server_bearer.go:156          ] [main                ] - Got service_id from datastore: jfmd@01ez5bs5y2qpwy0sj9ah4cpd6z [ServerInit]
-2021-03-01T19:08:33.261Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
-2021-03-01T19:08:38.297Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
-2021-03-01T19:08:43.311Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
-2021-03-01T19:08:48.437Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
-2021-03-01T19:08:53.472Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
-2021-03-01T19:08:58.626Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
-2021-03-01T19:09:03.767Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Retry 35: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
-2021-03-01T19:09:08.931Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Retry 40: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
-2021-03-01T19:09:14.475Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Retry 45: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
-2021-03-01T19:09:26.449Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Retry 50: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
-2021-03-01T19:09:32.009Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Retry 55: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
-2021-03-01T19:09:38.416Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Retry 60: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
-2021-03-01T19:09:41.112Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
-2021-03-01T19:09:41.270Z [jfmd ] [INFO ] [3382221cc16846a3] [accessclient.go:57            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01ez5bs5y2qpwy0sj9ah4cpd6z [access_client]
-2021-03-01T19:09:43.103Z [jfmd ] [INFO ] [3382221cc16846a3] [async_converter.go:198        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
-2021-03-01T19:09:43.124Z [jfmd ] [INFO ] [3382221cc16846a3] [router_middlewares.go:55      ] [main                ] - 
+2021-03-10T20:28:32.381Z [jfmd ] [INFO ] [74122228ccff461b] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 78.649 seconds. Listening on port: 8086 [router]
+2021-03-10T20:28:32.383Z [jfmd ] [INFO ] [74122228ccff461b] [async_converter.go:198        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2021-03-10T20:34:53.886Z [jfmd ] [INFO ] [76c1d7306d927d99] [database_bearer.go:101        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2021-03-10T20:34:54.158Z [jfmd ] [INFO ] [76c1d7306d927d99] [migrator.go:60                ] [main                ] - Applying 43 migrations files [database]
+2021-03-10T20:34:55.168Z [jfmd ] [INFO ] [76c1d7306d927d99] [application.go:68             ] [main                ] - Metadata (jfmd) service initialization started. Version: v7.15.2 Revision: c8ae57f7cbb PID: 3079 Home: /opt/jfrog/artifactory/var [app_initializer]
+2021-03-10T20:34:56.975Z [jfmd ] [INFO ] [76c1d7306d927d99] [server_bearer.go:156          ] [main                ] - Got service_id from datastore: jfmd@01f0ee52frj430p7mhnyymj0qt [ServerInit]
+2021-03-10T20:35:01.228Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:35:06.363Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:35:11.380Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:35:16.441Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:35:21.534Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:35:26.565Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:35:31.725Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: Retry 35: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:35:36.762Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: Retry 40: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:35:41.783Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: Retry 45: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:35:47.086Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: Retry 50: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-03-10T20:35:52.102Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: Retry 55: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
+2021-03-10T20:35:53.191Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2021-03-10T20:35:53.191Z [jfmd ] [INFO ] [76c1d7306d927d99] [accessclient.go:57            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01f0ee52frj430p7mhnyymj0qt [access_client]
+2021-03-10T20:35:53.254Z [jfmd ] [INFO ] [76c1d7306d927d99] [router_middlewares.go:55      ] [main                ] - 
 Metadata Info
 ========================
 
-Logging.Request.Rotation.Compress                    | true
-AccessClient.Url                                     | http://localhost:8081/access
-Keys.ReadAttempts                                    | 120
-Shared.NewRelic.Enabled                              | false
-Logging.Application.FilePath                         | metadata-service.log
 Logging.Application.Rotation.MaxSizeMb               | 25
-Logging.Request.Rotation.MaxFiles                    | 10
-Logging.Request.Rotation.MaxAgeDays                  | 365
-Database.Type                                        | 1
-AccessClient.JoinTimeout                             | 3m0s
-Logging.Application.Rotation.MaxFiles                | 10
-Logging.Application.Rotation.MaxAgeDays              | 365
 Logging.Application.Rotation.IntervalSeconds         | 0
 Logging.Request.Rotation.MaxSizeMb                   | 25
-Logging.Request.Rotation.IntervalSeconds             | 0
-Shared.NewRelic.AppName                              | 
-Logging.Request.FilePath                             | metadata-request.log
-Logging.Application.Rotation.Compress                | true
-Keys.ReadIntervalDuration                            | 1s
-Profiling.Enabled                                    | false
-Port                                                 | 8086
-Shared.NewRelic.EnableDebugLog                       | false
+Logging.Request.Rotation.MaxFiles                    | 10
+Shared.NewRelic.Enabled                              | false
 Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.FilePath                         | metadata-service.log
 Logging.Application.Level                            | info
+Logging.Request.Rotation.Compress                    | true
+Logging.Request.Rotation.IntervalSeconds             | 0
+Database.Type                                        | 1
+Keys.ReadIntervalDuration                            | 1s
+Logging.Request.Rotation.MaxAgeDays                  | 365
+AccessClient.Url                                     | http://localhost:8081/access
+AccessClient.JoinTimeout                             | 3m0s
+Port                                                 | 8086
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Application.Rotation.Compress                | true
+Logging.Request.FilePath                             | metadata-request.log
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Application.Rotation.MaxAgeDays              | 365
+Profiling.Enabled                                    | false
+Shared.NewRelic.AppName                              | 
+Keys.ReadAttempts                                    | 120
 
-2021-03-01T19:09:43.129Z [jfmd ] [INFO ] [3382221cc16846a3] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 75.124 seconds. Listening on port: 8086 [router]
-2021-03-01T19:46:26.400Z [jfmd ] [INFO ] [d6a7c6a63cc988e ] [database_bearer.go:303        ] [main                ] - Slow statement detected (1m32.171541833s) - UPDATE md_servers SET last_heartbeat = ? WHERE id = ? [database]
-2021-03-01T19:47:34.446Z [jfmd ] [INFO ] [d6a7c6a63cc988e ] [database_bearer.go:303        ] [main                ] - Slow statement detected (16.630873365s) - UPDATE md_servers SET last_heartbeat = ? WHERE id = ? [database]
-2021-03-01T19:47:34.478Z [jfmd ] [INFO ] [3382221cc16846a3] [database_bearer.go:303        ] [main                ] - Slow query detected (12.090515869s) - SELECT task_key, execution_interval_millis, progress, modified, task_start_key, task_end_key, depends_on FROM md_tasks [database] [workerNumber][1]
-2021-03-01T19:48:41.318Z [jfmd ] [INFO ] [d6a7c6a63cc988e ] [database_bearer.go:303        ] [main                ] - Slow statement detected (9.167934804s) - UPDATE md_servers SET last_heartbeat = ? WHERE id = ? [database]
-2021-03-01T19:50:02.918Z [jfmd ] [INFO ] [d6a7c6a63cc988e ] [database_bearer.go:303        ] [main                ] - Slow statement detected (22.37676151s) - UPDATE md_servers SET last_heartbeat = ? WHERE id = ? [database]
-2021-03-01T19:50:03.413Z [jfmd ] [INFO ] [d6a7c6a63cc988e ] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
-2021-03-01T19:50:43.073Z [jfmd ] [INFO ] [d6a7c6a63cc988e ] [database_bearer.go:303        ] [main                ] - Slow statement detected (19.766349412s) - UPDATE md_servers SET last_heartbeat = ? WHERE id = ? [database]
-2021-03-01T19:50:43.405Z [jfmd ] [INFO ] [d6a7c6a63cc988e ] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
-2021-03-01T21:16:26.425Z [jfmd ] [ERROR] [3382221cc16846a3] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2021-03-10T20:35:53.254Z [jfmd ] [INFO ] [76c1d7306d927d99] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 58.086 seconds. Listening on port: 8086 [router]
+2021-03-10T20:35:53.254Z [jfmd ] [INFO ] [76c1d7306d927d99] [async_converter.go:198        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
